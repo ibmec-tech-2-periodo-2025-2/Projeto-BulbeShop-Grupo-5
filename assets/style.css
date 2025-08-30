@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+:root{
+    --cor-fundo-imagem: rgb(221, 218, 218);
+    --cor-das-bordas: black;
+}
+.parte-superior{
+    display: flex;
+}
+
+.barra-de-pesquisa{
+    display: flex;
+}
+
+main{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+.caixa-maior-produto{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color:var(--cor-fundo-imagem) ;
+    border: 1px solid var(--cor-das-bordas);
+}
+
+.imagem-produto{
+    background-color:  var(--cor-fundo-imagem);
+    /* border: 1px solid orange; */
+}
+
+.parte-inferior{
+    margin-top: 20px;
+}
+
+.titulo-setor{
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer{
+    position: fixed;
+    background-color: aquamarine;
+    width: 100%;
+    height: 30px;
+}
