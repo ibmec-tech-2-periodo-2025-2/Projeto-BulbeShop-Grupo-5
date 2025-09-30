@@ -2,19 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
+
 :root{
-    --cor-fundo-imagem: rgb(221, 218, 218);
-    --cor-das-bordas: black;
+    --cor-fundo-body: #fff;
+    --cor-fundo-imagem: #dddada;
+    --cor-das-bordas: #000000;
+    --cor-preco: #c50000;
 }
+
 .parte-superior{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
     left: 5px;
-}
+} 
 
 .barra-de-pesquisa{
     display: flex;
@@ -24,57 +28,108 @@
 body{
     width: 100vw;
     height: 100vh;
-}
+}  
 
 main{
-    width: 400px;
-    height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}   
+
+.carrossel-maior {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    gap: 15px;
+    padding: 10px;  
 }
 
-.caixa-maior-produto{
+.carrossel-menor {
     display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    gap: 10px;
+    padding: 10px; 
+}
+
+.slide-maior {
+    flex: 0 0 90%; 
+    scroll-snap-align: center;
+    background: var(--cor-fundo-body);
+    /* padding-bottom: 10px; */
+}
+
+.slide-maior img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.slide-menor {
+    flex: 0 0 45%;
+     scroll-snap-align: center;
+    background: var(--cor-fundo-body);
+}
+
+.slide-menor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 .separador{
-    width: 450px;
+    width: 95%;
     border-bottom: 0.5px solid black;
     position: relative;
-    left:10px;
-    margin-top: 10px;
-} 
+    left: 10px;  
+    margin-top: 10px; 
+}  
 
-.imagem-produto{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 300px;
-    height: 300px;
-    background-color:var(--cor-fundo-imagem) ;
-    border: 1px solid var(--cor-das-bordas);
-}
-
-.especificacoes{
+.especificacoes-maior{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    padding: 0px 10px;
+} 
+
+.especificacoes-maior h2{
+    font-size: 20px;
 }
 
 .preco-produto{
-    color: red;
+    color: var(--cor-preco);
+}
+
+.detalhamento-maior{
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.especificacoes-eletro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.especificacoes-eletro h2 {
+    font-size: 15px;
+}
+
+.detalhamento-menor{
+    font-size: 13px;
+    padding-left: 8px;
 }
 
 .parte-inferior{
-    margin-top: 20px;
-}
+    margin-top: 10px;
+} 
 
 .titulo-setor{
-    display: flex;
-    margin-left: 20px;
-    margin-top: -20px;
+    padding-left: 10px;
 }
 
 footer{
@@ -90,7 +145,7 @@ footer{
     padding-left: 30px;
     border: 2px solid black;
     border-radius: 8px;
-}
+} 
 
 .icon-lupa{
     position: relative;
@@ -117,44 +172,3 @@ footer{
     height: 30px;
 }
 
-.produtos-eletronicos{
-    display: flex;
-
-}
-#produto-eletronico1{
-    width: 200px;
-    height: 200px;
-}
-
-#produto-eletronico2{
-    width: 200px;
-    height: 200px;
-}
-
-#produtos-eletronicos{
-    display: flex;
-    flex-direction: row;
-}
-
-#esp-ele1{
-    width: 200px;
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-#det-ele1{
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-
-#esp-ele2{
-    width: 200px;
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-#det-ele2{
-    font-size: 10px;
-    margin-left: 20px;
-}
