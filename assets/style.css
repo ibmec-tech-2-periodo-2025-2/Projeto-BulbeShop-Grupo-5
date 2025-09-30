@@ -8,7 +8,7 @@
 :root{
     --cor-fundo-body: #fff;
     --cor-fundo-imagem: #dddada;
-    --cor-das-bordas: #000000;
+    --cor-das-bordas-e-sombra: #000000;
     --cor-preco: #c50000;
 }
 
@@ -17,8 +17,24 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
+    height: 50px;
+    width: 100%;
     left: 5px;
 } 
+
+section{
+    background-color: var(--cor-fundo-body);
+    box-shadow: 0px -5px 15px var(--cor-das-bordas-e-sombra);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.space-superior{
+    width: 100%;
+    height: 50px;
+}
 
 .barra-de-pesquisa{
     display: flex;
@@ -83,7 +99,7 @@ main{
 
 .separador{
     width: 95%;
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid var(--cor-das-bordas-e-sombra);
     position: relative;
     left: 10px;  
     margin-top: 10px; 
@@ -135,6 +151,7 @@ main{
 
 footer{
     position: fixed;
+    bottom: 0;
     background-color: var(--cor-fundo-body);
     width: 100%;
     bottom: 0;
@@ -145,7 +162,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 15px var(--cor-das-bordas-e-sombra);
 }
 
 .espacamento{
@@ -161,7 +178,7 @@ footer{
     width: 80vw;
     height: 35px;
     padding-left: 30px;
-    border: 2px solid black;
+    border: 2px solid var(--cor-das-bordas-e-sombra);
     border-radius: 8px;
 } 
 
