@@ -113,3 +113,23 @@ Componentes: Guilherme, Lara, Augusto Amaral, José, Isaac, Isabella, Matheus
 # Link Figjam com wireframes
 
 https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node-id=0-1&p=f&t=DwfDkeEnxdn0lkQx-0
+
+# Daily 1 
+
+
+
+* *O QUE FOI FEITO ?*
+
+    * Definição das tarefas
+ 
+* *O QUE SERÁ FEITO ATÉ A PRÓXIMA DAILY ?*
+
+    * Backlog - Todos
+    * Arrumar Figma - Isaac, Matheus
+    * Criar HTML e CSS básicos com baso nos wireframes - Lara, Isabella, José
+    * Criação do repositório e organização da documentação - Guilherme
+    * Organização das Daily's - Augusto
+
+* *EXISTE ALGUM PROBLEMA OU IMPEDIMENTOS ?*
+
+    * Não houve impedimentos
