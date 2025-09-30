@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Poppins;
+    font-family: 'Poppins';
 }
 :root{
     --cor-fundo-imagem: rgb(221, 218, 218);
@@ -30,9 +30,24 @@ main{
     width: 400px;
     height: 400px;
     display: flex;
+    flex-direction: column;
 }
 
 .caixa-maior-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.separador{
+    width: 450px;
+    border-bottom: 0.5px solid black;
+    position: relative;
+    left:10px;
+    margin-top: 10px;
+} 
+
+.imagem-produto{
     margin-left: 20px;
     margin-top: 20px;
     width: 300px;
@@ -41,9 +56,15 @@ main{
     border: 1px solid var(--cor-das-bordas);
 }
 
-.imagem-produto{
-    background-color:  var(--cor-fundo-imagem);
-    /* border: 1px solid orange; */
+.especificacoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.preco-produto{
+    color: red;
 }
 
 .parte-inferior{
@@ -53,9 +74,10 @@ main{
 .titulo-setor{
     display: flex;
     margin-left: 20px;
+    margin-top: -20px;
 }
 
-.footer{
+footer{
     position: fixed;
     background-color: aquamarine;
     width: 100%;
@@ -93,4 +115,46 @@ main{
 #menu{
     width: 30px;
     height: 30px;
+}
+
+.produtos-eletronicos{
+    display: flex;
+
+}
+#produto-eletronico1{
+    width: 200px;
+    height: 200px;
+}
+
+#produto-eletronico2{
+    width: 200px;
+    height: 200px;
+}
+
+#produtos-eletronicos{
+    display: flex;
+    flex-direction: row;
+}
+
+#esp-ele1{
+    width: 200px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+#det-ele1{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
+#esp-ele2{
+    width: 200px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+#det-ele2{
+    font-size: 10px;
+    margin-left: 20px;
 }
