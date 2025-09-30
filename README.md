@@ -109,3 +109,7 @@ Componentes: Guilherme, Lara, Augusto Amaral, José, Isaac, Isabella, Matheus
     * Atribuído ao Guilherme;
 * **PB-6** - Apresentar todo o planejamento (Sprint 1 / AP1) 
     * Atribuído a todos - dia 01/10/25.
+
+# Link Figjam com wireframes
+
+https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node-id=0-1&p=f&t=DwfDkeEnxdn0lkQx-0
