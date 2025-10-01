@@ -133,3 +133,44 @@ https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node
 * *EXISTE ALGUM PROBLEMA OU IMPEDIMENTOS ?*
 
     * Não houve impedimentos
+
+# Daily 2
+
+
+
+• *O QUE FOI FEITO ?*
+
+
+### Augusto:
+* Documentação da Daily 
+* fixação da parte superior na tela
+
+### Lara:
+* Criação dos arquivos no repositório 
+* Estrutura no html e css básico iniciado
+* ⁠Instalação e finalização do footer
+
+### Isaac:
+* Finalização e organização do wireframe
+
+### José:
+* Reestruturação da barra de pesquisa e os ícones do header
+* Consertou as dimensões e o layout dos ícones de produtos e suas descrições na página principal
+
+### Guilherme:
+* Junção dos Pull Requests na Main
+* Terminei a Documentação
+
+
+### Isabella:
+* Fez o carrossel de imagens da página home e o nome, preço e descrição dos produtos
+
+
+
+• *O QUE SERÁ FEITO ATÉ A PRÓXIMA DAILY ?*
+
+* Tudo na sprint já foi feito
+
+• *EXISTE ALGUM PROBLEMA OU IMPEDIMENTOS ?*
+
+* Não houve impedimentos para ninguem
