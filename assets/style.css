@@ -2,18 +2,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
+
 :root{
-    --cor-fundo-imagem: rgb(221, 218, 218);
-    --cor-das-bordas: black;
+    --cor-fundo-body: #fff;
+    --cor-fundo-imagem: #dddada;
+    --cor-das-bordas-e-sombra: #000000;
+    --cor-preco: #c50000;
 }
+
 .parte-superior{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
+    height: 50px;
+    width: 100%;
     left: 5px;
+} 
+
+section{
+    background-color: var(--cor-fundo-body);
+    box-shadow: 0px -5px 15px var(--cor-das-bordas-e-sombra);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.space-superior{
+    width: 100%;
+    height: 50px;
 }
 
 .barra-de-pesquisa{
@@ -24,73 +44,143 @@
 body{
     width: 100vw;
     height: 100vh;
-}
+    padding-bottom: 60px;
+}  
 
 main{
-    width: 400px;
-    height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}   
+
+.carrossel-maior {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    gap: 15px;
+    padding: 10px;  
 }
 
-.caixa-maior-produto{
+.carrossel-menor {
     display: flex;
-    flex-direction: column;
-    align-items: baseline;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; 
+    gap: 10px;
+    padding: 10px; 
+}
+
+.slide-maior {
+    flex: 0 0 90%; 
+    scroll-snap-align: center;
+    background: var(--cor-fundo-body);
+    /* padding-bottom: 10px; */
+}
+
+.slide-maior img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.slide-menor {
+    flex: 0 0 45%;
+     scroll-snap-align: center;
+    background: var(--cor-fundo-body);
+}
+
+.slide-menor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 .separador{
-    width: 450px;
-    border-bottom: 0.5px solid black;
+    width: 95%;
+    border-bottom: 0.5px solid var(--cor-das-bordas-e-sombra);
     position: relative;
-    left:10px;
-    margin-top: 10px;
-} 
+    left: 10px;  
+    margin-top: 10px; 
+}  
 
-.imagem-produto{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 300px;
-    height: 300px;
-    background-color:var(--cor-fundo-imagem) ;
-    border: 1px solid var(--cor-das-bordas);
-}
-
-.especificacoes{
+.especificacoes-maior{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    padding: 0px 10px;
+} 
+
+.especificacoes-maior h2{
+    font-size: 20px;
 }
 
 .preco-produto{
-    color: red;
+    color: var(--cor-preco);
+}
+
+.detalhamento-maior{
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.especificacoes-eletro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.especificacoes-eletro h2 {
+    font-size: 15px;
+}
+
+.detalhamento-menor{
+    font-size: 13px;
+    padding-left: 8px;
 }
 
 .parte-inferior{
-    margin-top: 20px;
-}
+    margin-top: 10px;
+} 
 
 .titulo-setor{
-    display: flex;
-    margin-left: 20px;
-    margin-top: -20px;
+    padding-left: 10px;
 }
 
 footer{
     position: fixed;
-    background-color: aquamarine;
+    bottom: 0;
+    background-color: var(--cor-fundo-body);
     width: 100%;
-    height: 30px;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0px 5px 15px var(--cor-das-bordas-e-sombra);
 }
+
+.espacamento{
+    width: 100%;
+    height: 60px;
+    background-color: var(--cor-fundo-body);
+
+}
+
+
 
 #pesquisa{
     width: 80vw;
     height: 35px;
     padding-left: 30px;
-    border: 2px solid black;
+    border: 2px solid var(--cor-das-bordas-e-sombra);
     border-radius: 8px;
-}
+} 
 
 .icon-lupa{
     position: relative;
@@ -115,46 +205,44 @@ footer{
 #menu{
     width: 30px;
     height: 30px;
+} 
+
+.teste, .teste-logo{
+
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor-fundo-imagem);
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    border-radius: 3px;
 }
 
-.produtos-eletronicos{
+.teste-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--cor-fundo-imagem);
+    /* border: 1px solid black; */
+    margin-bottom: 1px;
+    background-image: url(./img/logo-bulbe.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-total-logo{
+    background-color: var(--cor-fundo-imagem);
+    width: 70px;
+    height: 60px;
     display: flex;
-
-}
-#produto-eletronico1{
-    width: 200px;
-    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
-#produto-eletronico2{
-    width: 200px;
-    height: 200px;
+.setor{
+    font-size: 13px;
+    margin-top: -10px;
+    
 }
 
-#produtos-eletronicos{
-    display: flex;
-    flex-direction: row;
-}
-
-#esp-ele1{
-    width: 200px;
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-#det-ele1{
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-
-#esp-ele2{
-    width: 200px;
-    font-size: 10px;
-    margin-left: 20px;
-}
-
-#det-ele2{
-    font-size: 10px;
-    margin-left: 20px;
-}
