@@ -1,6 +1,11 @@
 # Projeto-BulbeShop-Grupo-5
 Componentes: Guilherme, Lara, Augusto Amaral, José, Isaac, Isabella, Matheus
 
+# Link Figjam com wireframes
+
+https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node-id=0-1&p=f&t=DwfDkeEnxdn0lkQx-0
+
+
 # Backlog - Bulbe
 
 
@@ -110,9 +115,6 @@ Componentes: Guilherme, Lara, Augusto Amaral, José, Isaac, Isabella, Matheus
 * **PB-6** - Apresentar todo o planejamento (Sprint 1 / AP1) 
     * Atribuído a todos - dia 01/10/25.
 
-# Link Figjam com wireframes
-
-https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node-id=0-1&p=f&t=DwfDkeEnxdn0lkQx-0
 
 # Daily 1 
 
@@ -165,7 +167,8 @@ https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node
 ### Isabella:
 * Fez o carrossel de imagens da página home e o nome, preço e descrição dos produtos
 
-
+### Matheus:
+* Importação itens de aplicação para react, gerando uma experiencia de usuário mais fluida e imersiva
 
 • *O QUE SERÁ FEITO ATÉ A PRÓXIMA DAILY ?*
 
@@ -174,3 +177,24 @@ https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node
 • *EXISTE ALGUM PROBLEMA OU IMPEDIMENTOS ?*
 
 * Não houve impedimentos para ninguem
+
+# Sprint 2
+* **PB-7** - Definir parceiros/seleção de produtos
+    * Atribuído ao Augusto e Isaac
+* **PB-8** – Definir design da Home (afiliados elencados) (UI alta fidelidade) 
+    * A ser feito no Figma pela equipe de design;
+* **PB-9** – Definir design da página de listagem de produtos de cada afiliado
+    * A ser feito no Figma pela equipe de design;
+* **PB-10** – Definir design da página de detalhes do produto
+    * A ser feito no Figma pela equipe de design;
+* **PB-11** – Definir design da página do confirmação de pedido
+    * A ser feito no Figma pela equipe de design;
+* **PB-12** – Definir design da tela de transferência para afiliado
+    * A ser feito no Figma pela equipe de design;
+* **PB-13** - Definir design do apêndice de informações
+    * A ser feito no Figma pela equipe de design;
+* **PB-14** - Definir design da página de favoritos
+    * A ser feito no Figma pela equipe de design; 
+
+* **PB-15** – Criar protótipo navegável (HMTL e CSS)
+    * Atribuído a José, Isabella e Lara.
