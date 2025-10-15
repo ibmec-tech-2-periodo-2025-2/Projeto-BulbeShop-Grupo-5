@@ -6,24 +6,28 @@
 }
 
 :root{
-    --cor-fundo-body: #fff;
+    --cor-fundo-main: #fff;
     --cor-fundo-imagem: #dddada;
-    --cor-das-bordas-e-sombra: #000000;
-    --cor-preco: #c50000;
+    --cor-das-bordas-pesquisa:#C2C2C2 ;
+    
     --cor-header-botao: #08068D;
     --cor-da-barra-pesquisa:#A4B3C1;
+    --cor-do-fundo-aside: #EBEBEB;
 }
 
 body{
     width: 100vw;
     height: 100vh;
-
+    background-color: var(--cor-do-fundo-body);
 }
 
-main{
-    width: 100%;
-    height: 100%;
-    background-color: #c50000;
+
+
+.corpo-principal{
+    width: 440vw;
+    height: 809vh;
+    background-color: var(--cor-do-fundo-body);
+    border: 1px solid black;
 }
 
 .parte-superior{
@@ -67,55 +71,95 @@ header{
 
 .espacamento-superior{
     width: 100%;
-    height: 50px;
+    height: 15vh;
+    background-color: var(--cor-do-fundo-aside);
 }
-
-
-
 
 #pesquisa{
+    padding-left: 40px;
+    background-color: var(--cor-fundo-main);
     width: 323px;
     height: 49px;
-    border: 0.5px solid var(--cor-da-barra-pesquisa);
-    background-color: #fff;
-    padding-left: 40px;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-    font-size: 13px;
-    color: lightgray;
     border-radius: 20px;
+    border: 0.5px solid var(--cor-das-bordas-pesquisa);
 }
 
-.placeholder{
-    color: lightgray;
-    
+.pesquisa{
+    margin-bottom: 9px;
 }
 
-.area-pesquisa{
+aside{
     width: 100%;
-    height: 30vh;
-    border: 1px solid black;
-    background-color: aqua;
+    height: 20vh;
+    background-color: var(--cor-do-fundo-aside);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+
+.pesquisa ::placeholder{
+    font-size: 15px;
+}
+
 
 .icon-lupa{
     position: relative;
-    left: 29px;
-    top: 3px;
+    left: 5px;
+    top: 43px;
 }
 
-.empresa-total{
+.empresa-principal{
     display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
     
 }
 
-.empresa-1, .empresa-2, .empresa-3, .empresa-4{
-    background-color: #fff;
+.empresa-1, .empresa-2, .empresa-3, .empresa-4, .empresa-5{
+    width: 39px;
+    height: 39px;
+    /* background-color: white; */
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+ .empresa-1{
+    background-image: url(./img/icon-araujo.png);
+    background-size: cover;
+} 
+
+.empresa-2{
+    background-image: url(./img/icon-leroy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.empresa-3{
+    background-image: url(./img/icon-amazon.png);
+    background-size: cover;
+}
+
+.empresa-4{
+    background-image: url(./img/icon-positivo.png);
+    background-size: cover;
+}
+
+.empresa-5{
+    background-image: url(./img/icon-ponto.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
 
 
 
