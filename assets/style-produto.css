@@ -11,8 +11,12 @@
     --cor-das-bordas-e-sombra: #000000;
     --cor-preco: #c50000;
     --cor-header-botao: #08068D;
+    --cor-fundo: #E1E6EA;
 }
 
+body{
+    background-color: var(--cor-fundo);
+}
 .parte-superior{
     display: flex;
     justify-content: space-evenly;
@@ -51,3 +55,63 @@ section{
     left: 20px;
     bottom: -2px;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+}   
+
+.nome{
+    margin: 15px;
+}
+
+h3{
+    font-weight: 450;
+    font-size:x-large;
+    color: var(--cor-header-botao);
+}
+
+.img-maior-setas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-maior{
+    width: 250px;
+    height: 250px;
+}
+
+#foto-principal{
+    height: 100%;
+    width: 100%;
+}
+
+#seta-esq{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+#seta-dir{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.imgs-menores{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagenzinhas{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao-foto{
+}
+
