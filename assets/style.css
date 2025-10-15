@@ -17,9 +17,10 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    height: 50px;
+    height: 100px;
     width: 100%;
     left: 5px;
+    background-color: blue;
 } 
 
 section{
