@@ -1,10 +1,13 @@
 # Projeto-BulbeShop-Grupo-5
 Componentes: Guilherme, Lara, Augusto Amaral, José, Isaac, Isabella, Matheus
 
-# Link Figjam com wireframes
+# Link Figma com os designs de alta fidelidade e wireframes
 
-https://www.figma.com/board/NaXZZMUgLUdluMx7PvXFuV/Wireframe-Bulbe--cópia-?node-id=0-1&p=f&t=DwfDkeEnxdn0lkQx-0
+https://www.figma.com/design/6UHlUlVtQ7aDXPZUYrgvKh/Projeto-Bulbe-Grupo-5?node-id=2-3&t=aFJyOYH2vgQNilnV-1
 
+# Link Jira com os Backlogs
+
+https://cdia-bulbe.atlassian.net/jira/software/projects/PROJB/boards/1?atlOrigin=eyJpIjoiZTM5NzBhOTE2MTRkNDBkYTk4ZDU2M2IzNTY4NzY3YmEiLCJwIjoiaiJ9
 
 # Backlog - Bulbe
 
