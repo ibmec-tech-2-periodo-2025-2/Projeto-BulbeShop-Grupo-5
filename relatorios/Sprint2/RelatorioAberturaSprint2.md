@@ -10,6 +10,7 @@
 - [ ] Começar com JS
 
 ## 👥 Distribuição de Tarefas
+
 | Integrante | Tarefa | Prazo |
 |------------|--------|-------|
 | Augusto e Isaac | Definir parceiros/seleção de produtos | 15/10 |
@@ -20,7 +21,7 @@
 | Matheus | Definir design da página de listagem de produtos de cada afiliado | 18/10 |
 | Lara | Implementar Home | 22/10 |
 | José | Implementar página de detalhes de produto | 22/10 |
-| Matheus | Implementar página de listagem de produtos dos afiliados | 22/10 |
+| Augusto | Implementar página de listagem de produtos dos afiliados | 22/10 |
 | Guilherme | Implementar transferência para afiliado | 22/10 |
 | Matheus | Implementar busca de produto e apêndice de informações | 22/10 |
 ## 🛠️ Ferramentas e Tecnologias Previstas
