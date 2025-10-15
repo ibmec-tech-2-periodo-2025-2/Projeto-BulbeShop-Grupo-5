@@ -153,6 +153,13 @@ h1{
 .marca{
     display: flex;
     align-items: center;
+    position: relative;
+    left: 7px;
+}
+
+.specs {
+    width: 330px;
+    font-size: small;
 }
 
 h4{
@@ -190,5 +197,8 @@ button{
     justify-content: center;
 }
 
+.preco{
+    margin-bottom: 10px;
+}
 
 
