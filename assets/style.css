@@ -12,34 +12,36 @@
     --cor-caixa-carrossel:#F1A240;
     --cor-header-botao: #08068D;
     --cor-da-barra-pesquisa:#A4B3C1;
-    --cor-do-fundo-aside: #EBEBEB;
+    --cor-do-fundo-aside: #E1E6EA;
+    --cor-bolinha: #D2D9DF
 }
 
 body{
     width: 100vw;
     height: 100vh;
-    background-color: var(--cor-do-fundo-body);
+    background-color: var(--cor-do-fundo-aside);
 }
 
 
 
 .corpo-principal{
     width: 100%;
-    height: ;
+    height: 100%;
     background-color: var(--cor-fundo-main);
-    border: 1px solid rgb(28, 20, 20);
+    border: 1px solid --cor-fundo-main;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .parte-superior{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    height: 100px;
+    height: 100%;
     width: 100%;
     background-color: var(--cor-header-botao);
 } 
@@ -49,6 +51,11 @@ header{
     height: 50px;
     position: fixed;
     top: 0;
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color: var(--cor-header-botao);
+    height: 90px;
+    width: 100vw;
+    z-index: 1;
 }
 
 .itens-header{
@@ -59,6 +66,7 @@ header{
     height:100%;
     padding-left: 10px;
     padding-right: 10px;
+    z-index: 1;
 }
 
 .sino-e-avatar{
@@ -86,14 +94,14 @@ header{
     height: 49px;
     border-radius: 20px;
     border: 0.5px solid var(--cor-das-bordas-pesquisa);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: -20px;
     
 }
 
 .pesquisa{
     margin-bottom: 9px;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 
     height: 100%;
 }
@@ -104,6 +112,7 @@ aside{
     background-color: var(--cor-do-fundo-aside);
     display: flex;
     justify-content: center;
+    margin-top: 90px;
 }
 
 .pesquisa ::placeholder{
@@ -113,8 +122,9 @@ aside{
 
 .icon-lupa{
     position: relative;
-    left: 5px;
-    bottom:-30px;
+    left: 8px;
+    top: 33px;
+    z-index: 0;
 }
 
 .empresa-principal{
@@ -165,28 +175,30 @@ aside{
 }
 
 .caixa-empresa{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: baseline;
+    align-items: center;
+    justify-content:center;
     width: 41px;
     height: 90%;
     position: relative;
-    top: 0;
+    top: 30px;
 }
 
 .nome-empresa{
     font-size: 10px;
     display: flex;
     flex-direction: row;
+    text-wrap: nowrap;
+    justify-content: center;
 }
 
 .empresa-principal{
     position: relative;
     bottom: 9px;
     display: flex;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
     align-items: last baseline;
     justify-content: center;
     
@@ -222,6 +234,7 @@ aside{
 }
 
 
+
 .escrita-interna{
     display: flex;
     gap: 40px;
@@ -245,13 +258,37 @@ aside{
     background-size: cover;
     border-radius: 100px;
     left: 160px;
-    bottom: 0px;
+    bottom: 50px;
     position: relative;
-    
+    z-index: 1;
     
 }
 
+.bolinha1, .bolinha2{
+    height: 8px;
+    width: 8px;
+    border-radius: 100px;
+}
 
+.bolinha1{
+    border: 1px solid var(--cor-header-botao);
+    background-color: var(--cor-header-botao);
+}
+
+.bolinha2{
+    border: 1px solid var(--cor-bolinha);
+    background-color: var(--cor-bolinha);
+}
+
+.bolinhas-de-selecao{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(255, 0, 0); */
+    position: relative;
+    bottom: 30px;
+}
 
 
 
