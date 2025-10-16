@@ -9,7 +9,7 @@
     --cor-fundo-main: #fff;
     --cor-fundo-imagem: #dddada;
     --cor-das-bordas-pesquisa:#C2C2C2 ;
-    
+    --cor-caixa-carrossel:#F1A240;
     --cor-header-botao: #08068D;
     --cor-da-barra-pesquisa:#A4B3C1;
     --cor-do-fundo-aside: #EBEBEB;
@@ -24,10 +24,14 @@ body{
 
 
 .corpo-principal{
-    width: 440vw;
-    height: 809vh;
-    background-color: var(--cor-do-fundo-body);
-    border: 1px solid black;
+    width: 100%;
+    height: ;
+    background-color: var(--cor-fundo-main);
+    border: 1px solid rgb(28, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .parte-superior{
@@ -82,10 +86,16 @@ header{
     height: 49px;
     border-radius: 20px;
     border: 0.5px solid var(--cor-das-bordas-pesquisa);
+    border: 1px solid blue;
+    margin-top: -20px;
+    
 }
 
 .pesquisa{
     margin-bottom: 9px;
+    border: 1px solid orange;
+
+    height: 100%;
 }
 
 aside{
@@ -104,7 +114,7 @@ aside{
 .icon-lupa{
     position: relative;
     left: 5px;
-    top: 43px;
+    bottom:-30px;
 }
 
 .empresa-principal{
@@ -113,7 +123,7 @@ aside{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-bottom: 40px;
     
 }
 
@@ -154,54 +164,129 @@ aside{
     background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins";
+.caixa-empresa{
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 41px;
+    height: 90%;
+    position: relative;
+    top: 0;
 }
 
-:root{
-    --cor-fundo-body: #fff;
-    --cor-fundo-imagem: #dddada;
-    --cor-das-bordas-e-sombra: #000000;
-    --cor-preco: #c50000;
+.nome-empresa{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
-.parte-superior{
+.empresa-principal{
+    position: relative;
+    bottom: 9px;
+    display: flex;
+  border: 1px solid pink;
+    align-items: last baseline;
+    justify-content: center;
+    
+}
+
+.titulo{
+    width: 229px;
+    height: 31px;
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    margin-right: 0px;
+    margin-right: 112px;
+    margin-top: 20px;
+    
+}
+
+.caixa-maior-carrossel{
+    margin-top: 15px;
+    background-color: var(--cor-caixa-carrossel);
+    width: 375px;
+    height: 225px;
+    color: var(--cor-fundo-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 26px;
+    border-radius: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.escrita-interna{
+    display: flex;
+    gap: 40px;
+}
+
+
+.desconto{
+    width: 139px;
+    height: 47px;
+    background-color: var(--cor-header-botao);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-carrossel{
+    width: 39px;
+    height: 39px;
+    background-image: url(./img/icon-ponto.png);
+    background-size: cover;
+    border-radius: 100px;
+    left: 160px;
+    bottom: 0px;
+    position: relative;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .parte-superior{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -433,6 +518,6 @@ footer{
 .setor{
     font-size: 13px;
     margin-top: -10px;
-    
-} */
+     */
+
 
