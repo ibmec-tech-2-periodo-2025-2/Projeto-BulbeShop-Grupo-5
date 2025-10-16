@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+:root{
+    --cor-fundo-body: #E1E6EA;
+    --cor-fundo-imagem: #fff;
+    --cor-das-bordas-e-sombra: #000000;
+    --cor-preco: #0B08C4;
+    --cor-header-botao: #08068D;
+    --cor-nome-produto: #08068D;
+}
+
+.parte-superior{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: var(--cor-header-botao);
+} 
+
+.itens-header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height:100%;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.sino-e-avatar{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+
+#bulbe{
+    position:relative;
+    left: 20px;
+    bottom: -2px;
+}
+
+body{
+    max-width: (100vw);
+    height: 100vh;
+    background-color: var(--cor-fundo-body);
+} 
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.produto{
+    position: relative;
+    background-color: var(--cor-fundo-imagem);
+    width: 380px;
+    height: 220px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 10px;
+    gap: 20px; 
+}
+
+.ftproduto {
+    grid-column: 1/2;
+    background-image: url('img/image 1.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.espe{
+    display: flex;
+    flex-direction: column;
+} 
+
+.nome-produto{
+    color: var(--cor-nome-produto);
+    font-size: 25px;
+}
+
+.descricao{
+    font-size: 12px;
+}
+
+.preco{
+    color: var(--cor-preco);
+    font-size: 25px;
+}
+
+button{
+    background-color: var(--cor-header-botao);
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    border:none;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.x {
+    position: absolute;
+    top: 5px;
+    right: -55px;
+    background: none;
+    border: none;
+    color: var(--cor-header-botao);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.botao-mais {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+    background: linear-gradient(#08068D, #08068D) padding-box,linear-gradient(135deg, #00ff88, #0072FF) border-box;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+}
