@@ -205,14 +205,12 @@ aside{
 }
 
 .titulo{
-    width: 229px;
+    width: 375px;
     height: 31px;
     font-weight: 600;
     font-size: 26px;
-    display: flex;
-    margin-right: 0px;
-    margin-right: 112px;
     margin-top: 20px;
+    padding-left: 10px;
     
 }
 
@@ -229,7 +227,7 @@ aside{
     font-weight: 500;
     font-size: 26px;
     border-radius: 20px;
-    gap: 10px;
+    gap: 35px;
     text-align: center;
 }
 
@@ -238,6 +236,10 @@ aside{
 .escrita-interna{
     display: flex;
     gap: 40px;
+    word-wrap: break-word;
+    text-align:left;
+    width: 311px;
+    height: 93px;
 }
 
 
@@ -290,14 +292,51 @@ aside{
     bottom: 30px;
 }
 
+.icones-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100vw;
+}
 
+.fundo-imagem-icone{
+    background-color: var(--cor-header-botao);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61px;
+    height: 66px;
+    grid-column: 1/2;
+}
 
+.icone-texto-categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.nome-icone {
+    font-size: 12px;
+}
 
+.imagem-icone1, .imagem-icone2, .imagem-icone3{
+    width: 36px;
+    height: 36px;
+}
 
+.imagem-icone1{
+    background-image: url(./img/lightbulb-04.png);
+}
 
+.imagem-icone2{
+    background-image: url(./img/tv-02.png);
+}
 
-
+.imagem-icone3{
+    background-image: url(./img/phone-01.png);
+}
 
 
 
