@@ -26,7 +26,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--cor-fundo-main);
-  border: 1px solid var(--cor-header-botao);
+  /* border: 1px solid var(--cor-header-botao); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,6 +315,52 @@ aside {
   width: 61px;
   height: 66px;
   background-color: var(--cor-header-botao);
+}
+
+.icones-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100vw;
+}
+
+.fundo-imagem-icone{
+    background-color: var(--cor-header-botao);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61px;
+    height: 66px;
+    grid-column: 1/2;
+}
+
+.icone-texto-categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome-icone {
+    font-size: 12px;
+}
+
+.imagem-icone1, .imagem-icone2, .imagem-icone3{
+    width: 36px;
+    height: 36px;
+}
+
+.imagem-icone1{
+    background-image: url(./img/lightbulb-04.png);
+}
+
+.imagem-icone2{
+    background-image: url(./img/tv-02.png);
+}
+
+.imagem-icone3{
+    background-image: url(./img/phone-01.png);
 }
 
 
