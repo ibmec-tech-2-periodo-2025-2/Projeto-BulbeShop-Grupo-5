@@ -22,7 +22,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 99vh;
   background-color: var(--cor-do-fundo-aside);
 }
 
@@ -250,7 +250,9 @@ aside {
 
 .escrita-interna {
   display: flex;
-  gap: 40px;
+  word-wrap: break-word;
+  width: 311px;
+  text-align: left;
 }
 
 .desconto {
