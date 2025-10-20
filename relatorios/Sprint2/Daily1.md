@@ -4,18 +4,17 @@
 # Guilherme
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Nada começo de Sprint
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Criando Design da Página do Produto no Figma
+- Arrumando a documentação/Figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Implementar a página Home no HTML/CSS
 
 # Lara
 

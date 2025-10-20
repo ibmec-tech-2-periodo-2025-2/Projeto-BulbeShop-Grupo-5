@@ -4,18 +4,16 @@
 # Guilherme
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Comecei a página de transferência do usuário
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Implementar a página de transferência do usuário
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Nenhum
 
 # Lara
 

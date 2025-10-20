@@ -4,18 +4,17 @@
 # Guilherme
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Design da Página do Produto no Figma
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Implementando HTML/CSS da Home
+- Arrumando a documentação/Figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Criar corrocéis no CSS
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Implementar a página de transfêrenia do usuário no HTML/CSS
 
 # Lara
 

@@ -4,18 +4,16 @@
 # Guilherme
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Terminei o esqueleto da home junto da Lara
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Implementando corrocéis no HTML/CSS da Home
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Implementar a página de transfêrenia do usuário no HTML/CSS
 
 # Lara
 
