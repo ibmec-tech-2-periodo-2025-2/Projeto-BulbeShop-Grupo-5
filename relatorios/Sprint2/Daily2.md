@@ -67,18 +67,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Oraganização ambiente no Figma
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Design da Home no Figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Listagem dos Afiliados
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Design da Pagina de categoria 
 
 # José
 

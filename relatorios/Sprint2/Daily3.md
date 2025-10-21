@@ -66,18 +66,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Design da Home no figma
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Design da Pag de categoria
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Impletação de Pagina de Categoria
 
 # José
 

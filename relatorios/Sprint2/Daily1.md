@@ -67,18 +67,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Organização do backlog
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Oragnização do ambiente no figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Começar Design
 
 # José
 
