@@ -18,18 +18,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Terminei o body, mas sem o carrossel 
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Ajustando detalhes com a ajuda do Guilherme
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Fazer os dois carrosseis
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Fazer os crrosseis
 
 # Isabella
 
