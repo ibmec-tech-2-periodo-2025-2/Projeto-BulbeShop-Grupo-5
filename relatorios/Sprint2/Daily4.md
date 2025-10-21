@@ -49,18 +49,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Design da Pagina de Afiliados
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- - Impletação de Pagina de Afiliados no html e css
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- implementacao do carrosel
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- terminar a pagina de afiliados
 
 # Isaac
 
