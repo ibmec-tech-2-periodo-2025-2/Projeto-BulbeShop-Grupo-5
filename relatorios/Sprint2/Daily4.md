@@ -18,18 +18,17 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+-Não mexi em nada
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Fazendo os carrosseis e concertando alguns detalhes
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+-Fazer os carrosseis
+
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Finalizar a página
 
 # Isabella
 
