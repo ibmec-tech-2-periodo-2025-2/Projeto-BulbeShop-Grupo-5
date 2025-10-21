@@ -19,18 +19,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Esperando a finalização do desing da Home
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Início implementação da página home (header e parte superior)
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Fazer o restante do body
 
 # Isabella
 
