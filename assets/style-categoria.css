@@ -11,7 +11,7 @@
     --cor-das-bordas-e-sombra: #000000;
     --cor-preco: #0B08C4;
     --cor-header-botao: #08068D;
-    --cor-nome-produto: #08068D;
+    --cor-nome-produto: #151A1E;
 }
 
 .parte-superior{
@@ -63,6 +63,7 @@ main{
     width: 100%;
     height: 85px;
     border-radius: 0px 0px 20px 20px;
+    
 
     background-color: var(--cor-fundo-imagem);
 
@@ -71,6 +72,17 @@ main{
 
 }
 
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+    color: var(--cor-nome-produto);
+
+    font-size:x-large;
+}
 .produto{
     position: relative;
     background-color: var(--cor-fundo-imagem);
