@@ -121,19 +121,3 @@ button{
     cursor: pointer;
     line-height: 1;
 }
-
-.botao-mais {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%); 
-    background: linear-gradient(#08068D, #08068D) padding-box,linear-gradient(135deg, #00ff88, #0072FF) border-box;
-    color: white;
-    border: 3px solid transparent;
-    border-radius: 100%;
-    width: 70px;
-    height: 70px;
-    font-size: 30px;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
-}
