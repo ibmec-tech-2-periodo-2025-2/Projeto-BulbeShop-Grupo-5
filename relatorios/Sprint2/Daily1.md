@@ -19,18 +19,17 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Início da Sprint
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Aguardando Desing da página Home ficar pronta
+- Auxiliando na escolha dos parceiros
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Achar parceiros condizentes com o obejtivo do site
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Iniciar implementação da home
 
 # Isabella
 
