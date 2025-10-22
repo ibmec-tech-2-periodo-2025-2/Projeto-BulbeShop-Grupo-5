@@ -66,34 +66,30 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Design da Pagina de Categoria no fimga
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Impletação da Home
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Proxima Sprint
 
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Implantação da página de redirecionamento para o parceiro em HTML e CSS
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Implantação da página de categoria específica de produtos e pensando em como trazer interatividade com JS
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Como aplicar JS para trazer interatividade às páginas
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Aplicar JS para as páginas e interligá-las (alguns casos requerirão apenas HTML)
 
 # Matheus
 

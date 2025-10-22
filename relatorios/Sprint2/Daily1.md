@@ -67,34 +67,32 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Organização do backlog
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Oragnização do ambiente no figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Começar Design
 
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Início da sprint
+- 
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Definição dos parceiros
+- Ajuda no design do Figma
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Mapear exatamente parceiros que façam sentido comercial
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Começar a programar páginas HTML com base no design
 
 # Matheus
 

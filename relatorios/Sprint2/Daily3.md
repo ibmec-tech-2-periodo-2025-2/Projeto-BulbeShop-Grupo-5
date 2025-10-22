@@ -66,34 +66,30 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Design da Home no figma
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Design da Pag de categoria
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Impletação de Pagina de Categoria
 
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Implantação da página de produto em HTML e CSS
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Página de redirecionamento para o parceiro em HTML e CSS
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Como fazer um layout de prompt para o aviso, em vez de carregar uma nova página
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Implantar página de categorias e começar a trazer interatividade nas páginas
 
 # Matheus
 
