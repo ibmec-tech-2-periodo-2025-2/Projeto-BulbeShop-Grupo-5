@@ -33,18 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Finalizei boa parte da página de favoritos
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Finalizando os últimos detalhes
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Finalizar a página
 
 # Augusto
 
