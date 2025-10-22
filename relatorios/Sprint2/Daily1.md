@@ -34,18 +34,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- Início da Sprint
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- Aguardando Desing da página de favoritos
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Começar HTML e CSS da página de favoritos
 
 # Augusto
 
