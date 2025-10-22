@@ -305,3 +305,7 @@ section{
   background-position: center;
   background-size: cover;
 }
+
+.nomeCategoria{
+  font-size: 20px;
+}
