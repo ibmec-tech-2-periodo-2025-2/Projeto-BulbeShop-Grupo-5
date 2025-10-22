@@ -9,6 +9,10 @@ https://www.figma.com/design/6UHlUlVtQ7aDXPZUYrgvKh/Projeto-Bulbe-Grupo-5?node-i
 
 https://cdia-bulbe.atlassian.net/jira/software/projects/PROJB/boards/1?atlOrigin=eyJpIjoiZTM5NzBhOTE2MTRkNDBkYTk4ZDU2M2IzNTY4NzY3YmEiLCJwIjoiaiJ9
 
+# Link para o Site no GitHub Pages 
+
+https://ibmec-tech-2-periodo-2025-2.github.io/Projeto-BulbeShop-Grupo-5/
+
 # Backlog - Bulbe
 
 
