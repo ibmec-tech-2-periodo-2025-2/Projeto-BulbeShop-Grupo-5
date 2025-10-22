@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+:root{
+    --cor-fundo-body: #fff;
+    --cor-fundo-imagem: #dddada;
+    --cor-das-bordas-e-sombra: #000000;
+    --cor-preco: #c50000;
+    --cor-header-botao: #08068D;
+    --cor-fundo: #E1E6EA;
+    --cor-div-de-baixo: #f6f9f9;
+    --cor-preco: #0B08C4;
+    --cor-subtitulos: #536679;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header{
+    filter: blur(2px);
+}
+
+.parte-superior{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: var(--cor-header-botao);
+} 
+
+section{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.itens-header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    height:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sino-e-avatar{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+}
+
+#bulbe{
+    position:relative;
+    left: 20px;
+    bottom: -2px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: blur(2px);
+}   
+
+.nome{
+    margin: 15px;
+}
+
+h3{
+    font-weight: 450;
+    font-size:x-large;
+    color: var(--cor-header-botao);
+}
+
+.img-maior-setas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-maior{
+    width: 250px;
+    height: 250px;
+}
+
+#foto-principal{
+    height: 100%;
+    width: 100%;
+}
+
+#seta-esq{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+
+#seta-dir{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.imgs-menores{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagenzinhas{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao-geral{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-div-de-baixo);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.marca-e-avaliacao{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.avaliacao{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.num-aval{
+    margin-left: 5px;
+}
+
+h1{
+    color: var(--cor-preco);
+    font-size: 44px;
+}
+
+.marca{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 7px;
+}
+
+.specs {
+    width: 330px;
+    font-size: small;
+}
+
+h4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-subtitulos);
+    font-weight: 500;
+}
+
+.botao-e-bookmark{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    padding: 10px;
+}
+
+button{
+    background-color: var(--cor-header-botao);
+    color: var(--cor-fundo);
+    font-size: larger;
+    font-weight: 300;
+    font-family: 'Poppins';
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bookmark{
+    display: flex;
+    justify-content: center;
+}
+
+.preco{
+    margin-bottom: 10px;
+}
+
+.botoes-aviso{
+    display: flex;
+    justify-content: center;
+}
+
+.aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 30px;
+    z-index: 3;
+    background-color: var(--cor-div-de-baixo);
+    border-radius: 8px;
+    width: 330px;
+    height: 200px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.botao-aviso{
+    width: 120px;
+    margin: 10px;
+    position: relative;
+    top: 30px;  
+}
+
+#aviso-saida{
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: 25px;
+}
+
+#botao-aviso-1{
+    background-color: var(--cor-div-de-baixo);
+    color: var(--cor-header-botao);
+    border: 1px solid var(--cor-header-botao);
+}
