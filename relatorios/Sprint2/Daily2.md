@@ -33,18 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- [ ] Tarefa 1
-- [ ] Tarefa 2
+- começei HTML e CSS da página de favoritos
 
 ## 🚧 O que estou fazendo agora?
-- Tarefa atual
+- finalizando o HTML e CSS da página de favoritos
 
 ## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
+- nenhuma
 
 ## 🗓️ Próximo passo
-- Tarefa próxima
+- Terminar totalmente a página de favoritos
 
 # Augusto
 
