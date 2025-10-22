@@ -352,6 +352,7 @@ aside {
 .nome-icone {
     font-size: 12px;
     color: var(--cor-titulos);
+    text-decoration: none;
 }
 
 .imagem-icone1, .imagem-icone2, .imagem-icone3{
