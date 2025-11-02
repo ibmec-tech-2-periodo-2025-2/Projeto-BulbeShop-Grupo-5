@@ -1,4 +1,4 @@
-// Lista de produtos (pode vir de API futuramente)
+// Lista de produtos (É para vir da API depois)
 const produtos = [
     { id: 1, nome: 'Echo Dot', descricao: 'Assistente virtual inteligente', preco: 'R$ 56,05' },
     { id: 2, nome: 'Smart TV', descricao: 'Televisão 4K com HDR', preco: 'R$ 2.500,00' },

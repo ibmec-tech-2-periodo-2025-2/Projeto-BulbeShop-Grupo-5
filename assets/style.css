@@ -464,7 +464,7 @@ a{
 
 #container-produtos-pesquisa {
   position: absolute;
-  top: 55px; /* aparece logo abaixo do input */
+  top: 55px;
   left: 0;
   width: 100%;
   background-color: var(--cor-fundo-branco);
@@ -507,7 +507,6 @@ a{
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* 🔹 Redimensiona a imagem para não dominar o card */
 #container-produtos-pesquisa .imagem-card {
   width: 55px;
   height: 55px;
@@ -517,7 +516,6 @@ a{
   flex-shrink: 0;
 }
 
-/* 🔹 Ajusta texto e espaçamento interno */
 #container-produtos-pesquisa .info-card {
   display: flex;
   flex-direction: column;
