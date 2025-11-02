@@ -54,7 +54,7 @@ header {
   /* border: 1px solid rgb(255, 0, 0); */
   background-color: var(--cor-header-botao);
   height: 90px;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 }
 
@@ -102,7 +102,7 @@ header {
   margin-bottom: 9px;
   /* border: 1px solid orange; */
 
-  height: 100%;
+  height: 49px;
 }
 
 aside {
@@ -110,7 +110,9 @@ aside {
   height: 20vh;
   background-color: var(--cor-do-fundo-aside);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 90px;
 }
 
@@ -121,8 +123,10 @@ aside {
 .icon-lupa {
   position: relative;
   left: 8px;
-  top: 33px;
+  top: 17px;
   z-index: 0;
+  width: 16px;
+  height: 16px;
 }
 
 .empresa-principal {
@@ -456,4 +460,99 @@ a{
   font-size: 20px;
   font-weight: 600;
   color: var(--cor-preço);
+}
+
+#container-produtos-pesquisa {
+  position: absolute;
+  top: 55px; /* aparece logo abaixo do input */
+  left: 0;
+  width: 100%;
+  background-color: var(--cor-fundo-branco);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  overflow-y: auto;
+  max-height: 280px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  transition: all 0.25s ease-in-out;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cor-header-botao) transparent;
+  opacity: 0;
+}
+
+
+
+.barra-de-pesquisa {
+  position: relative;
+}
+
+#container-produtos-pesquisa .card-produto {
+  width: 100%;
+  background-color: var(--cor-fundo-branco);
+  border: 1px solid var(--cor-borda-sessao-card);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#container-produtos-pesquisa .card-produto:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 🔹 Redimensiona a imagem para não dominar o card */
+#container-produtos-pesquisa .imagem-card {
+  width: 55px;
+  height: 55px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* 🔹 Ajusta texto e espaçamento interno */
+#container-produtos-pesquisa .info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+#container-produtos-pesquisa .nome-produto-card {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--cor-titulos);
+}
+
+#container-produtos-pesquisa .avaliacao {
+  display: flex;
+  gap: 1px;
+  transform: scale(0.8);
+  transform-origin: left;
+}
+
+#container-produtos-pesquisa .preco-produto-card {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--cor-preço);
+}
+
+#container-produtos-pesquisa .botao-produto {
+  width: 80px;
+  height: 26px;
+  background-color: var(--cor-header-botao);
+  color: var(--cor-main);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 500;
 }
