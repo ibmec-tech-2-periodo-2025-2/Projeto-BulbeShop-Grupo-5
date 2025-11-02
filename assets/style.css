@@ -372,13 +372,15 @@ aside {
     background-image: url(./img/phone-01.png);
 }
 
-.sessao-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+.sessao-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
 }
+
 
 .titulo-sessao-card{
     display: flex;
@@ -395,21 +397,27 @@ aside {
 }
 
 .card-produto {
-  width: 277px;
-  height: 184px;
+  width: 250px;
   background-color: var(--cor-fundo-branco);
-  border: 1px solid var(--cor-fundo-branco);
+  border: 1px solid var(--cor-borda-sessao-card);
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 10px;
+  text-align: center;
+  transition: transform 0.2s ease;
 }
 
-.imagem-card{
-  background-image: url(./img/imagem-card.png);
-  width: 112px;
+.imagem-card {
+  width: 120px;
   height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
 }
 .estrela{
     width: 14px;
@@ -423,31 +431,33 @@ aside {
     gap: 2px;
 }
 
-.botao-produto{
-    width: 100px;
-    height: 34px;
-    background-color: var(--cor-header-botao);
-    color: var(--cor-main);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 500;
+.botao-produto {
+  width: 100%;
+  max-width: 140px;
+  height: 34px;
+  background-color: var(--cor-header-botao);
+  color: var(--cor-main);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-.nome-produto-card{
-    font-size: 24px;
-    font-weight: 500;
+.nome-produto-card {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cor-titulos);
 }
-
 .info-card{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.preco-produto-card{
+.preco-produto-card {
   font-size: 20px;
   font-weight: 600;
   color: var(--cor-preço);
