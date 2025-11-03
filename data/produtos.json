@@ -29,7 +29,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Lumin%C3%A1ria-Refletor-Controle-Presen%C3%A7a-Ilumina%C3%A7%C3%A3o/dp/B0FJVXVZN2/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6",
     "loja": "Amazon",
-    "descricao": "Luminária solar automática com sensor de presença e bateria de longa duração."
+    "descricao": "Luminária solar automática com sensor de presença e bateria de longa duração.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=3"
   },
   {
     "id": 4,
@@ -39,7 +40,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/kit-gerador-de-energia-solar-off-grid-450wp-127v_1569825652",
     "loja": "Leroy Merlin",
-    "descricao": "Kit completo com inversor, controlador de carga e painéis solares."
+    "descricao": "Kit completo com inversor, controlador de carga e painéis solares.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=4"
   },
   {
     "id": 5,
@@ -49,7 +51,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/lixeira-sensor-automatica-banheiro-cozinha-preta-lixo-inteligente-kokay_1571811803",
     "loja": "Leroy Merlin",
-    "descricao": "Lixeira automática com sensor de movimento e fechamento hermético."
+    "descricao": "Lixeira automática com sensor de movimento e fechamento hermético.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=5"
   },
   {
     "id": 6,
@@ -59,7 +62,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/inteligente-lembrete-inoxid%C3%A1vel-rastreadora-aplicativo/dp/B0DR8HDCN4/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-5",
     "loja": "Amazon",
-    "descricao": "Exibe a temperatura da bebida e mantém líquidos frios ou quentes por até 12h."
+    "descricao": "Exibe a temperatura da bebida e mantém líquidos frios ou quentes por até 12h.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=6"
   },
   {
     "id": 7,
@@ -69,7 +73,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/soundcore-Bluetooth-Headphone-Destac%C3%A1veis-Multiponto/dp/B0DJW667F4/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY",
     "loja": "Amazon",
-    "descricao": "Fone de ouvido com estrutura de bambu e embalagem biodegradável."
+    "descricao": "Fone de ouvido com estrutura de bambu e embalagem biodegradável.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=7"
   },
   {
     "id": 8,
@@ -79,7 +84,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/tomada-com-interruptor-inteligente-2-teclas-wi-fi-10a-branca-intelbras-ets-2002_92338351",
     "loja": "Leroy Merlin",
-    "descricao": "Permite controle remoto de aparelhos e monitoramento de consumo elétrico."
+    "descricao": "Permite controle remoto de aparelhos e monitoramento de consumo elétrico.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=8"
   },
   {
     "id": 9,
@@ -89,7 +95,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Purificador-Electrolux-Compacto-Cinza-Bivolt/dp/B08X66RQ48/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-5",
     "loja": "Amazon",
-    "descricao": "Sistema de purificação eficiente que reduz o consumo de energia e desperdício."
+    "descricao": "Sistema de purificação eficiente que reduz o consumo de energia e desperdício.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=9"
   },
   {
     "id": 10,
@@ -99,7 +106,8 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/lampada-de-led-inteligente-e27-bulbo-10w-803lm-luz-rgb-bivolt-elgin_90730486",
     "loja": "Leroy Merlin",
-    "descricao": "Lâmpada controlada por app e voz, com baixo consumo de energia."
+    "descricao": "Lâmpada controlada por app e voz, com baixo consumo de energia.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=10"
   },
   {
     "id": 11,
@@ -109,6 +117,7 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
     "loja": "Amazon",
-    "descricao": "O Echo Dot com o melhor som já lançado."
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
   }
 ]
