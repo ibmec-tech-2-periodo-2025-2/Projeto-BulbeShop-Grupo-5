@@ -257,14 +257,30 @@ a{
   text-align: center;
 }
 
-.escrita-interna {
+.imagem-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 224px;
+  border-radius: 20px;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+/* .escrita-interna {
   display: flex;
   word-wrap: break-word;
   width: 311px;
   text-align: left;
-}
+} */
 
-.desconto {
+/* .desconto {
   width: 139px;
   height: 47px;
   background-color: var(--cor-header-botao);
@@ -272,7 +288,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .imagem-carrossel {
   width: 39px;
