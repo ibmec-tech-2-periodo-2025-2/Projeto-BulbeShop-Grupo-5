@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="avaliacao">
               ${"⭐".repeat(Math.round(produto.avaliacao))}
             </div>
-            <a href="${produto.linkAfiliado}" class="botao-produto" target="_blank">
+            <a href="${produto.pagina}" class="botao-produto" target="_blank">
               Ver produto
             </a>
           </div>

@@ -7,24 +7,26 @@
     "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/ALLPOWERS-Carregador-dobr%C3%A1vel-carregamento-smartphone/dp/B0FG2SGM6X/ref=sr_1_5?sr=8-5",
     "loja": "Amazon",
-    "descricao": "Painel solar monocristalino de alta eficiência, ideal para sistemas residenciais."
+    "descricao": "Painel solar monocristalino de alta eficiência, ideal para sistemas residenciais.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=1"
   },
   {
     "id": 2,
     "nome": "Carregador Solar Portátil 10000mAh",
     "preco": 229.00,
     "categoria": "energia-solar",
-    "imagem": "carregador-solar.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Carregador-Solar-Port%C3%A1til-20000Mah-Painel/dp/B0FG6GBGBN/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-5",
     "loja": "Amazon",
-    "descricao": "Powerbank ecológico com painel solar integrado e duas saídas USB."
+    "descricao": "Powerbank ecológico com painel solar integrado e duas saídas USB.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=2"
   },
   {
     "id": 3,
     "nome": "Luminária Solar de Parede com Sensor",
     "preco": 139.90,
     "categoria": "iluminacao-sustentavel",
-    "imagem": "luminaria-solar.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Lumin%C3%A1ria-Refletor-Controle-Presen%C3%A7a-Ilumina%C3%A7%C3%A3o/dp/B0FJVXVZN2/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-6",
     "loja": "Amazon",
     "descricao": "Luminária solar automática com sensor de presença e bateria de longa duração."
@@ -34,7 +36,7 @@
     "nome": "Kit Energia Solar Residencial 2000W",
     "preco": 8799.00,
     "categoria": "energia-solar",
-    "imagem": "kit-solar.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/kit-gerador-de-energia-solar-off-grid-450wp-127v_1569825652",
     "loja": "Leroy Merlin",
     "descricao": "Kit completo com inversor, controlador de carga e painéis solares."
@@ -44,7 +46,7 @@
     "nome": "Lixeira Inteligente com Sensor",
     "preco": 249.00,
     "categoria": "casa-sustentavel",
-    "imagem": "lixeira-inteligente.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/lixeira-sensor-automatica-banheiro-cozinha-preta-lixo-inteligente-kokay_1571811803",
     "loja": "Leroy Merlin",
     "descricao": "Lixeira automática com sensor de movimento e fechamento hermético."
@@ -54,7 +56,7 @@
     "nome": "Garrafa Térmica Inteligente com Display Digital",
     "preco": 119.90,
     "categoria": "gadgets",
-    "imagem": "garrafa-inteligente.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/inteligente-lembrete-inoxid%C3%A1vel-rastreadora-aplicativo/dp/B0DR8HDCN4/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-5",
     "loja": "Amazon",
     "descricao": "Exibe a temperatura da bebida e mantém líquidos frios ou quentes por até 12h."
@@ -64,7 +66,7 @@
     "nome": "Fone Bluetooth",
     "preco": 199.00,
     "categoria": "gadgets",
-    "imagem": "fone-bambu.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/soundcore-Bluetooth-Headphone-Destac%C3%A1veis-Multiponto/dp/B0DJW667F4/ref=sr_1_1_sspa?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY",
     "loja": "Amazon",
     "descricao": "Fone de ouvido com estrutura de bambu e embalagem biodegradável."
@@ -74,7 +76,7 @@
     "nome": "Tomada Inteligente Wi-Fi",
     "preco": 139.90,
     "categoria": "automacao-residencial",
-    "imagem": "tomada-inteligente.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/tomada-com-interruptor-inteligente-2-teclas-wi-fi-10a-branca-intelbras-ets-2002_92338351",
     "loja": "Leroy Merlin",
     "descricao": "Permite controle remoto de aparelhos e monitoramento de consumo elétrico."
@@ -84,7 +86,7 @@
     "nome": "Purificador de Água com Economia de Energia",
     "preco": 689.90,
     "categoria": "casa-sustentavel",
-    "imagem": "purificador-agua.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Purificador-Electrolux-Compacto-Cinza-Bivolt/dp/B08X66RQ48/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-5",
     "loja": "Amazon",
     "descricao": "Sistema de purificação eficiente que reduz o consumo de energia e desperdício."
@@ -94,7 +96,7 @@
     "nome": "Lâmpada LED Inteligente RGB",
     "preco": 79.90,
     "categoria": "iluminacao-sustentavel",
-    "imagem": "lampada-inteligente.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.leroymerlin.com.br/lampada-de-led-inteligente-e27-bulbo-10w-803lm-luz-rgb-bivolt-elgin_90730486",
     "loja": "Leroy Merlin",
     "descricao": "Lâmpada controlada por app e voz, com baixo consumo de energia."
@@ -104,7 +106,7 @@
     "nome": "Echo Dot (Geração mais recente)",
     "preco": 299.90,
     "categoria": "tecnologia",
-    "imagem": "roteador-eco.jpg",
+    "imagem": "img1.png",
     "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
     "loja": "Amazon",
     "descricao": "O Echo Dot com o melhor som já lançado."
