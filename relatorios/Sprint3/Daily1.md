@@ -19,16 +19,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Começo de sprint.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Esperando a melhora dos projetos no figma.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Nenhuma.
 
 ## 🗓️ Próximo passo
-- 
+- Começar a melhorar a home de acordo com o projeto no figma.
 
 # Isabella
 
