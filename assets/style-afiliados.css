@@ -292,6 +292,10 @@ section{
 .nome-produto-card{
     font-size: 24px;
     font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;     /* número máximo de linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .info-card{
