@@ -19,16 +19,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Nada, esperando finalizar os detalhes do figma.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Melhorias na home.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Nenhuma.
 
 ## 🗓️ Próximo passo
-- 
+- Terminar a home.
 
 # Isabella
 

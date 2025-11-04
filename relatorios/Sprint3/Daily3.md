@@ -18,16 +18,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Terminei a home.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Alinhar detalhes nas páginas dos afiliados.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Usar o JS para colocar imagens nos carrosseis.
 
 ## 🗓️ Próximo passo
-- 
+- Finalizar todos os detalhes da páginas.
 
 # Isabella
 
