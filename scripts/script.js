@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     container.style.display = "flex";
+    container.style.zIndex = "1";
     setTimeout(() => (container.style.opacity = "1"), 10);
 
     const filtrados = produtos.filter(p =>
