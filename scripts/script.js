@@ -87,7 +87,9 @@ document.addEventListener("DOMContentLoaded", () => {
         card.innerHTML = `
         
           
-          <div class="imagem-card" style="background-image: url('${produto.imagem}')"></div>
+          <div class="imagem-card">
+            <img src="/assets/img/${produto.imagem}" alt="${produto.nome}" class="imagem-card" />
+          </div>
           <div class="info-card">
             <h3 class="nome-produto-card">${produto.nome}</h3>
             <p class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</p>
