@@ -333,67 +333,92 @@ a{
   background-color: var(--cor-header-botao);
 }
 
-.icones-categorias{
+.icones-categorias {
+  display: flex; /* Alinha os ícones lado a lado */
+  gap: 15px; /* Espaço entre os ícones (reduzi um pouco) */
+  padding: 30px 16px; /* Espaço nas bordas para o 1º e último item */
+  
+  /* Importante para o 'scroll-snap' funcionar com o padding */
+  width: max-content; 
+}
+
+/* O ÍCONE (Estado Padrão / Inativo) */
+.fundo-imagem-icone {
+  background-color: var(--cor-header-botao);
+  border-radius: 25px;
   display: flex;
-  gap: 25px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  justify-content: center;
   align-items: center;
-  padding: 20px;
-}
-
-.fundo-imagem-icone{
-    background-color: var(--cor-header-botao);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 61px;
-    height: 66px;
-    grid-column: 1/2;
-}
-
-.fundo-imagem-icone div{
-  width: 70px;
-  height: 70px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
+  justify-content: center;
+  margin: 0 auto;
   transition: all 0.3s ease;
+  
+  /* Padrão: Quadrado */
+  width: 70px;
+  height: 70px; 
 }
 
-.icone-texto-categoria{
+
+.carrossel-categorias {
+  width: 100%; /* Garante que ocupe a largura toda */
+  overflow-x: auto; /* Habilita a rolagem */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* REMOVIDO: display: flex, justify-content: center, align-items: center 
+    Eles estavam quebrando a rolagem.
+  */
+}
+
+.carrossel-categorias::-webkit-scrollbar {
+  display: none;
+}
+
+.fundo-imagem-icone div {
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* O wrapper de cada item */
+.icone-texto-categoria {
   flex: 0 0 auto;
   scroll-snap-align: center;
   text-align: center;
-  opacity: 0.6;
   transition: all 0.3s ease;
+  
+  /* Padrão: Opaco */
+  opacity: 0.6;
 }
 
 .icone-texto-categoria.ativo {
   opacity: 1;
-  transform: scale(1.1);
 }
 
-.icone-texto-categoria.ativo .fundo-imagem-icone div {
-  width: 100px;
-  height: 100px;
+.icone-texto-categoria.ativo .fundo-imagem-icone {
+  /* Ativo: Retângulo largo */
+  width: 160px; /* Sua largura desejada */
+  height: 70px; /* Mantém a altura para um visual mais limpo */
+  border-radius: 35px;
 }
 
 .icone-texto-categoria.ativo .nome-icone {
+  /* Ativo: Visível e com altura */
   opacity: 1;
+  height: 1.2em; /* Altura suficiente para uma linha de texto */
 }
 
 .nome-icone {
-    color: var(--cor-titulos);
-    text-decoration: none;
-    font-size: 0.9rem;
-    margin-top: 8px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+  color: var(--cor-titulos);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
+
 
 .imagem-icone1, .imagem-icone2, .imagem-icone3, .imagem-icone4, .imagem-icone5{
     width: 36px;
