@@ -12,6 +12,7 @@
     --cor-preco: #0B08C4;
     --cor-header-botao: #08068D;
     --cor-nome-produto: #08068D;
+    --cor-main:#F6F9F9;
 }
 
 .parte-superior{
@@ -20,7 +21,7 @@
     align-items: center;
     position: relative;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color: var(--cor-header-botao);
 } 
 
@@ -47,9 +48,12 @@
 }
 
 body{
-    max-width: (100vw);
+    width: 100vw;
     height: 100vh;
     background-color: var(--cor-fundo-body);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 } 
 
 main{
@@ -110,9 +114,9 @@ button{
 }
 
 .x {
-    position: absolute;
-    top: 5px;
-    right: -55px;
+    position: relative;
+    bottom: 190px;
+    left: 150px;
     background: none;
     border: none;
     color: var(--cor-header-botao);
@@ -120,6 +124,8 @@ button{
     font-weight: 600;
     cursor: pointer;
     line-height: 1;
+    width: 17px;
+    height: 26px;
 }
 
 .botao-mais {
@@ -136,4 +142,43 @@ button{
     font-size: 30px;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+}
+
+.imagem-x {
+    background-image: url("./img/times.svg");
+    width: 17px;
+    height: 17px;
+}
+
+main{
+    background-color: var(--cor-main);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titulo-imagem-favoritos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.titulo-imagem-favoritos h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.imagem-favoritos {
+    width: 65px;
+    height: 70px;
+    background-color: var(--cor-header-botao);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-favoritos img{
+    width: 39px;
+    height: 39px;
 }
