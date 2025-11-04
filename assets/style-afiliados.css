@@ -33,11 +33,13 @@ header {
     --cor-subtitulos: #536679;
     --cor-caixa-carrossel: #f1a240;
     --cor-tracado: #D1D9E0;
+    --cor-escrita:#F5F8FF;
 }
 
 .headerSpace{
     height: 90px;
     width: 100%;
+    color: var(--cor-div-de-baixo);
 }
 
 .parte-superior{
@@ -74,7 +76,7 @@ header {
 }
 
 main{
-    height: 985px;
+    height: 490px;
     width: 100%;
     background-color: var(--cor-caixa-carrossel);
     display: flex;
@@ -193,16 +195,80 @@ section{
   font-size: 20px;
 }
 
-.desconto {
-  width: 100%;
+/* .img-desconto {
   display: flex;
   justify-content: center;
-  
+  border-radius: 30px;
+  width: 389px;
+  height: 222px;
+} */
+
+/* Faz a imagem um contexto para posicionamento absoluto */
+.img-desconto{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  width: 389px;
+  height: 222px;
 }
 
-.desconto img {
-  width: 89%;
+/* Texto do banner sobre a imagem (inferior-esquerda) */
+.escrita-banner{
+  position: absolute;
+  z-index: 3;
+  color: var(--cor-escrita);
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  /* margin-bottom: 12px;
+  padding-left: 25px; */
+
 }
+
+.conteudo-total{
+  width: 300px;
+  height: 160px;
+  /* border: 3px solid blueviolet; */
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  justify-content: flex-start;
+  
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
+}
+
+
+
+/* Rótulo de porcentagem de desconto (superior-direita) */
+.porcentagem-desconto{
+  position: absolute;
+  justify-content: baseline;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 4;
+  background: var(--cor-das-bordas-e-sombra);
+  color: var(--cor-escrita);
+  font-weight: 600;
+  font-size: 24px;
+  border-radius: 20px;
+  width: 121px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .smallItem {
   flex: 0 0 auto;                 
@@ -262,6 +328,7 @@ section{
   background-size: cover;
   background-position: center;
   border-radius: 8px;
+  
 }
 
 .estrela{
@@ -299,7 +366,6 @@ section{
   flex-direction: column;
   gap: 14px;
 }
-
 .preco-produto-card{
   font-size: 20px;
   font-weight: 600;
@@ -309,15 +375,27 @@ section{
 /* --- LOGO --- */
 .logo{
   position: absolute;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   right: 20px;
-  top: 140px;
-  border-radius: 100%;
+  z-index: 4;
+  top: 95px;
+  border-radius: 53.5px;
   background-color: #000000;
   background-image: url(/assets/img/icon-amazon.png);
   background-position: center;
   background-size: cover;
+}
+
+.desconto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nome-empresa{
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--cor-escrita);
 }
 
 .areaItens{
@@ -327,4 +405,17 @@ section{
   flex-direction: column;
   gap: 10px;
   
+}
+
+.nome-empresa{
+  position: absolute;
+  font-weight: 600;
+  font-size: 32px;
+  left: 20px;
+  top: 115px;
+  transform: translateY(-50%);
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
