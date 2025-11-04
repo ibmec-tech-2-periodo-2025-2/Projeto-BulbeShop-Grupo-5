@@ -334,10 +334,14 @@ a{
 }
 
 .icones-categorias{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    width: 100vw;
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .fundo-imagem-icone{
@@ -351,42 +355,72 @@ a{
     grid-column: 1/2;
 }
 
+.fundo-imagem-icone div{
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
 .icone-texto-categoria{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  text-align: center;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.icone-texto-categoria.ativo {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.icone-texto-categoria.ativo .fundo-imagem-icone div {
+  width: 100px;
+  height: 100px;
+}
+
+.icone-texto-categoria.ativo .nome-icone {
+  opacity: 1;
 }
 
 .nome-icone {
-    font-size: 12px;
     color: var(--cor-titulos);
     text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .imagem-icone1, .imagem-icone2, .imagem-icone3, .imagem-icone4, .imagem-icone5{
     width: 36px;
     height: 36px;
+
+    background-position: center;
+    background-size: cover;
 }
 
 .imagem-icone1{
-    background-image: url(./img/lightbulb-04.png);
+    background-image: url(./img/lightbulb-04.svg);
 }
 
 .imagem-icone2{
-    background-image: url(./img/tv-02.png);
+    background-image: url(./img/tv-02.svg);
 }
 
 .imagem-icone3{
-    background-image: url(./img/phone-01.png);
+    background-image: url(./img/phone-01.svg);
 }
 
 .imagem-icone4{
-    background-image: url(./img/phone-01.png);
+    background-image: url(./img/heart-circle.svg);
 }
 
 .imagem-icone5{
-    background-image: url(./img/phone-01.png);
+    background-image: url(./img/sun.svg);
 }
 
 .sessao-card {
