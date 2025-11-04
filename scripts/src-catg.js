@@ -35,13 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
           <div class="espe">
             <h2 class="nome-produto">${produto.nome}</h2>
-            <div class="estrelas">
-              <img src="/assets/img/star-01.png" alt="⭐" />
-              <img src="/assets/img/star-01.png" alt="⭐" />
-              <img src="/assets/img/star-01.png" alt="⭐" />
-              <img src="/assets/img/star-01.png" alt="⭐" />
-              <img src="/assets/img/star-01.png" alt="⭐" />
-            </div>
             <h2 class="preco">R$ ${produto.preco.toFixed(2)}</h2>
             <a href="/paginas/produto.html?id=${produto.id}">
               <button>Comprar</button>
