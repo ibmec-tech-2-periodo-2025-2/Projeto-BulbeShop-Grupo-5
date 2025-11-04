@@ -6,9 +6,10 @@
 }
 
 :root{
-    --cor-fundo-body: #E1E6EA;
-    --cor-fundo-imagem: #fff;
-    --cor-das-bordas-e-sombra: #000000;
+    --cor-fundo-body: #F6F9F9;
+    --cor-fundo-imagem: #E1E6EA;
+    --cor-fundo-card: white;
+    --cor-das-bordas-e-sombra: #D1D9E0;
     --cor-preco: #0B08C4;
     --cor-header-botao: #08068D;
     --cor-nome-produto: #08068D;
@@ -47,7 +48,7 @@
 }
 
 body{
-    max-width: (100vw);
+    width: 100vw;
     height: 100vh;
     background-color: var(--cor-fundo-body);
 } 
@@ -61,7 +62,8 @@ main{
 
 .produto{
     position: relative;
-    background-color: var(--cor-fundo-imagem);
+    background-color: var(--cor-fundo-card);
+    border: 2px solid var(--cor-das-bordas-e-sombra);
     width: 380px;
     height: 220px;
     border-radius: 20px;
@@ -87,11 +89,13 @@ main{
 
 .nome-produto{
     color: var(--cor-nome-produto);
-    font-size: 25px;
+    font-size: 16px;
+    
 }
 
 .descricao{
     font-size: 12px;
+    
 }
 
 .preco{
@@ -111,7 +115,7 @@ button{
 
 
 .categoria{
-    width: 108vw;
+    width: 100vw;
     height: 90px;
     display: flex;
     flex-direction: column;
@@ -147,8 +151,8 @@ button{
 }
 
 .fotoproduto{
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
 }
 
 #estrela {
