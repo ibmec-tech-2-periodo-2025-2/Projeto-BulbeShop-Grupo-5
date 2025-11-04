@@ -364,7 +364,7 @@ a{
     text-decoration: none;
 }
 
-.imagem-icone1, .imagem-icone2, .imagem-icone3{
+.imagem-icone1, .imagem-icone2, .imagem-icone3, .imagem-icone4, .imagem-icone5{
     width: 36px;
     height: 36px;
 }
@@ -378,6 +378,14 @@ a{
 }
 
 .imagem-icone3{
+    background-image: url(./img/phone-01.png);
+}
+
+.imagem-icone4{
+    background-image: url(./img/phone-01.png);
+}
+
+.imagem-icone5{
     background-image: url(./img/phone-01.png);
 }
 
