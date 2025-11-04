@@ -10,6 +10,7 @@ const produtos = [
 // Seleciona elementos
 const searchBar = document.getElementById("pesquisa");
 const container = document.getElementById("container-produtos-pesquisa");
+const carroselOne = document.getElementById("")
 
 // Garante que os elementos existem
 if (!searchBar || !container) {
@@ -92,7 +93,7 @@ if (!searchBar || !container) {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.querySelector(".sessao-card"); // onde os cards vão aparecer
+  const container = document.querySelector(".carrossel"); // onde os cards vão aparecer
 
   fetch("./data/produtos.json")
     .then(response => response.json())
@@ -101,6 +102,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.classList.add("card-produto");
         card.innerHTML = `
+        
+          
           <div class="imagem-card" style="background-image: url('${produto.imagem}')"></div>
           <div class="info-card">
             <h3 class="nome-produto-card">${produto.nome}</h3>
@@ -112,6 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
               Ver produto
             </a>
           </div>
+          
         `;
         container.appendChild(card);
       });
