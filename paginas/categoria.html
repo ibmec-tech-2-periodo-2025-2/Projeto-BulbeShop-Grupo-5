@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,76 +12,52 @@
       rel="stylesheet"
     />
   </head>
-  <header>
+
+  <body>
+    <!-- HEADER -->
+    <header>
       <div class="parte-superior">
         <div class="itens-header">
           <a href="/index.html">
-          <div class="icon-seta">
-            <img src="/assets/img/corner-up-left.png" alt="" id="seta"/>
-          </div></a>
+            <div class="icon-seta">
+              <img src="/assets/img/corner-up-left.png" alt="Voltar" id="seta" />
+            </div>
+          </a>
+
           <a href="/index.html">
-          <div class="logo-bulbe">
-            <img src="/assets/img/logo-base.png" alt="" id="bulbe"/>
-          </div></a>
-          <a href="/paginas/favoritos.html">
+            <div class="logo-bulbe">
+              <img src="/assets/img/logo-base.png" alt="Logo Bulbe" id="bulbe" />
+            </div>
+          </a>
+
           <div class="sino-e-avatar">
-            <div class="icon-sino">
-              <img src="/assets/img/bookmark.svg" alt="" id="sino"/>
-            </div></a>
+            <a href="/paginas/favoritos.html">
+              <div class="icon-sino">
+                <img src="/assets/img/bookmark.svg" alt="Favoritos" id="sino" />
+              </div>
+            </a>
             <div class="icon-user">
-              <img src="/assets/img/Avatar.png" alt="" id="avatar"/>
+              <img src="/assets/img/Avatar.png" alt="Usuário" id="avatar" />
             </div>
           </div>
         </div>
       </div>
-  </header>
+    </header>
 
-  <body>
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
-        <div class="categoria">
-            <h3 id="classe">Casa Inteligente</h3>
-            <div id="icon-lampada">
-                <img src="/assets/img/lightbulb-04.png" alt="" id="lampada">
-            </div>  
+      <!-- Cabeçalho da categoria -->
+      <div class="categoria">
+        <h3 id="classe">Carregando...</h3>
+        <div id="icon-lampada">
+          <img src="/assets/img/lightbulb-04.png" alt="Ícone Categoria" id="lampada" />
         </div>
-        <div class="produto">
-                <div class="ftproduto">
-                    <img src="/assets/img/image-1.png" alt="" class="fotoproduto">
-                </div>
-                <div class="espe">
-                    <h2 class="nome-produto">Smart Lâmpada</h2>
-                    <div class="estrelas">
-                        <img src="/assets/img/star-01.png" alt="" id="estrela">
-                        <img src="/assets/img/star-01.png" alt="" id="estrela">
-                        <img src="/assets/img/star-01.png" alt="" id="estrela">
-                        <img src="/assets/img/star-01.png" alt="" id="estrela">
-                        <img src="/assets/img/star-01.png" alt="" id="estrela">
-                    </div>
-                    <h2 class="preco">R$ 56,05</h2>
-                    <a href="/paginas/produto.html">
-                    <button>Comprar</button>
-                    </a>
-                </div>
-        </div>
+      </div>
 
-        <div class="produto">
-            <div class="ftproduto">
-                <img src="/assets/img/image-1.png" alt="" class="fotoproduto">
-            </div>
-            <div class="espe">
-                <h2 class="nome-produto">Smart Lâmpada</h2>
-                <div class="estrelas">
-                    <img src="/assets/img/star-01.png" alt="" id="estrela">
-                    <img src="/assets/img/star-01.png" alt="" id="estrela">
-                    <img src="/assets/img/star-01.png" alt="" id="estrela">
-                    <img src="/assets/img/star-01.png" alt="" id="estrela">
-                    <img src="/assets/img/star-01.png" alt="" id="estrela">
-                </div>
-                <h2 class="preco">R$ 56,05</h2>
-                <button>Comprar</button>
-            </div>
-        </div>
-
+      <!-- Lista de produtos (renderizada via JS) -->
+      <div id="lista-produtos"></div>
     </main>
 
+    <script src="/scripts/categorias.js"></script>
   </body>
+</html>
