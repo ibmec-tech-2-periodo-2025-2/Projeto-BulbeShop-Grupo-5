@@ -17,7 +17,7 @@ header {
   background-color: var(--cor-header-botao);
   height: 90px;
   width: 100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 :root{
@@ -378,7 +378,7 @@ section{
   width: 40px;
   height: 40px;
   right: 20px;
-  z-index: 4;
+  z-index: 1;
   top: 95px;
   border-radius: 53.5px;
   background-color: #000000;
@@ -414,7 +414,7 @@ section{
   left: 20px;
   top: 115px;
   transform: translateY(-50%);
-  z-index: 6;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: flex-start;

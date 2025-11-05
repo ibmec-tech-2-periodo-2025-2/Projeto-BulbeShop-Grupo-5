@@ -13,6 +13,7 @@
     --cor-preco: #0B08C4;
     --cor-header-botao: #08068D;
     --cor-nome-produto: #08068D;
+    --cor-main:#F6F9F9;
 }
 
 .parte-superior{
@@ -21,7 +22,7 @@
     align-items: center;
     position: relative;
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color: var(--cor-header-botao);
 } 
 
@@ -49,8 +50,12 @@
 
 body{
     width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-color: var(--cor-fundo-body);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 } 
 
 main{
