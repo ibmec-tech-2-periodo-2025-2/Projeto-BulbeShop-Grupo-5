@@ -258,6 +258,12 @@ a{
   text-align: center;
 }
 
+.headerSpace{
+    height: 30px;
+    width: 100%;
+  
+}
+
 .imagem-banner{
   display: flex;
   justify-content: center;

@@ -55,7 +55,7 @@
 - falta de conhecimento sobre js
 
 ## 🗓️ Próximo passo
-- fiz da sprint 3
+- não existe mais
 
 # Isaac
 
