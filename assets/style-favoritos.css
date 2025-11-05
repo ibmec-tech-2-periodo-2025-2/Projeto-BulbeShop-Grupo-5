@@ -21,7 +21,7 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    height: 100px;
+    height: 90px;
     width: 100vw;
     background-color: var(--cor-header-botao);
 } 
@@ -55,7 +55,6 @@ body{
     background-color: var(--cor-fundo-body);
     display: flex;
     flex-direction: column;
-    gap: 10px;
 } 
 
 main{
@@ -70,6 +69,9 @@ main{
     background-color: var(--cor-fundo-body);
     padding-bottom: 100px;
     padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 } 
 
 .produto{
@@ -184,7 +186,7 @@ button{
 
 .titulo h1{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .icone-fav {
