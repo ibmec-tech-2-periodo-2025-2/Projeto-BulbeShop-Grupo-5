@@ -83,24 +83,28 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(produtos => {
       produtos.forEach(produto => {
         const card = document.createElement("div");
-        card.classList.add("card-produto");
+        card.classList.add("smallItem");
         card.innerHTML = `
         
-          
-          <div class="imagem-card">
-            <img src="/assets/img/${produto.imagem}" alt="${produto.nome}" class="imagem-card" />
-          </div>
-          <div class="info-card">
-            <h3 class="nome-produto-card">${produto.nome}</h3>
-            <p class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</p>
-            <div class="avaliacao">
-              ${"⭐".repeat(Math.round(produto.avaliacao))}
+            <a href="${produto.pagina}">
+            <div class="card-produto">
+              <div class="imagem-card">
+              <img src="/assets/img/${produto.imagem}" alt="${produto.nome}" class="imagem-card" /></div>
+              <div class="info-card">
+                <div class="info-one">
+                  <div class="nome-produto-card">${produto.nome}</div>
+                  
+                </div>
+                <div class="info-two">
+                  <div class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</div>
+                  
+                    <div class="botao-produto">Ver Produto</div>
+                  
+                </div>
+              </div>
             </div>
-            <a href="${produto.pagina}" class="botao-produto" target="_blank">
-              Ver produto
-            </a>
-          </div>
           
+            </a>
         `;
         container.appendChild(card);
       });

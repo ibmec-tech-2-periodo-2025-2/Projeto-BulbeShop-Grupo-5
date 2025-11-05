@@ -205,7 +205,6 @@ aside {
 a{
  text-decoration: none;
  color: var(--cor-titulos)
-
 }
 
 .empresa-principal {
@@ -494,7 +493,7 @@ a{
     font-weight: 600;
 }
 
-.card-produto {
+/* .card-produto {
   width: 250px;
   background-color: var(--cor-fundo-branco);
   border: 1px solid var(--cor-borda-sessao-card);
@@ -507,7 +506,7 @@ a{
   gap: 10px;
   text-align: center;
   transition: transform 0.2s ease;
-}
+} */
 
 .imagem-card {
   width: 120px;
@@ -529,30 +528,21 @@ a{
     gap: 2px;
 }
 
-.botao-produto {
-  width: 100%;
-  max-width: 140px;
-  height: 34px;
-  background-color: var(--cor-header-botao);
-  color: var(--cor-main);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-}
+
 
 .nome-produto-card {
   font-size: 18px;
   font-weight: 500;
   color: var(--cor-titulos);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .info-card{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
 }
 
 .preco-produto-card {
@@ -589,7 +579,7 @@ a{
   position: relative;
 }
 
-#container-produtos-pesquisa .card-produto {
+#container-produtos-pesquisa .smallItem {
   width: 100%;
   background-color: var(--cor-fundo-branco);
   border: 1px solid var(--cor-borda-sessao-card);
@@ -602,7 +592,7 @@ a{
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#container-produtos-pesquisa .card-produto:hover {
+#container-produtos-pesquisa .smallItem:hover {
   transform: translateY(-2px);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
@@ -672,7 +662,7 @@ a{
   display: none;                  
 }
 
-.card-produto {
+.smallItem {
   flex: 0 0 auto;                 
   scroll-snap-align: center;      
   width: 300px;
@@ -684,6 +674,60 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  padding: 10px;
+}
+
+.imagem-card{
+  background-image: url(./img/imagem-card.png);
+  width: 112px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.estrela{
+    width: 14px;
+    height: 14px;
+    background-image: url(./img/star-01.png);
+    background-size: 14px;
+}
+
+.avaliacao{
+    display: flex;
+    gap: 2px;
+}
+
+.card-produto {
+  width: 277px;
+  height: 184px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px;
+}
+
+.botao-produto {
+  width: 100px;
+  max-width: 140px;
+  height: 34px;
+  background-color: var(--cor-header-botao);
+  color: var(--cor-main);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info-two{
+  display: flex;
   flex-direction: column;
 }
 
