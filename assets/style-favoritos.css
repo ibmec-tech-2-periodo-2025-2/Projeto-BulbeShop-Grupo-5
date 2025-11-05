@@ -6,9 +6,10 @@
 }
 
 :root{
-    --cor-fundo-body: #E1E6EA;
-    --cor-fundo-imagem: #fff;
-    --cor-das-bordas-e-sombra: #000000;
+    --cor-fundo-body: #F6F9F9;
+    --cor-fundo-imagem: #E1E6EA;
+    --cor-fundo-card: white;
+    --cor-das-bordas-e-sombra: #D1D9E0;
     --cor-preco: #0B08C4;
     --cor-header-botao: #08068D;
     --cor-nome-produto: #08068D;
@@ -20,7 +21,7 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    height: 100px;
+    height: 90px;
     width: 100vw;
     background-color: var(--cor-header-botao);
 } 
@@ -49,11 +50,11 @@
 
 body{
     width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-color: var(--cor-fundo-body);
     display: flex;
     flex-direction: column;
-    gap: 10px;
 } 
 
 main{
@@ -62,10 +63,21 @@ main{
     justify-content: center;
     align-items: center; 
 }
+.caixa{
+    width: 100vw;
+    border-radius: 20px;
+    background-color: var(--cor-fundo-body);
+    padding-bottom: 100px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
 
 .produto{
     position: relative;
-    background-color: var(--cor-fundo-imagem);
+    background-color: var(--cor-fundo-card);
+    border: 2px solid var(--cor-das-bordas-e-sombra);
     width: 380px;
     height: 220px;
     border-radius: 20px;
@@ -76,9 +88,30 @@ main{
     gap: 20px; 
 }
 
-.ftproduto {
+.ftproduto1 {
     grid-column: 1/2;
-    background-image: url('img/image 1.png');
+    background-image: url('/assets/img/lixeira-inteligente.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.ftproduto2 {
+    grid-column: 1/2;
+    background-image: url('/assets/img/lampada-rgb.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.ftproduto3 {
+    grid-column: 1/2;
+    background-image: url('/assets/img/tomada-inteligente.webp');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.ftproduto4 {
+    grid-column: 1/2;
+    background-image: url('/assets/img/luminaria-sensor.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -87,20 +120,17 @@ main{
 .espe{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 } 
 
 .nome-produto{
     color: var(--cor-nome-produto);
-    font-size: 25px;
-}
-
-.descricao{
-    font-size: 12px;
+    font-size: 22px;
 }
 
 .preco{
     color: var(--cor-preco);
-    font-size: 25px;
+    font-size: 22px;
 }
 
 button{
@@ -109,24 +139,21 @@ button{
     width: 160px;
     height: 40px;
     border:none;
-    border-radius: 7px;
+    border-radius: 20px;
     font-size: 17px;
 }
 
 .x {
-    position: relative;
-    bottom: 190px;
-    left: 150px;
-    background: none;
-    border: none;
-    color: var(--cor-header-botao);
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    line-height: 1;
-    width: 17px;
-    height: 26px;
-}
+    background-image: url('/assets/img/x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}  
 
 .botao-mais {
     position: fixed;
@@ -142,43 +169,35 @@ button{
     font-size: 30px;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
-}
+}  
 
-.imagem-x {
-    background-image: url("./img/times.svg");
-    width: 17px;
-    height: 17px;
-}
-
-main{
-    background-color: var(--cor-main);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.titulo-imagem-favoritos{
+.titulo {
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    
+    justify-content: space-between;
+    background-color: var(--cor-fundo-imagem);
+    padding: 14px 18px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+    margin-bottom: -10px;
+
 }
 
-.titulo-imagem-favoritos h1{
-    font-size: 32px;
+.titulo h1{
+    font-size: 30px;
     font-weight: 600;
 }
 
-.imagem-favoritos {
-    width: 65px;
-    height: 70px;
+.icone-fav {
+    width: 60px;
+    height: 65px;
+    background-image: url('/assets/img/bookmark.svg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: var(--cor-header-botao);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-size: 60%;
+    border-radius: 17px;
 }
 
-.imagem-favoritos img{
-    width: 39px;
-    height: 39px;
-}

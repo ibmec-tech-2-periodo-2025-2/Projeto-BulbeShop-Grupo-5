@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Página Home</title>
+    <title>Página Favoritos</title>
     <link rel="stylesheet" href="/assets/style-favoritos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,52 +12,81 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    
-        <div class="parte-superior">
-          <div class="itens-header">
-            <a href="/index.html">
-            <div class="icon-seta">
-              <img src="/assets/img/corner-up-left.png" alt="" id="seta"/>
-            </div></a>
-            <a href="/index.html">
-            <div class="logo-bulbe">
-              <img src="/assets/img/logo-base.png" alt="" id="bulbe"/>
-            </div></a>
-            <div class="sino-e-avatar">
-              <a href="/paginas/favoritos.html">
-              <div class="icon-sino">
-                <img src="/assets/img/FavoritosNaPag.svg" alt="" id="sino" />
-              </div></a>
-              <div class="icon-user">
-                <img src="/assets/img/Avatar.png" alt="" id="avatar"/>
-              </div>
-            </div>
+    <header>
+    <div class="parte-superior">
+      <div class="itens-header">
+        <a href="/index.html"><div class="icon-seta">
+          <img src="/assets/img/corner-up-left.png" alt="" id="seta" />
+        </div></a>
+        <a href="/index.html">
+        <div class="logo-bulbe">
+          <img src="/assets/img/logo-base.png" alt="" id="bulbe" />
+        </div></a>
+        <div class="sino-e-avatar">
+          <a href="/paginas/favoritos.html"><div class="icon-sino">
+            <img src="/assets/img/FavoritosNaPag.svg" alt="" id="sino" />
+          </div></a>
+          <div class="icon-user">
+            <img src="/assets/img/Avatar.png" alt="" id="avatar" />
           </div>
         </div>
-
-      <div class="titulo-imagem-favoritos">
-        <h1>Favoritos</h1>
-        <div class="imagem-favoritos">
-          <img src="/assets/img/bookmark.svg" alt="" />
-        </div>
       </div>
-    <main>
+    </div>
+  </header>
+
+  <body>
+     <main>
+      <div class="titulo">
+        <h1>Favoritos</h1>
+        <div class="icone-fav"></div>
+      </div>
+
+      <section class="caixa">
+        
         <div class="produto">
-                <div class="ftproduto">
-                    <img src="assets/img/image 1.png" alt="">
-                </div>
+          <div class="x"></div>
+                <div class="ftproduto1"></div>
                 <div class="espe">
-                    <h2 class="nome-produto">Smart Lâmpada</h2>
-                    <p class="descricao">Wi-Fi RGB+ Positivo Casa Inteligente - E27 - 10W...</p>
-                    <h2 class="preco">R$ 56,05</h2>
+                    <h2 class="nome-produto">Lixeira Inteligente</h2>
+                    <h2 class="preco">R$ 249.00</h2>
                     <a href="/paginas/produto.html">
                     <button>Comprar</button></a>
-                    <button class="x"><div class="imagem-x"></div></button>
+                    
                 </div>
         </div>
+          <div class="produto">
+            <div class="x"></div>
+              <div class="ftproduto2"></div>
+              <div class="espe">
+                  <h2 class="nome-produto">Smart Lâmpada</h2>
+                  <h2 class="preco">R$ 56.05</h2>
+                  <button>Comprar</button>
+              </div>
+          </div>
+  
+          <div class="produto">
+            <div class="x"></div>
+              <div class="ftproduto3"></div>
+              <div class="espe">
+                  <h2 class="nome-produto">Tomada Smart</h2>
+                  <h2 class="preco">R$ 139.90</h2>
+                  <button>Comprar</button>
+              </div>
+          </div>
+  
+          <div class="produto">
+            <div class="x"></div>
+              <div class="ftproduto4"></div>
+              <div class="espe">
+                  <h2 class="nome-produto">Luminária Solar com Sensor</h2>
+                  <h2 class="preco">R$ 36.90</h2>
+                  <button>Comprar</button>
+              </div>
+          </div>
+        </section>
+        <button class="botao-mais">+</button> 
+    </main> 
 
-    </main>
-    <button class="botao-mais">+</button>
+    <script src="/scripts/favoritos.js"></script>
 
   </body>
