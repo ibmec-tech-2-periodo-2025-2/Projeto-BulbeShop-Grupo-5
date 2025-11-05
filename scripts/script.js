@@ -112,9 +112,28 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(err => console.error("Erro ao carregar produtos:", err));
 });
 
+const carrossel = document.querySelector(".carrossel-categorias");
+const categorias = document.querySelectorAll(".icone-texto-categoria");
 
-            
-            
-        //  <div class="avaliacao">
-        //             ${"⭐".repeat(Math.round(produto.avaliacao))}
-        //           </div>   
+function atualizarCentro() {
+  let centroTela = window.innerWidth / 2;
+  let ativo = null;
+  let menorDist = Infinity;
+
+  categorias.forEach(categoria => {
+    const rect = categoria.getBoundingClientRect();
+    const centroItem = rect.left + rect.width / 2;
+    const dist = Math.abs(centroItem - centroTela);
+    if (dist < menorDist) {
+      menorDist = dist;
+      ativo = categoria;
+    }
+  });
+
+  categorias.forEach(c => c.classList.remove("ativo"));
+  if (ativo) ativo.classList.add("ativo");
+}
+
+carrossel.addEventListener("scroll", atualizarCentro);
+window.addEventListener("resize", atualizarCentro);
+atualizarCentro();
