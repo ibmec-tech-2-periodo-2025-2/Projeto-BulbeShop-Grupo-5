@@ -73,6 +73,8 @@ header {
   display: flex;
   justify-content: space-between;
   width: 23%;
+  height: 40px;
+  align-items: center;
 }
 
 #bulbe {
@@ -476,16 +478,20 @@ a{
 
 .titulo-sessao-card{
     display: flex;
+    flex-direction: column;
     color: var(--cor-titulos);
     font-size: 26px;
     gap: 5px;
     border-bottom: 1px solid var(--cor-borda-sessao-card);
+    width: 85%;
+    font-weight: 500;
 }
   
 .titulo-sessao-card p{
     display: flex;
-    font-size: 12px;
+    font-size: 14px;
     align-items: center;
+    font-weight: 600;
 }
 
 .card-produto {
@@ -679,4 +685,19 @@ a{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.sino-e-avatar a{
+  width: 28px;
+  height: 28px;
+}
+
+.icon-user{
+  height: 40px;
+}
+
+main {
+  background-color: var(--cor-main);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
