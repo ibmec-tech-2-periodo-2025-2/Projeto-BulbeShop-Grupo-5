@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("preco-produto").textContent = `R$ ${produto.preco.toFixed(2)}`;
       document.getElementById("foto-principal").src = `/assets/img/${produto.imagem}`;
       document.getElementById("link-afiliado").href = produto.linkAfiliado;
-      document.getElementById("logo-marca").textContent = produto.loja;
+      document.getElementById("logo-marca").src = `/assets/img/${produto.lojalogo}`;
 
 
       // 5️⃣ Tratar imagem ausente

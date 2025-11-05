@@ -38,17 +38,20 @@
     <div class="aviso">
         <h3 id="aviso-saida">Você está saindo do site da Bulbe e será redirecionado para o parceiro, deseja continuar?</h3>
         <div class="botoes-aviso">
-            <a href="/paginas/produto.html">
-              <button class="botao-aviso" id="botao-aviso-1">Não</button>
+            <a href="/paginas/produto.html" id="botao-aviso-1">
+              <button class="botao-aviso" >Não</button>
             </a> 
-            <button class="botao-aviso" id="botao-aviso-2">Sim</button>
+            <a href="" id="botao-aviso-2">
+              <button class="botao-aviso" >Sim</button>
+            </a>
+            
         </div>
     </div>
 
     <main>
       <div class="nome-e-imgs">
         <div class="nome">
-          <h3>Smart Lâmpada</h3>
+          <h3 id="nome-produto">Smart Lâmpada</h3>
         </div>
         <div  class="img-maior-setas">
           <img src="/assets/img/arrow-narrow-left.png" alt="" id="seta-esq">
@@ -71,7 +74,7 @@
 
         <div class="marca-e-avaliacao">
           <div class="avaliacao">
-            <div class="estrelas">
+            <!-- <div class="estrelas">
               <img src="/assets/img/Icon.png" alt="">
               <img src="/assets/img/Icon.png" alt="">
               <img src="/assets/img/Icon.png" alt="">
@@ -79,31 +82,33 @@
               <img src="/assets/img/Icon.png" alt="">
             </div>
             <div class="num-aval">(100)</div>
-          </div>
+          </div> -->
           <div class="marca">
-            <img src="/assets/img/image-6.png" alt="">
+            <img id="logo-marca" src="/assets/img/image-6.png" alt="Marca" />
           </div>
         </div>
 
         <div class="specs">
-          <h4>Wi-Fi RGB + Positivo Casa Inteligente - E27 - 10W - 1100 lm - RGB - 2700K/6500K - Wi-Fi - Vida Útil 15.000h</h4>
+          <h4 id="descricao-produto"></h4>
         </div>
 
         <div class="preco">
-          <h1>R$56,05</h1>
-          <h4>ou</h4>
-          <h4>6x de R$ 9,83</h4>
+          <h1 id="preco-produto"></h1>
+          <h4 id="parcelamento-produto"></h4>
         </div>
 
         <div class="botao-e-bookmark">
           <div class="botao-final">
-            <button>Ir para o site</button> 
+            <a id="link-afiliado" href="#" target="_blank">
+              <button>Ir para o site</button>
+            </a>
           </div>
           <div class="bookmark">
-            <img src="/assets/img/Component.png" alt="">
+            <img src="/assets/img/Component.png" alt="Favoritar" />
           </div>
         </div>
 
       </div>
     </main>
+    <script src="/scripts/produto.js"></script>
   </body>
