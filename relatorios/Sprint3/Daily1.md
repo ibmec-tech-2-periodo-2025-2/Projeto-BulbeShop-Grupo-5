@@ -76,17 +76,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Começo de Sprint
 - 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Apoio nos ajustes do Figma e procura por erros de UX
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Uso incompleto de imagens da própria bulbe
 
 ## 🗓️ Próximo passo
-- 
+- Consertar totalmente o Figma e criar algumas páginas HTML faltantes
 
 # Matheus
 

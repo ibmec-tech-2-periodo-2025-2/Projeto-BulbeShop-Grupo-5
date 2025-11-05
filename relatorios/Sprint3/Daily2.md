@@ -75,17 +75,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Apoio na criação de ideias para solucionar pequenos erros no Figma
 - 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Ainda apoio no Figma durante aulas do Daniel
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- Criar páginas HTML suplementares e refinar código JS do Isaac
 
 # Matheus
 

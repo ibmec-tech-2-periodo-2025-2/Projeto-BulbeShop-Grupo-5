@@ -74,17 +74,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
-- 
+- Adicionei imagens e descrições referentes ao arquivo JSON do Isaac e seu respectivo código JS
+- Testes recorrentes de usabilidade, sobretudo no menu principal e na página de produto
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Criando página da Leroy Merlin nos moldes da outra página de afiliados
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Implantar JS também nessa página
 
 ## 🗓️ Próximo passo
-- 
+- Ajustes gerais nos scripts JS para a próxima sprint
 
 # Matheus
 

@@ -74,17 +74,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Design do Figma e seleção das imagens de produtos do arquivo JSON do Isaac
 - 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Associando imagens aos produtos e conferindo a viabilidade dos links
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Entender parte do código JS que foi construído com certa ajuda da IA
 
 ## 🗓️ Próximo passo
-- 
+- Criar página de afiliado da Leroy Merlin e consertar CSS que foi alterado após introdução do script JS
 
 # Matheus
 
