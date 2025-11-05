@@ -60,16 +60,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- ajustes no figma
 
 ## 🚧 O que estou fazendo agora?
-- 
+- inicio dos scripts
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento sobre o tema
 
 ## 🗓️ Próximo passo
-- 
+- implementação de dados JSON
 
 # José
 

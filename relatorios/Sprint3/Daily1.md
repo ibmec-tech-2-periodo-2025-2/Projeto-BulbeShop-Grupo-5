@@ -62,16 +62,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- encerramento de sprint
 
 ## 🚧 O que estou fazendo agora?
-- 
+-  organização de backlog
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- organização do figma
 
 # José
 

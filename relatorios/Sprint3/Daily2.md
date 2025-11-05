@@ -61,16 +61,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- organização de backlog
 
 ## 🚧 O que estou fazendo agora?
-- 
+- ajuste no figma
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- inicio dos scripts
 
 # José
 
