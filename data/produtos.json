@@ -130,5 +130,113 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "O Echo Dot com o melhor som já lançado.",
     "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 12,
+    "nome": "Ar Condicionado Split Inverter Quente e Frio ",
+    "preco": 1899.00,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
+  },
+  {
+    "id": 11,
+    "nome": "Echo Dot (Geração mais recente)",
+    "preco": 398.99,
+    "categoria": "Eletrônicos",
+    "imagem": "echo-dot.jpg",
+    "linkAfiliado": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1",
+    "loja": "Amazon",
+    "lojalogo": "icon-amazon.png",
+    "descricao": "O Echo Dot com o melhor som já lançado.",
+    "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=11"
   }
 ]
