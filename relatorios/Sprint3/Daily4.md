@@ -46,15 +46,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- correção do carrossel na home
 
 ## 🚧 O que estou fazendo agora?
-- 
+- correção da area de pesquisa da home
+
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento sobre js
 
 ## 🗓️ Próximo passo
-- 
+- fiz da sprint 3
 
 # Isaac
 

@@ -47,15 +47,17 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Nada, começo de Sprint
+
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Fazendo pequenos ajustes no Figma
+
 ## 🧱 Quais dificuldades encontrei?
-- 
+- o escasso compartilhamento de ideias junto ao daniel(professor) 
 
 ## 🗓️ Próximo passo
-- 
+- redesign da pagina de afiliados no html e css referente as mudancas do figma
 
 # Isaac
 

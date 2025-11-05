@@ -46,15 +46,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- redesign da pagina de afiliados no html e css referente as mudancas do figma
 
 ## 🚧 O que estou fazendo agora?
-- 
+- correção do carrossel na home
+
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento sobre js para a correção do tal quanto há sua conexão ao carrossel
 
 ## 🗓️ Próximo passo
-- 
+- correção da area de pesquisa da home
 
 # Isaac
 
