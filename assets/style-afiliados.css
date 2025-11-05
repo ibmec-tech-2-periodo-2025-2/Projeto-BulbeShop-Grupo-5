@@ -186,9 +186,7 @@ section{
 
 
 
-.bigNome h1 {
-  font-size: 17px;
-}
+
 
 .bigP {
   color: var(--cor-preco1);
@@ -422,4 +420,20 @@ section{
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.bigNome h1 {
+  width: 150%;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--cor-titulos);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+a{
+ text-decoration: none;
+ color: var(--cor-titulos)
 }
