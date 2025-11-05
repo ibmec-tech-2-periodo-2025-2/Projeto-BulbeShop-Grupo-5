@@ -60,16 +60,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- ScrptsJS
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Implementando dados do Json e animações
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- encerramento de sprint
 
 # José
 
