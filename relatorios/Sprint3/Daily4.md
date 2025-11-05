@@ -18,16 +18,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Finalizei a página dos afiliados.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Linkando as páginas.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Usar o JS para colocar imagens nos carrosseis.
 
 ## 🗓️ Próximo passo
-- 
+- Garantir o funcionamento dos links e de todas as páginas da melhor maneira.
 
 # Isabella
 
@@ -46,15 +46,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- correção do carrossel na home
 
 ## 🚧 O que estou fazendo agora?
-- 
+- correção da area de pesquisa da home
+
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento sobre js
 
 ## 🗓️ Próximo passo
-- 
+- não existe mais
 
 # Isaac
 
@@ -73,17 +74,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
-- 
+- Adicionei imagens e descrições referentes ao arquivo JSON do Isaac e seu respectivo código JS
+- Testes recorrentes de usabilidade, sobretudo no menu principal e na página de produto
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Criando página da Leroy Merlin nos moldes da outra página de afiliados
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Implantar JS também nessa página
 
 ## 🗓️ Próximo passo
-- 
+- Ajustes gerais nos scripts JS para a próxima sprint
 
 # Matheus
 

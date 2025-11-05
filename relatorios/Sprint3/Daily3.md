@@ -18,16 +18,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Terminei a home.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Alinhar detalhes nas páginas dos afiliados.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Usar o JS para colocar imagens nos carrosseis.
 
 ## 🗓️ Próximo passo
-- 
+- Finalizar todos os detalhes da páginas.
 
 # Isabella
 
@@ -46,15 +46,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- redesign da pagina de afiliados no html e css referente as mudancas do figma
 
 ## 🚧 O que estou fazendo agora?
-- 
+- correção do carrossel na home
+
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento sobre js para a correção do tal quanto há sua conexão ao carrossel
 
 ## 🗓️ Próximo passo
-- 
+- correção da area de pesquisa da home
 
 # Isaac
 
@@ -73,17 +74,17 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Design do Figma e seleção das imagens de produtos do arquivo JSON do Isaac
 - 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Associando imagens aos produtos e conferindo a viabilidade dos links
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Entender parte do código JS que foi construído com certa ajuda da IA
 
 ## 🗓️ Próximo passo
-- 
+- Criar página de afiliado da Leroy Merlin e consertar CSS que foi alterado após introdução do script JS
 
 # Matheus
 

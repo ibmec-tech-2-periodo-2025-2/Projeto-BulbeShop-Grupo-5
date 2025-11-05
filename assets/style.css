@@ -73,6 +73,8 @@ header {
   display: flex;
   justify-content: space-between;
   width: 23%;
+  height: 40px;
+  align-items: center;
 }
 
 #bulbe {
@@ -203,7 +205,6 @@ aside {
 a{
  text-decoration: none;
  color: var(--cor-titulos)
-
 }
 
 .empresa-principal {
@@ -257,14 +258,36 @@ a{
   text-align: center;
 }
 
-.escrita-interna {
+.headerSpace{
+    height: 30px;
+    width: 100%;
+  
+}
+
+.imagem-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 224px;
+  border-radius: 20px;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+/* .escrita-interna {
   display: flex;
   word-wrap: break-word;
   width: 311px;
   text-align: left;
-}
+} */
 
-.desconto {
+/* .desconto {
   width: 139px;
   height: 47px;
   background-color: var(--cor-header-botao);
@@ -272,7 +295,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .imagem-carrossel {
   width: 39px;
@@ -333,52 +356,119 @@ a{
   background-color: var(--cor-header-botao);
 }
 
-.icones-categorias{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    width: 100vw;
+.icones-categorias {
+  display: flex; /* Alinha os ícones lado a lado */
+  gap: 15px; /* Espaço entre os ícones (reduzi um pouco) */
+  padding: 30px 16px; /* Espaço nas bordas para o 1º e último item */
+  
+  /* Importante para o 'scroll-snap' funcionar com o padding */
+  width: max-content; 
 }
 
-.fundo-imagem-icone{
-    background-color: var(--cor-header-botao);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 61px;
-    height: 66px;
-    grid-column: 1/2;
+/* O ÍCONE (Estado Padrão / Inativo) */
+.fundo-imagem-icone {
+  background-color: var(--cor-header-botao);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  
+  /* Padrão: Quadrado */
+  width: 70px;
+  height: 70px; 
 }
 
-.icone-texto-categoria{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.carrossel-categorias {
+  width: 100%; /* Garante que ocupe a largura toda */
+  overflow-x: auto; /* Habilita a rolagem */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* REMOVIDO: display: flex, justify-content: center, align-items: center 
+    Eles estavam quebrando a rolagem.
+  */
+}
+
+.carrossel-categorias::-webkit-scrollbar {
+  display: none;
+}
+
+.fundo-imagem-icone div {
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* O wrapper de cada item */
+.icone-texto-categoria {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  
+  /* Padrão: Opaco */
+  opacity: 0.6;
+}
+
+.icone-texto-categoria.ativo {
+  opacity: 1;
+}
+
+.icone-texto-categoria.ativo .fundo-imagem-icone {
+  /* Ativo: Retângulo largo */
+  width: 160px; /* Sua largura desejada */
+  height: 70px; /* Mantém a altura para um visual mais limpo */
+  border-radius: 35px;
+}
+
+.icone-texto-categoria.ativo .nome-icone {
+  /* Ativo: Visível e com altura */
+  opacity: 1;
+  height: 1.2em; /* Altura suficiente para uma linha de texto */
 }
 
 .nome-icone {
-    font-size: 12px;
-    color: var(--cor-titulos);
-    text-decoration: none;
+  color: var(--cor-titulos);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.imagem-icone1, .imagem-icone2, .imagem-icone3{
+
+.imagem-icone1, .imagem-icone2, .imagem-icone3, .imagem-icone4, .imagem-icone5{
     width: 36px;
     height: 36px;
+
+    background-position: center;
+    background-size: cover;
 }
 
 .imagem-icone1{
-    background-image: url(./img/lightbulb-04.png);
+    background-image: url(./img/lightbulb-04.svg);
 }
 
 .imagem-icone2{
-    background-image: url(./img/tv-02.png);
+    background-image: url(./img/tv-02.svg);
 }
 
 .imagem-icone3{
-    background-image: url(./img/phone-01.png);
+    background-image: url(./img/phone-01.svg);
+}
+
+.imagem-icone4{
+    background-image: url(./img/heart-circle.svg);
+}
+
+.imagem-icone5{
+    background-image: url(./img/sun.svg);
 }
 
 .sessao-card {
@@ -388,25 +478,28 @@ a{
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  
 }
 
 
 .titulo-sessao-card{
     display: flex;
+    flex-direction: column;
     color: var(--cor-titulos);
     font-size: 26px;
     gap: 5px;
     border-bottom: 1px solid var(--cor-borda-sessao-card);
+    width: 85%;
+    font-weight: 500;
 }
   
 .titulo-sessao-card p{
     display: flex;
-    font-size: 12px;
+    font-size: 14px;
     align-items: center;
+    font-weight: 600;
 }
 
-.card-produto {
+/* .card-produto {
   width: 250px;
   background-color: var(--cor-fundo-branco);
   border: 1px solid var(--cor-borda-sessao-card);
@@ -419,7 +512,7 @@ a{
   gap: 10px;
   text-align: center;
   transition: transform 0.2s ease;
-}
+} */
 
 .imagem-card {
   width: 120px;
@@ -441,30 +534,21 @@ a{
     gap: 2px;
 }
 
-.botao-produto {
-  width: 100%;
-  max-width: 140px;
-  height: 34px;
-  background-color: var(--cor-header-botao);
-  color: var(--cor-main);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-}
+
 
 .nome-produto-card {
   font-size: 18px;
   font-weight: 500;
   color: var(--cor-titulos);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .info-card{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
 }
 
 .preco-produto-card {
@@ -501,7 +585,7 @@ a{
   position: relative;
 }
 
-#container-produtos-pesquisa .card-produto {
+#container-produtos-pesquisa .smallItem {
   width: 100%;
   background-color: var(--cor-fundo-branco);
   border: 1px solid var(--cor-borda-sessao-card);
@@ -514,7 +598,7 @@ a{
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#container-produtos-pesquisa .card-produto:hover {
+#container-produtos-pesquisa .smallItem:hover {
   transform: translateY(-2px);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
@@ -584,7 +668,7 @@ a{
   display: none;                  
 }
 
-.card-produto {
+.smallItem {
   flex: 0 0 auto;                 
   scroll-snap-align: center;      
   width: 300px;
@@ -596,5 +680,74 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  padding: 10px;
+}
+
+.imagem-card{
+  background-image: url(./img/imagem-card.png);
+  width: 112px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.estrela{
+    width: 14px;
+    height: 14px;
+    background-image: url(./img/star-01.png);
+    background-size: 14px;
+}
+
+.avaliacao{
+    display: flex;
+    gap: 2px;
+}
+
+.card-produto {
+  width: 277px;
+  height: 184px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px;
+}
+
+.botao-produto {
+  width: 100px;
+  max-width: 140px;
+  height: 34px;
+  background-color: var(--cor-header-botao);
+  color: var(--cor-main);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.info-two{
+  display: flex;
   flex-direction: column;
+}
+
+.sino-e-avatar a{
+  width: 28px;
+  height: 28px;
+}
+
+.icon-user{
+  height: 40px;
+}
+
+main {
+  background-color: var(--cor-main);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
