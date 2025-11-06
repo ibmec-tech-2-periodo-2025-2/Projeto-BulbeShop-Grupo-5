@@ -18,16 +18,17 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Começo de sprint.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Analisando o código JS
+
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Interpretar parte do código já feito 
 
 ## 🗓️ Próximo passo
-- 
+- Começar a implementar JS na página de produtos
 
 # Isabella
 
