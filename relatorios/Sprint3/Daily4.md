@@ -32,16 +32,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Finalizei HTML e CSS da página de favoritos depois dos ajustes
 
 ## 🚧 O que estou fazendo agora?
-- 
+- começando a aplicar JS na página de favoritos
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- saber pouco de JS
 
 ## 🗓️ Próximo passo
-- 
+- Finalizar a aplicação de JS 
 
 # Augusto
 
