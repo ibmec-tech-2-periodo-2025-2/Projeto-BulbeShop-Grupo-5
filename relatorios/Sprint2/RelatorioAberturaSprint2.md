@@ -26,5 +26,6 @@
 | Matheus | Implementar busca de produto e apêndice de informações | 22/10 |
 ## 🛠️ Ferramentas e Tecnologias Previstas
 - Visual Studio
-
-## 📌 Critérios de Entrega
+- HTML
+- CSS
+- Figma
