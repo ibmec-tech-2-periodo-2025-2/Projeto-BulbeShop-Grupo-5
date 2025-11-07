@@ -33,16 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- começo da sprint
 
 ## 🚧 O que estou fazendo agora?
-- 
+- pesquisas
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- melhorar a responsividade
 
 # Augusto
 
