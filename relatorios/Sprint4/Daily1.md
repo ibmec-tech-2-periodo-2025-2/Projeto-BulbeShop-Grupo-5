@@ -87,12 +87,3 @@
 
 ## 🗓️ Próximo passo
 - 
-
-
-
-## 🧱 Quais dificuldades encontrei?
-- Dificuldade 1
-- Dificuldade 2
-
-## 🗓️ Próximo passo
-- Tarefa próxima
