@@ -18,17 +18,17 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Inicializei o código JS
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Tentando fazer com que os produtos apareçam na pág de favoritos
 
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Fazer com que o botão comprar dos produtos funcione
 
 ## 🗓️ Próximo passo
-- 
+- Fazer com que o botão comprar dos produtos funcione
 
 # Isabella
 
