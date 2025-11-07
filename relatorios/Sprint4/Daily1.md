@@ -76,14 +76,14 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Começo de sprint
 - 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Analisando código dos scripts de JS para trazer melhorias ou usar de modelo para novos scripts
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Entender o uso de alguns métodos não tão familiares
 
 ## 🗓️ Próximo passo
-- 
+- Alterar scripts JS e procurar por bugs
