@@ -62,16 +62,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- organização do backlog
 
 ## 🚧 O que estou fazendo agora?
--  
+-  estudando arquivos json
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- adiconar mais seções na home
 
 # José
 
