@@ -62,16 +62,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- apresentação sprint 3 
 
 ## 🚧 O que estou fazendo agora?
--  
+-  organização de backlog
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- a decidir 
 
 # José
 
