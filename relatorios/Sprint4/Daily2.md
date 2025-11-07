@@ -47,17 +47,17 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- nao tinha começado ainda
 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- corrigindo as paginas de afiliados
 
 ## 🧱 Quais dificuldades encontrei?
--  
+-  nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- criação da pagina da positivo de afiliados
 
 # Isaac
 
