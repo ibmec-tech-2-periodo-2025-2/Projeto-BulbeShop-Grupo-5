@@ -47,17 +47,17 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Nada, começo de Sprint
 
 
 ## 🚧 O que estou fazendo agora?
-- 
+- ainda nao comecei
 
 ## 🧱 Quais dificuldades encontrei?
--  
+-  nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- Correção de pagina de Afiliados
 
 # Isaac
 
