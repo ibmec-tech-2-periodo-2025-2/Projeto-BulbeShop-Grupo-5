@@ -33,16 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- ainda não começei
 
 ## 🚧 O que estou fazendo agora?
-- 
+- estudando para fazer a responsividade
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+-  fazer a responsividade
 
 # Augusto
 
