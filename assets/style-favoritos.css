@@ -97,21 +97,21 @@ main{
 }
 .ftproduto2 {
     grid-column: 1/2;
-    background-image: url('/assets/img/lampada-rgb.jpg');
+    /* background-image: url('/assets/img/lampada-rgb.jpg'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .ftproduto3 {
     grid-column: 1/2;
-    background-image: url('/assets/img/tomada-inteligente.webp');
+    /* background-image: url('/assets/img/tomada-inteligente.webp'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .ftproduto4 {
     grid-column: 1/2;
-    background-image: url('/assets/img/luminaria-sensor.jpg');
+    /* background-image: url('/assets/img/luminaria-sensor.jpg'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
