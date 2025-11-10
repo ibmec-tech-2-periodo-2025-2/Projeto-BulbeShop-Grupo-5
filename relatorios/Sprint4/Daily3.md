@@ -18,16 +18,17 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Melhorei o js dos produtos favoritos
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Fazendo leves alterações no js
+- Alterações na página css dos favoritos
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Implementar as imagens no js
 
 ## 🗓️ Próximo passo
-- 
+- Fazer com que a página fique extritamente parecida com o figma
 
 # Isabella
 
