@@ -82,10 +82,10 @@ main{
     height: 220px;
     border-radius: 20px;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    display: flex;
+
     padding: 10px;
-    gap: 20px; 
+    gap: 5px; 
 }
 
 .ftproduto1 {
@@ -121,16 +121,19 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+    width: 170px;
 } 
 
 .nome-produto{
     color: var(--cor-nome-produto);
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .preco{
     color: var(--cor-preco);
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 button{
@@ -201,3 +204,7 @@ button{
     border-radius: 17px;
 }
 
+.imgfavoritos{
+    width: 180px;
+    height: 180px;
+}

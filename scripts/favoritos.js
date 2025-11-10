@@ -21,6 +21,7 @@ fetch('./data/produtos.json')
       produtoDiv.dataset.id = item.id;
 
       produtoDiv.innerHTML = `
+    
         <img src="${item.imagem ? item.imagem : 'default-image.jpg'}" alt="${escapeHtml(item.nome || '')}">
         <span class="nome">${escapeHtml(item.nome || '')}</span>
         <span class="preco">${escapeHtml(item.preco || '')}</span>
@@ -87,11 +88,13 @@ function carregarFavoritos() {
     if (item.id !== undefined) produtoDiv.dataset.id = item.id;
 
     produtoDiv.innerHTML = `
-      <img src="${item.imagem || ''}" alt="${escapeHtml(item.nome || '')}">
-      <span class="nome">${escapeHtml(item.nome || '')}</span>
-      <span class="preco">${escapeHtml(item.preco || '')}</span>
-      <button class="x">X</button>
-      <button class="comprar">Comprar</button>
+      <div class="x"></div>
+      <img src="/assets/img/${item.imagem || ''}" alt="${escapeHtml(item.nome || '')}" class="imgfavoritos">
+      <div class="espe">
+      <span class="nome-produto">${escapeHtml(item.nome || '')}</span>
+      <span class="preco">R$${escapeHtml(item.preco || '')}</span>
+      <button>Comprar</button>
+      </div>
     `;
     produtosContainer.appendChild(produtoDiv);
   });
