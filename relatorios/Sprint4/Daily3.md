@@ -77,14 +77,14 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
-- 
+- Testes de fluxo e usabilidade do usuário
+- Revisão de código de alguns scripts JS
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Testes de fluxo e usabilidade do usuário
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Algumas páginas incompletas ou com detalhes faltantes
 
 ## 🗓️ Próximo passo
-- 
+- Alertar colegas dos erros de UX e ajudar na implantação de LocalStorage
