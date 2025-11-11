@@ -355,7 +355,7 @@ section{
     font-weight: 500;
 }
 
-.nome-produto-card{
+.nome-produto-card, .bigNome{
     font-size: 24px;
     font-weight: 500;
     display: -webkit-box;
