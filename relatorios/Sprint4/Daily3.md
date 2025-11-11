@@ -63,16 +63,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- organizei os passos para ajusar a home
 
 ## 🚧 O que estou fazendo agora?
--  
+-  adicionando mais prdutos
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- criar nova seções por categorias
 
 # José
 
