@@ -35,16 +35,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- começei a responsividade
 
 ## 🚧 O que estou fazendo agora?
-- 
+- começei a deixar a home responsiva
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- falta de conhecimento
 
 ## 🗓️ Próximo passo
--  
+-  finalizar a responsividade
 
 # Augusto
 
