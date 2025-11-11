@@ -152,7 +152,7 @@
     "loja": "Leroy Merlin",
     "lojalogo": "icon-leroy.png",
     "descricao": "9000BTUs com Wifi 220V Midea.",
-    "tags_home": ["Princpal"],
+    "tags_home": ["lançamentos"],
     "pagina":"http://127.0.0.1:5501/paginas/produto.html?id=12"
   }
 ]
