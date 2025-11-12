@@ -19,3 +19,5 @@ botaoMais.addEventListener("click", () => {
   });
 });
 
+document.getElementById("preco").textContent = `R$ ${produto.preco.toFixed(2)}`;
+
