@@ -18,16 +18,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Adicionei as estrelas na página dos favoritos
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Adicionando funcionalidades js página de fav
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Adicionar as estrelas em todos os produtos
 
 ## 🗓️ Próximo passo
-- 
+- Concertar web storage
 
 # Isabella
 
