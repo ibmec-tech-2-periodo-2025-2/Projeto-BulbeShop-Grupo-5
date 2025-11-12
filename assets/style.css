@@ -661,7 +661,8 @@ a{
   padding: 10px;        
   padding-left: 20px;   
   padding-right: 20px;         
-  scrollbar-width: none;          
+  scrollbar-width: none;     
+   
 }
 
 .carrossel::-webkit-scrollbar {
@@ -687,7 +688,7 @@ a{
 
 .imagem-card{
   background-image: url(./img/imagem-card.png);
-  width: 112px;
+  min-width: 112px;
   height: 120px;
   background-size: cover;
   background-position: center;
@@ -707,14 +708,18 @@ a{
 }
 
 .card-produto {
-  width: 277px;
+  min-width: 277px;
+  max-width: 277px;
   height: 184px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 10px;
+  padding: 0px;
+  border: 1px solid var(--cor-borda-sessao-card);
+  background-color: var(--cor-fundo-branco);
+  
 }
 
 .botao-produto {
