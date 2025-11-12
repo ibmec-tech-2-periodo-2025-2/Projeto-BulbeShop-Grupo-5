@@ -4,16 +4,18 @@
 # Guilherme
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Conversei com a Tamara sobre o Github pages e será resolvido amanhã
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Tentando Fazer a págino no GitHub Pages funcionar
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Muitos Erros de links
+- Erro no url do github
 
 ## 🗓️ Próximo passo
-- 
+- Continuar consertando links
+- Deixar as páginas o mais semelhante ao Figma possivel
 
 # Lara
 
