@@ -20,16 +20,16 @@
 # Lara
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Não mexi em nada do projeto.
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Nada, por enquanto.
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Nenhuma.
 
 ## 🗓️ Próximo passo
-- 
+- Deixar a página dos produtos favoritos igual ao figma.
 
 # Isabella
 
