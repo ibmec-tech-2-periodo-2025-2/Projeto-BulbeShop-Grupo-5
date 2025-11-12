@@ -76,13 +76,13 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Testei páginas e corrigi falhas em códigos HTML e JS da página de favoritos
 
 ## 🚧 O que estou fazendo agora?
-- 
+- O mesmo
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Adaptar o código JS sem quebrá-lo     
 
 ## 🗓️ Próximo passo
-- 
+- Continuar nessa missão para todas as páginas
