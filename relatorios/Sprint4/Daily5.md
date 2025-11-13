@@ -74,13 +74,13 @@
 # José
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Alterações de CSS e apoio ao Isaac nas atualizações do código JS
 
 ## 🚧 O que estou fazendo agora?
-- 
+- O mesmo, além da implantação de LocalStorage em JS
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- Adaptar códigos JS e entender o que foi feito inicialmente no CSS
 
 ## 🗓️ Próximo passo
-- 
+- Deixar CSS em forma ideal, além de implantar até o final o LocalStorage
