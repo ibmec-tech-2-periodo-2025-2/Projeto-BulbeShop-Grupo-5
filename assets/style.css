@@ -59,7 +59,7 @@ header {
   background-color: var(--cor-header-botao);
   height: 90px;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 
 .itens-header {
@@ -94,6 +94,7 @@ header {
 }
 
 #pesquisa {
+  
   padding-left: 40px;
   background-color: var(--cor-fundo-branco);
   width: 323px;
@@ -102,9 +103,12 @@ header {
   border: 0.5px solid var(--cor-das-bordas-pesquisa);
   /* border: 1px solid blue; */
   margin-top: -20px;
+
+
 }
 
 .pesquisa {
+ 
   margin-bottom: 9px;
   /* border: 1px solid orange; */
 
@@ -570,7 +574,7 @@ a{
   background-color: var(--cor-fundo-branco);
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  z-index: 10;
+  z-index: 1;
   overflow-y: auto;
   max-height: 280px;
   display: none;
