@@ -48,16 +48,16 @@
 # Augusto
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- corrigindo a pagina da leroy
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Nada, estou ocupado estudado
 
 ## 🧱 Quais dificuldades encontrei?
--  
+- Nenhuma.
 
 ## 🗓️ Próximo passo
-- 
+- criação da pagina da positivo de afiliados
 
 # Isaac
 
