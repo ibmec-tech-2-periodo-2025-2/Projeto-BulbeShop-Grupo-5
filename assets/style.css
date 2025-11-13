@@ -548,8 +548,7 @@ a{
   font-size: 18px;
   font-weight: 500;
   color: var(--cor-titulos);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  display: -webkit-box;  /* número máximo de linhas */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
