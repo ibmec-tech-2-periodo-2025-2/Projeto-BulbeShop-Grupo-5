@@ -93,7 +93,10 @@ function carregarFavoritos() {
       <div class="espe">
       <span class="nome-produto">${escapeHtml(item.nome || '')}</span>
       <span class="preco">R$${escapeHtml(item.preco || '')}</span>
-      <button>Comprar</button>
+      <a href="/paginas/produto.html?id=${item.id}">
+        <button class="comprar">Comprar</button>
+      </a>
+
       </div>
     `;
     produtosContainer.appendChild(produtoDiv);
@@ -131,45 +134,46 @@ function configurarListenersDoContainer(container) {
       return;
     }
 
-    if (e.target.classList.contains('comprar')) {
-      // Redirecionar para página do produto
-      if (produto) {
-        const id = produto.dataset.id;
-        if (id) {
-          window.location.href = `/produtos.html?id=${encodeURIComponent(id)}`;
-        } else {
-          // sem id, redireciona para produtos gerais
-          window.location.href = '/produtos.html';
-        }
-      }
-      return;
-    }
+    // if (e.target.classList.contains('comprar')) {
+    //   // Redirecionar para página do produto
+    //   if (produto) {
+    //     let id = produto.dataset.id;
+    //     console.log(id);
+    //     if (id) {
+    //       window.location.href = `/produtos.html?id=${id}`;
+    //     } else {
+    //       // sem id, redireciona para produtos gerais
+    //       window.location.href = '/produtos.html';
+    //     }
+    //   }
+    //   return;
+    // }
 
     // Clique em produto (abrir modal)
-    if (produto && !e.target.classList.contains('x') && !e.target.classList.contains('comprar')) {
-      const img = produto.querySelector('img');
-      const src = img ? img.src : '';
-      abrirModalImagem(src);
-    }
+    // if (produto && !e.target.classList.contains('x') && !e.target.classList.contains('comprar')) {
+      // const img = produto.querySelector('img');
+      // const src = img ? img.src : '';
+      // abrirModalImagem(src);
+    // }
   });
 }
 
-function abrirModalImagem(src) {
-  if (!src) return;
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
-  modal.innerHTML = `
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <img src="${src}" alt="Imagem do produto">
-    </div>
-  `;
-  document.body.appendChild(modal);
-  modal.querySelector('.close').addEventListener('click', () => modal.remove());
-  modal.addEventListener('click', (evt) => {
-    if (evt.target === modal) modal.remove();
-  });
-}
+// function abrirModalImagem(src) {
+//   if (!src) return;
+//   const modal = document.createElement('div');
+//   modal.classList.add('modal');
+//   modal.innerHTML = `
+//     <div class="modal-content">
+//       <span class="close">&times;</span>
+//       <img src="${src}" alt="Imagem do produto">
+//     </div>
+//   `;
+//   document.body.appendChild(modal);
+//   modal.querySelector('.close').addEventListener('click', () => modal.remove());
+//   modal.addEventListener('click', (evt) => {
+//     if (evt.target === modal) modal.remove();
+//   });
+// }
 
 // Pequena função para escapar texto em inserções HTML
 function escapeHtml(text) {
