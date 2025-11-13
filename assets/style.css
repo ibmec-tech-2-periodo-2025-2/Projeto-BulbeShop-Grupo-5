@@ -26,6 +26,10 @@ body {
   background-color: var(--cor-do-fundo-aside);
 }
 
+.opacidade{
+  opacity: 0%;
+  background-color: red;
+}
 .corpo-principal {
   width: 100%;
   height: 100%;
