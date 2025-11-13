@@ -60,16 +60,16 @@
 # Isaac
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- Nada
 
 ## 🚧 O que estou fazendo agora?
--  
+-  seções da home
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- colocar os produtos de forma correta
 
 ## 🗓️ Próximo passo
-- 
+- ajsutar erros
 
 # José
 
