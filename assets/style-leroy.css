@@ -187,6 +187,7 @@ section{
 
 .bigNome h1 {
   font-size: 17px;
+  text-decoration: none;
 }
 
 .bigP {
@@ -253,14 +254,14 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  margin-bottom: 50px;
   padding: 10px;
 }
 
 .imagem-card{
   background-image: url(./img/imagem-card.png);
-  width: 112px;
-  height: 120px;
+  width: 224px;
+  height: 240px;
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -319,6 +320,7 @@ section{
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-left: 20px;
   width: 120px;
 }
 
@@ -351,7 +353,9 @@ section{
   
 }
 
-/* #arcond{
-
-  width: 110px;
-} */
+#lista-outros-produtos{
+  position: relative;
+  top: 40px;
+  min-height: 1000px;
+  align-items: space-between;
+}
