@@ -36,6 +36,9 @@ header {
     --cor-tracado: #D1D9E0;
 }
 
+h1{
+  text-decoration: none;
+}
 .headerSpace{
     height: 90px;
     width: 100%;
@@ -142,6 +145,7 @@ section{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .bigItem img {
