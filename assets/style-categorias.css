@@ -50,7 +50,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: var(--cor-fundo-body);
+    background-color: var(--cor-fundo-imagem);
 } 
 
 main{
@@ -68,23 +68,25 @@ main{
     height: 220px;
     border-radius: 20px;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    display: flex;
+    align-items: center;
     padding: 10px;
     gap: 20px; 
 }
 
 .ftproduto {
-    grid-column: 1/2;
+    display: flex;
     background-image: url('img/image 1.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    align-items: center;
 }
 
 .espe{
     display: flex;
     flex-direction: column;
+    gap: 30px;
 } 
 
 .nome-produto{
@@ -109,7 +111,7 @@ button{
     width: 160px;
     height: 40px;
     border:none;
-    border-radius: 7px;
+    border-radius: 20px;
     font-size: 17px;
 }
 
@@ -121,16 +123,18 @@ button{
     flex-direction: column;
     align-items: center;
     background-color: var(--cor-fundo-imagem);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-bottom: 25px;
+    justify-content:center;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+
 }
 
 #classe{
-    font-size: 26px;
+    font-size: 32px;
     position: relative;
     top: 10px;
     font-weight: 600;
+
 }
 
 #icon-lampada {
@@ -165,3 +169,16 @@ button{
     position: relative;
     bottom: 5px;
 }
+
+.area-produtos{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-fundo-body);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid var(--cor-fundo-body);
+}
+
