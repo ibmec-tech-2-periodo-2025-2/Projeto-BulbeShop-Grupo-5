@@ -763,3 +763,98 @@ main {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
+
+@media (max-width: 360px) {
+
+  #pesquisa {
+    width: 90%;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .icon-lupa {
+    left: 12px;
+    top: 14px;
+  }
+
+  .imagem-banner {
+    width: 95%;
+    height: auto;
+  }
+
+  .caixa-maior-carrossel {
+    width: 92%;
+    height: auto;
+    padding: 20px 10px;
+    font-size: 22px;
+  }
+
+  .empresa-principal {
+    gap: 18px;
+  }
+
+  .empresa-1, .empresa-2, .empresa-3, .empresa-4, .empresa-5 {
+    width: 32px;
+    height: 32px;
+  }
+
+  .fundo-imagem-icone {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icone-texto-categoria.ativo .fundo-imagem-icone {
+    width: 130px;
+    height: 60px;
+  }
+
+  .card-produto, .smallItem {
+    width: 250px 
+  }
+
+  .imagem-card {
+    min-width: 95px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  #pesquisa {
+    width: 300px;
+  }
+
+  .caixa-maior-carrossel {
+    width: 340px;
+  }
+
+  .imagem-banner {
+    width: 350px;
+  }
+
+  .card-produto,
+  .smallItem {
+    width: 270px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #pesquisa {
+    width: 320px;
+  }
+
+  .caixa-maior-carrossel {
+    width: 360px;
+  }
+
+  .imagem-banner {
+    width: 370px;
+  }
+
+  .card-produto,
+  .smallItem {
+    width: 290px;
+  }
+}
