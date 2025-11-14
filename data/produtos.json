@@ -154,5 +154,109 @@
     "descricao": "9000BTUs com Wifi 220V Midea.",
     "tags_home": ["lançamentos"],
     "pagina":"/paginas/produto.html?id=12"
+  },
+  {
+    "id": 13,
+    "nome": "Ventilador de Teto com Controle Remoto Arno",
+    "preco": 579.90,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ventilador com Controle.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ventilador-de-teto-com-controle-remoto-arno-ultimate-vx13-3-pas-105-cm-branco-bivolt_92213555",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "Arno Ultimate VX13 3 Pás 105 cm Branco Bivolt Ventilador 105cm com 3 pás modernas, Luz e vento fortes com baixo ruído, Controle remoto para mais conforto Alta eficiência para o dia a dia",
+    "tags_home": ["Princpal"],
+    "pagina":"/paginas/produto.html?id=13"
+  },
+  {
+    "id": 14,
+    "nome": "Luminária de Mesa Solar LED Mende Móvel Branca Inspire",
+    "preco": 119.90,
+    "categoria": "Eletrônicos",
+    "imagem": "luminaria-solar.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/luminaria-de-mesa-solar-led-mende-movel-branca-inspire_91882133?referrer=category-page",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "Esta luminária de mesa é ideal para deixar seus momentos de relaxamento e leitura ainda mais agradáveis! Ela possui alimentação solar com uma autonomia de 05h, possui cor de luz branca com uma potência de 2,5W e um formato que remete a uma vela.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=14"
+  },
+  {
+    "id": 15,
+    "nome": "Cooktop 2 Bocas Indução com Painel Touch Vidro Preto",
+    "preco": 799.90,
+    "categoria": "Eletrodomésticos",
+    "imagem": "cooktop-preto.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/cooktop-2-bocas-inducao-com-painel-touch-vidro-preto-127v--110v--2-em-1-otop202-oster_91946582",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "127V (110V) 2 em 1 OTOP202 Oster 14 níveis de potência 2 em 1, Painel Touch Screen com controle slide touch, Vidro Cerâmico: fácil limpeza e resistente ao calor, Trava de segurança que quando acionada impede alterações no controle",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=15"
+  },
+  {
+    "id": 16,
+    "nome": "Suggar Depurador de Ar Slim",
+    "preco": 299.90,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ar_Condicionado.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ar-condicionado-split-inverter-quente-e-frio-9000btus-com-wifi-220v-midea_3381958513",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "9000BTUs com Wifi 220V Midea.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=16"
+  }
+  {
+    "id": 12,
+    "nome": "Ar Condicionado Split Inverter Quente e Frio ",
+    "preco": 1899.00,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ar_Condicionado.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ar-condicionado-split-inverter-quente-e-frio-9000btus-com-wifi-220v-midea_3381958513",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "9000BTUs com Wifi 220V Midea.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=12"
+  }
+  {
+    "id": 12,
+    "nome": "Ar Condicionado Split Inverter Quente e Frio ",
+    "preco": 1899.00,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ar_Condicionado.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ar-condicionado-split-inverter-quente-e-frio-9000btus-com-wifi-220v-midea_3381958513",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "9000BTUs com Wifi 220V Midea.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=12"
+  }
+  {
+    "id": 12,
+    "nome": "Ar Condicionado Split Inverter Quente e Frio ",
+    "preco": 1899.00,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ar_Condicionado.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ar-condicionado-split-inverter-quente-e-frio-9000btus-com-wifi-220v-midea_3381958513",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "9000BTUs com Wifi 220V Midea.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=12"
+  }
+  {
+    "id": 12,
+    "nome": "Ar Condicionado Split Inverter Quente e Frio ",
+    "preco": 1899.00,
+    "categoria": "Eletrodomésticos",
+    "imagem": "Ar_Condicionado.jpg",
+    "linkAfiliado": "https://www.leroymerlin.com.br/ar-condicionado-split-inverter-quente-e-frio-9000btus-com-wifi-220v-midea_3381958513",
+    "loja": "Leroy Merlin",
+    "lojalogo": "icon-leroy.png",
+    "descricao": "9000BTUs com Wifi 220V Midea.",
+    "tags_home": ["lançamentos"],
+    "pagina":"/paginas/produto.html?id=12"
   }
 ]
