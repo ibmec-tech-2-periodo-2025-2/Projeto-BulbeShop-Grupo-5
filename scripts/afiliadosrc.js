@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- 2. SELECIONAR OS CONTÊINERES ---
   const carrosselContainer = document.getElementById("carrossel-principal");
-  const listaContainer = document.getElementById("lista-outros-produtos");
+  const listaContainer = document.getElementById("carrosselDois");
 
   if (!carrosselContainer || !listaContainer) {
     console.error("Contêineres de produtos não encontrados!");
@@ -22,14 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
   // Cria o HTML para os itens grandes do carrossel do topo
   function criarCardPrincipal(produto) {
     return `
-      <a href="${produto.pagina}" class="bigItem" target="_blank">
-        <div class="imagem-card" style="background-image: url('/assets/img/${produto.imagem}')"></div>
-        <div class="bigDescri">
-          <div class="bigNomeNota">
-            <div class="bigNome"><h1>${produto.nome}</h1></div>
+      <a href="${produto.pagina}" target="_blank">
+      <div class="card-produto big">
+        <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
+        
+        <div class="big descri">
+          <div class="NomeNota">
+            <div class="nome"><h1>${produto.nome}</h1></div>
           </div>
           <div class="bigPreco"><h1 class="bigP">R$ ${produto.preco.toFixed(2)}</h1></div>
         </div>
+      </div>
       </a>
     `;
   }
@@ -38,8 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function criarCardOutros(produto) {
     // Reutilizei a estrutura .card-produto que você já tem na home
     return `
-      <a href="${produto.pagina}" class="card-produto" target="_blank">
-        <div class="imagem-card" style="background-image: url('/assets/img/${produto.imagem}')"></div>
+      <a href="${produto.pagina}" target="_blank">
+      <div class="card-produto small">
+        <img src="/assets/img/${produto.imagem}" alt="imagem ${produto.id}">
         <div class="info-card">
           <div>
             <div class="nome-produto-card">${produto.nome}</div>
@@ -49,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="botao-produto">Ver Produto</div>
           </div>
         </div>
+    </div>
       </a>
     `;
   }

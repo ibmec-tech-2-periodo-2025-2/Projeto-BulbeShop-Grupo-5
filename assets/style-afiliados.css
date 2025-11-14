@@ -145,13 +145,8 @@ section{
   flex-direction: column;
 }
 
-.bigItem img {
-  width: 80%;
-  height: 80%;
-  
-}
 
-.bidNomeNota {
+.big .NomeNota {
   width: 70px;
   height: 40px;
   display: flex;
@@ -159,7 +154,7 @@ section{
 }
 
 
-.bigDescri {
+.big .descri {
   height: 15%;
   width: 90%;
   display: flex;
@@ -179,14 +174,14 @@ section{
   height: 15px;
 }
 
-.bigNome {
+.big .nome {
   height: 60%;
   width: 100px;
 }
 
 
 
-.bigNome h1 {
+.big .nome h1 {
   font-size: 17px;
   width: 200px;
 }
@@ -195,41 +190,6 @@ section{
   color: var(--cor-preco1);
   font-size: 20px;
 }
-
-/* .img-desconto {
-  display: flex;
-  justify-content: center;
-  border-radius: 30px;
-  width: 389px;
-  height: 222px;
-} */
-
-/* Faz a imagem um contexto para posicionamento absoluto */
-.img-desconto{
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  border-radius: 30px;
-  width: 389px;
-  height: 222px;
-}
-
-/* Texto do banner sobre a imagem (inferior-esquerda) */
-.escrita-banner{
-  position: absolute;
-  z-index: 3;
-  color: var(--cor-escrita);
-  font-weight: 500;
-  font-size: 20px;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  /* margin-bottom: 12px;
-  padding-left: 25px; */
-
-}
-
 .conteudo-total{
   width: 300px;
   height: 160px;
@@ -247,73 +207,10 @@ section{
   z-index: 5;
 }
 
-
-
-/* Rótulo de porcentagem de desconto (superior-direita) */
-.porcentagem-desconto{
-  position: absolute;
-  justify-content: baseline;
-  position: absolute;
-  left: 12px;
-  bottom: 12px;
-  z-index: 4;
-  background: var(--cor-das-bordas-e-sombra);
-  color: var(--cor-escrita);
-  font-weight: 600;
-  font-size: 24px;
-  border-radius: 20px;
-  width: 121px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-.smallItem {
-  flex: 0 0 auto;                 
-  scroll-snap-align: center;      
-  width: 300px;
-  height: 190px;
-  border-radius: 15px;
-  overflow: hidden;
-  background: var(--cor-fundo-body);
-  border: 2px solid var(--cor-tracado);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/* --- SEÇÃO DE CARDS --- */
-.sessao-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
-.titulo-sessao-card{
-    display: flex;
-    color: var(--cor-titulos);
-    font-size: 26px;
-    gap: 5px;
-    border-bottom: 1px solid var(--cor-borda-sessao-card);
-}
-  
-.titulo-sessao-card p{
-    display: flex;
-    font-size: 12px;
-    align-items: center;
-}
-
 .card-produto {
-  width: 400px;
-  height: 184px;
-  background-color: var(--cor-fundo-branco);
-  border: 1px solid var(--cor-fundo-branco);
+  width: 300px;
+  background-color: var(--cor-fundo-body);
+  border: 2px solid var(--cor-tracado);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -322,15 +219,34 @@ section{
   padding: 10px;
 }
 
-.imagem-card{
-  background-image: url(./img/imagem-card.png);
-  width: 112px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
+.card-produto.small{
+  height: 184px;
+  flex-direction: row;
   
 }
+
+ .card-produto.big{
+  height: 325px;
+  flex-direction: column;
+}
+
+.card-produto img{
+  border-radius: 8px;
+}
+.card-produto.big img{
+  width:auto;
+  height: 80%;
+  
+}
+.card-produto.small img{
+  width:50%;
+  height: auto;
+  max-height: 90%;
+}
+
+
+
+
 
 .estrela{
     width: 14px;
