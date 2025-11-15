@@ -147,14 +147,15 @@ section{
 
 
 .big .NomeNota {
-  width: 70px;
+  
+  width: 55%;
   height: 40px;
   display: flex;
   flex-direction: column;
 }
 
 
-.big .descri {
+.big .info-card {
   height: 15%;
   width: 90%;
   display: flex;
@@ -162,6 +163,7 @@ section{
   align-items: end;
   justify-content: space-between;
 }
+
 
 .bigNota {
   height: 40%;
@@ -175,18 +177,28 @@ section{
 }
 
 .big .nome {
-  height: 60%;
-  width: 100px;
+  height: 10px;
+  width: 100%;
+  
 }
-
 
 
 .big .nome h1 {
-  font-size: 17px;
-  width: 200px;
+  
+  color: var(--cor-das-bordas-e-sombra);
+  font-size: 15px;
+  font-weight: 600;
+  display: -webkit-box;
+  height: 40px;
+  width: 100%;
+  /* position: relative;
+  bottom: 10px; */
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
-
-.bigP {
+    
+.big .preco h1 {
   color: var(--cor-preco1);
   font-size: 20px;
 }
@@ -200,7 +212,6 @@ section{
   margin: 0;
   padding-left: 10px;
   justify-content: flex-start;
-  
   position: absolute;
   top: 10px;
   left: 10px;
@@ -222,6 +233,8 @@ section{
 .card-produto.small{
   height: 184px;
   flex-direction: row;
+  justify-content: space-between;
+  
   
 }
 
@@ -238,11 +251,7 @@ section{
   height: 80%;
   
 }
-.card-produto.small img{
-  width:50%;
-  height: auto;
-  max-height: 90%;
-}
+
 
 
 
@@ -273,28 +282,25 @@ section{
     font-weight: 500;
 }
 
-.nome-produto-card{
-    font-size: 16px;
-    font-weight: 500;
-    display: -webkit-box;
-    height: 50px;
-    width: 250px;
-    /* position: relative;
-    bottom: 10px; */
-    -webkit-line-clamp: 2;     /* número máximo de linhas */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+.card-produto.small img{
+  width:50%;
+  height: auto;
+  max-height: 90%;
+  
 }
 
-.info-card{
+.small .info-card{
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  width: 250px;
-  height: 120px;
-  margin-left: 7px;
+  
+  gap: 35px;
+  width: 42%;
+  height: 90%;
+  
+  
+
 }
-.preco-produto-card{
+.small .preco{
   font-size: 20px;
   font-weight: 600;
   color: var(--cor-preco);
@@ -370,4 +376,36 @@ section{
 .infos{
   position: relative;
   bottom: 5px;
+  text-decoration:none;
+}
+
+.infos {
+  position: relative;
+  bottom: 5px;
+  text-decoration:none;
+}
+
+
+.small .nome{
+    
+    font-size: 12px;
+    font-weight: 500;
+    display: -webkit-box;
+    height: 50px;
+    width: 100%;
+    /* position: relative;
+    bottom: 10px; */
+    -webkit-line-clamp: 2;     /* número máximo de linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+
+
+.small h1{
+
+}
+
+a{
+  text-decoration-line: none;
 }
