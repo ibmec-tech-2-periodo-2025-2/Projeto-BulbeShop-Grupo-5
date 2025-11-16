@@ -235,7 +235,8 @@ header{
 }
 
 .redirecionamento{
-    height: 187px;
+    height: 269px;
+    max-width: 387px;
     width: 88%;
     background-color: var(--cor-fundo-body);
     display: flex;
