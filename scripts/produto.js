@@ -46,3 +46,24 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("Stack:", erro.stack);
     });
 });
+
+
+
+
+
+const sim = document.getElementById("sim");
+const nao = document.getElementById("nao");
+const fundo = document.getElementById("fundo");
+const fundoRedi = document.getElementsByClassName("fundoRedi")[0];
+const buttonPop = document.getElementById("buttonPop")
+
+
+nao.addEventListener("click", () => {
+  fundo.classList.toggle("blur");
+  fundoRedi.classList.toggle("off");
+})
+
+buttonPop.addEventListener("click", () => {
+  fundo.classList.toggle("blur");
+  fundoRedi.classList.toggle("off");
+})

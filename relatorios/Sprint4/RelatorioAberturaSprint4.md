@@ -18,6 +18,7 @@
 | José | Testar compatibilidade (mobile, tablets, navegadores) | 19/11 |
 | Isaac | Preparar apresentação final (pitch + demo navegável) | 19/11 |
 | Augusto | Criar sistema de avaliação (JS) | 19/11 |
+
 | Isabella | Adicionar mais produtos | 19/11 |
 | Guilherme | Ajustes de semelhança (Html e Figma) | 19/11 |
 | Augusto | Correção de pagina de Afiliados | 19/11 |
