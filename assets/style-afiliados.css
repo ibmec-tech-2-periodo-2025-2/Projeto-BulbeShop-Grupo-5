@@ -22,6 +22,7 @@ header {
 }
 
 :root{
+
     --cor-main: #F6F9F9;
     --cor-fundo-body: #fff;
     --cor-fundo-imagem: #dddada;
@@ -33,7 +34,11 @@ header {
     --cor-preco-small: #0B08C4;
     --cor-subtitulos: #536679;
     --cor-fundo-amazon: #f1a240;
-    --cor-fundo-leroy: #1ed506;  /* inventei essa cor */
+    --cor-fundo-positivo1: #009fe3;
+    --cor-fundo-positivo2: #fcea10;
+    --cor-fundo-leroy: #158110;  /* inventei essa cor */
+    --cor-fundo-ponto: #f57738;
+    --cor-fundo-araujo: #003a74;
     --cor-tracado: #D1D9E0;
     --cor-escrita:#F5F8FF;
 }
@@ -79,10 +84,31 @@ header {
 main{
     height: auto;
     width: 100%;
-    background-color: var(--cor-fundo-amazon);
+    
     display: flex;
     align-items:end;
 }
+
+.amazon main{
+  background-color: var(--cor-fundo-amazon);
+}
+
+.leroy main{
+    background-color: var(--cor-fundo-leroy);
+}
+
+.araujo main{
+    background-color: var(--cor-fundo-araujo);
+}
+
+.ponto main{
+    background-color: var(--cor-fundo-ponto);
+}
+
+.positivo main{
+  background-image: -webkit-linear-gradient(45deg, var(--cor-fundo-positivo1) 1%, var(--cor-fundo-positivo2) 100%);
+}
+
 
 section{
     height: 100%;
@@ -264,24 +290,33 @@ section{
 }
 
 /* --- LOGO --- */
- .amazon .logo{
-  width: 40px;
+.logo{
+   width: 40px;
   height: 40px;
   z-index: 1;
   border-radius: 53.5px;
-  background-image: url(/assets/img/icon-amazon.png);
   background-position: center;
   background-size: cover;
 }
 
+.amazon .logo{
+  background-image: url(/assets/img/icon-amazon.png);
+}
+
 .leroy .logo{
-  width: 40px;
-  height: 40px;
-  z-index: 1;
-  border-radius: 53.5px;
   background-image: url(/assets/img/icon-leroy.png);
-  background-position: center;
-  background-size: cover;
+}
+
+.araujo .logo{
+  background-image: url(/assets/img/icon-araujo.png);
+}
+
+.ponto .logo{
+  background-image: url(/assets/img/icon-ponto.png);
+}
+
+.positivo .logo{
+  background-image: url(/assets/img/icon-positivo.png);
 }
 
 
@@ -292,8 +327,6 @@ section{
 }
 
 .areaItens{
-  
-  
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -315,7 +348,6 @@ section{
 }
 
 .arealogo{
-  background-color: var(--cor-fundo-amazon);
   width: 100%;
   height: 50px;
   display: flex;
@@ -323,7 +355,26 @@ section{
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+}
 
+.amazon .arealogo{
+  background-color: var(--cor-fundo-amazon);
+}
+
+.leroy .arealogo{
+  background-color: var(--cor-fundo-leroy);
+}
+
+.araujo .arealogo{
+    background-color: var(--cor-fundo-araujo);
+}
+
+.ponto .arealogo{
+    background-color: var(--cor-fundo-ponto);
+}
+
+.positivo .arealogo{
+  background-image: -webkit-linear-gradient(45deg, var(--cor-fundo-positivo1) 1%, var(--cor-fundo-positivo2) 100%);
 }
 
 .info{
