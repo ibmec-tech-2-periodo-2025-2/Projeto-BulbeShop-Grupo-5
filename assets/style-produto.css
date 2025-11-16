@@ -221,6 +221,7 @@ header{
 .blur{
     filter: blur(8px);
 }
+
 .fundoRedi{
     height: 100%;
     width: 100%;
@@ -233,12 +234,10 @@ header{
     
 }
 
-
 .redirecionamento{
-    height: 33%;
+    height: 187px;
     width: 88%;
     background-color: var(--cor-fundo-body);
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
