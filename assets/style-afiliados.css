@@ -407,3 +407,345 @@ section{
 a{
   text-decoration-line: none;
 }
+
+body, html {
+  overflow-x: hidden;
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+
+.itens-header {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.sino-e-avatar {
+  width: 13%;
+}
+
+#bulbe {
+  left: 30px;
+  bottom: -2px;
+}
+
+.nomeAfiliado{
+    font-size: 40px;
+}
+
+.bigItem {      
+  width: 390px;
+  height: 380px;
+}
+
+.bigNome h1 {
+  font-size: 23px;
+}
+
+.bigP {
+  font-size: 23px;
+}
+  
+.card-produto {
+  width: 430px;
+  height: 250px;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.botao-produto{
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.nome-produto-card{
+    font-size: 18px;
+}
+
+.preco-produto-card{
+  font-size: 18px;
+}
+
+.nome-empresa{
+  font-size: 40px;
+}
+
+.img-desconto img{
+  width: 770px;
+  height: 400px;
+
+}
+
+.nomeCategoria{
+    font-size: 35px;
+}
+
+.imagem-card{
+  width: 220px;
+  height: 220px;
+} 
+
+}
+
+
+@media (max-width: 390px){
+
+.nomeAfiliado{
+    font-size: 30px;
+}
+
+.bigItem {      
+  width: 290px;
+  height: 280px;
+}
+
+.bigNome h1 {
+  font-size: 18px;
+}
+
+.bigP {
+  font-size: 18px;
+}
+  
+.card-produto {
+  width: 257px;
+  height: 164px;
+  gap: 10px;
+}
+
+.botao-produto{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.nome-produto-card{
+    font-size: 14px;
+}
+
+.preco-produto-card{
+  font-size: 16px;
+}
+
+.nome-empresa{
+  font-size: 30px;
+}
+
+}
+
+@media (max-width: 360px){
+
+.nomeAfiliado{
+    font-size: 26px;
+}
+
+.bigItem {      
+  width: 260px;
+  height: 260px;
+}
+
+.bigNome h1 {
+  font-size: 17px;
+}
+
+.bigP {
+  font-size: 17px;
+}
+  
+.card-produto {
+  width: 257px;
+  height: 164px;
+  gap: 10px;
+}
+
+.botao-produto{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.nome-produto-card{
+    font-size: 14px;
+}
+
+.preco-produto-card{
+  font-size: 16px;
+}
+
+.nome-empresa{
+  font-size: 30px;
+}
+
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+
+.itens-header {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.sino-e-avatar {
+  width: 13%;
+}
+
+#bulbe {
+  left: 30px;
+  bottom: -2px;
+}
+
+.nomeAfiliado{
+    font-size: 40px;
+}
+
+.bigItem {      
+  width: 390px;
+  height: 380px;
+}
+
+.bigNome h1 {
+  font-size: 23px;
+}
+
+.bigP {
+  font-size: 23px;
+}
+  
+.card-produto {
+  width: 430px;
+  height: 250px;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.botao-produto{
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.nome-produto-card{
+    font-size: 18px;
+}
+
+.preco-produto-card{
+  font-size: 18px;
+}
+
+.nome-empresa{
+  font-size: 40px;
+}
+
+.img-desconto img{
+  width: 770px;
+  height: 400px;
+
+}
+
+.nomeCategoria{
+    font-size: 35px;
+}
+
+.imagem-card{
+  width: 220px;
+  height: 220px;
+} 
+
+}
+
+
+@media (max-width: 390px){
+
+.nomeAfiliado{
+    font-size: 30px;
+}
+
+.bigItem {      
+  width: 290px;
+  height: 280px;
+}
+
+.bigNome h1 {
+  font-size: 18px;
+}
+
+.bigP {
+  font-size: 18px;
+}
+  
+.card-produto {
+  width: 257px;
+  height: 164px;
+  gap: 10px;
+}
+
+.botao-produto{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.nome-produto-card{
+    font-size: 14px;
+}
+
+.preco-produto-card{
+  font-size: 16px;
+}
+
+.nome-empresa{
+  font-size: 30px;
+}
+
+}
+
+@media (max-width: 360px){
+
+.nomeAfiliado{
+    font-size: 26px;
+}
+
+.bigItem {      
+  width: 260px;
+  height: 260px;
+}
+
+.bigNome h1 {
+  font-size: 17px;
+}
+
+.bigP {
+  font-size: 17px;
+}
+  
+.card-produto {
+  width: 257px;
+  height: 164px;
+  gap: 10px;
+}
+
+.botao-produto{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.nome-produto-card{
+    font-size: 14px;
+}
+
+.preco-produto-card{
+  font-size: 16px;
+}
+
+.nome-empresa{
+  font-size: 30px;
+}
+
+}
