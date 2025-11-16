@@ -26,13 +26,14 @@ header {
     --cor-fundo-body: #fff;
     --cor-fundo-imagem: #dddada;
     --cor-das-bordas-e-sombra: #000000;
-    --cor-preco1: #c50000;
+    --cor-preco-big: #c50000;
     --cor-header-botao: #08068D;
     --cor-fundo: #E1E6EA;
     --cor-div-de-baixo: #f6f9f9;
-    --cor-preco: #0B08C4;
+    --cor-preco-small: #0B08C4;
     --cor-subtitulos: #536679;
-    --cor-caixa-carrossel: #f1a240;
+    --cor-fundo-amazon: #f1a240;
+    --cor-fundo-leroy: #1ed506;  /* inventei essa cor */
     --cor-tracado: #D1D9E0;
     --cor-escrita:#F5F8FF;
 }
@@ -78,7 +79,7 @@ header {
 main{
     height: auto;
     width: 100%;
-    background-color: var(--cor-caixa-carrossel);
+    background-color: var(--cor-fundo-amazon);
     display: flex;
     align-items:end;
 }
@@ -129,33 +130,17 @@ section{
 }
 
 
-
-.bigItem {
-  flex: 0 0 auto;                 
-  scroll-snap-align: center;      
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
-  overflow: hidden;
-  background: var(--cor-fundo-body);
-  border: 2px solid var(--cor-tracado);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-
-.big .NomeNota {
-  
+.big .nomeNota {
   width: 55%;
-  height: 40px;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 
 
 .big .info-card {
+  
   height: 15%;
   width: 90%;
   display: flex;
@@ -165,31 +150,24 @@ section{
 }
 
 
-.bigNota {
+.big .nota {
   height: 40%;
   width: 50px;
   display: flex;
   flex-direction: row;
 }
 
-.bigNota img {
+.big .nota img {
   height: 15px;
 }
 
+
 .big .nome {
-  height: 10px;
-  width: 100%;
-  
-}
-
-
-.big .nome h1 {
-  
   color: var(--cor-das-bordas-e-sombra);
   font-size: 15px;
   font-weight: 600;
   display: -webkit-box;
-  height: 40px;
+  height: 100%;
   width: 100%;
   /* position: relative;
   bottom: 10px; */
@@ -197,25 +175,11 @@ section{
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-    
-.big .preco h1 {
-  color: var(--cor-preco1);
+
+.big .preco{
+  color: var(--cor-preco-big);
   font-size: 20px;
-}
-.conteudo-total{
-  width: 300px;
-  height: 160px;
-  /* border: 3px solid blueviolet; */
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-  padding-left: 10px;
-  justify-content: flex-start;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 5;
+  height: 60%;
 }
 
 .card-produto {
@@ -252,11 +216,7 @@ section{
   
 }
 
-
-
-
-
-
+/* mais pra fente vai usar */
 .estrela{
     width: 14px;
     height: 14px;
@@ -292,44 +252,43 @@ section{
 .small .info-card{
   display: flex;
   flex-direction: column;
-  
-  gap: 35px;
+  justify-content: space-between;
   width: 42%;
   height: 90%;
-  
-  
-
 }
+
 .small .preco{
   font-size: 20px;
   font-weight: 600;
-  color: var(--cor-preco);
+  color: var(--cor-preco-small);
 }
 
 /* --- LOGO --- */
-.logo{
-  position: absolute;
+ .amazon .logo{
   width: 40px;
   height: 40px;
-  right: 20px;
   z-index: 1;
-  top: 95px;
   border-radius: 53.5px;
-  background-color: #000000;
   background-image: url(/assets/img/icon-amazon.png);
   background-position: center;
   background-size: cover;
 }
 
+.leroy .logo{
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  border-radius: 53.5px;
+  background-image: url(/assets/img/icon-leroy.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
 .desconto{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.nome-empresa{
-  font-weight: 600;
-  font-size: 32px;
-  color: var(--cor-escrita);
 }
 
 .areaItens{
@@ -342,56 +301,49 @@ section{
 }
 
 .nome-empresa{
-  position: absolute;
   font-weight: 600;
   font-size: 32px;
-  left: 20px;
-  top: 115px;
-  transform: translateY(-50%);
+  color: var(--cor-escrita);
   z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.img-desconto img{
-  width: 90%;
-  height: 90%;
-
 }
 
 .img-desconto{
-  width: 100%;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
 }
 
 .arealogo{
-  background-color: var(--cor-caixa-carrossel);
+  background-color: var(--cor-fundo-amazon);
   width: 100%;
   height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
-.infos{
-  position: relative;
-  bottom: 5px;
-  text-decoration:none;
+.info{
+  height: 50%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  
 }
 
-.infos {
-  position: relative;
-  bottom: 5px;
-  text-decoration:none;
+.small .nomeNota{
+  height: 60%;
 }
-
 
 .small .nome{
-    
-    font-size: 12px;
-    font-weight: 500;
+    color: var(--cor-das-bordas-e-sombra);
+    font-size: 18px;
+    font-weight: 600;
     display: -webkit-box;
-    height: 50px;
+    height: 75%;
     width: 100%;
     /* position: relative;
     bottom: 10px; */
@@ -400,11 +352,6 @@ section{
     overflow: hidden;
   }
 
-
-
-.small h1{
-
-}
 
 a{
   text-decoration-line: none;

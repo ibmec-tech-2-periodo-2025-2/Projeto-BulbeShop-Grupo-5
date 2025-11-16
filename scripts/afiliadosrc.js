@@ -27,10 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
         
         <div class="info-card">
-          <div class="NomeNota">
-            <div class="nome"><h1>${produto.nome}</h1></div>
+          <div class="nomeNota">
+            <h1 class="nome">${produto.nome}</h1>
           </div>
-          <div class="preco"><h1>R$ ${produto.preco.toFixed(2)}</h1></div>
+          <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
         </div>
       </div>
       </a>
@@ -45,11 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="card-produto small">
         <img src="/assets/img/${produto.imagem}" alt="imagem ${produto.id}">
         <div class="info-card">
-          <div class="NomeNota">
-            <div class="nome"><h1>${produto.nome}</h1></div>
+          <div class="nomeNota">
+            <h1 class="nome">${produto.nome}</h1>
           </div>
-          <div class="infos">
-            <div class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</div>
+          <div class="info">
+            <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
             <div class="botao-produto">Ver Produto</div>
           </div>
         </div>
