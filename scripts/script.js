@@ -155,5 +155,6 @@ function atualizarCentro() {
 }
 
 carrossel.addEventListener("scroll", atualizarCentro);
+
 window.addEventListener("resize", atualizarCentro);
 atualizarCentro();
