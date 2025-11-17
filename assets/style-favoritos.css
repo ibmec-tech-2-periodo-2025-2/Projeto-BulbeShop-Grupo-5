@@ -82,10 +82,10 @@ main{
     height: 220px;
     border-radius: 20px;
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    display: flex;
+
     padding: 10px;
-    gap: 20px; 
+    gap: 5px; 
 }
 
 .ftproduto1 {
@@ -97,21 +97,21 @@ main{
 }
 .ftproduto2 {
     grid-column: 1/2;
-    background-image: url('/assets/img/lampada-rgb.jpg');
+    /* background-image: url('/assets/img/lampada-rgb.jpg'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .ftproduto3 {
     grid-column: 1/2;
-    background-image: url('/assets/img/tomada-inteligente.webp');
+    /* background-image: url('/assets/img/tomada-inteligente.webp'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .ftproduto4 {
     grid-column: 1/2;
-    background-image: url('/assets/img/luminaria-sensor.jpg');
+    /* background-image: url('/assets/img/luminaria-sensor.jpg'); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -121,16 +121,20 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+    width: 170px;
 } 
 
 .nome-produto{
     color: var(--cor-nome-produto);
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .preco{
     color: var(--cor-preco);
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 button{
@@ -201,7 +205,10 @@ button{
     border-radius: 17px;
 }
 
-
+.imgfavoritos{
+    width: 180px;
+    height: 180px;
+}
 body, html {
   overflow-x: hidden;
 }
