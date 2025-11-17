@@ -251,3 +251,16 @@ button{
     color: var(--cor-header-botao);
     border: 1px solid var(--cor-header-botao);
 }
+
+
+body, html {
+  overflow-x: hidden;
+}
+
+@media (max-width: 360px){
+
+.aviso{
+    width: 300px;
+}
+
+}

@@ -33,16 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- nada ainda
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Aguardando a finalização de ajustes no figma
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+-  nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- finalizar a página de favoritos de acordo as mudanças no figma
 
 # Augusto
 

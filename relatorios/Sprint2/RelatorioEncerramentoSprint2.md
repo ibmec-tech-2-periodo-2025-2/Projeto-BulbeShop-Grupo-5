@@ -1,4 +1,4 @@
-# 🔄 Retrospectiva da Sprint X
+# 🔄 Retrospectiva da Sprint 2
 
 ## ✅ O que deu certo?
 - Conseguimos nos comunicar forma efetiva
@@ -10,9 +10,3 @@
 
 ## 🛠️ O que podemos melhorar para a próxima sprint?
 - Organização das dailys
-
-## 🙋 Avaliação individual (cada aluno preenche)
-- Nome:
-- Contribuições principais:
-- Dificuldade enfrentada:
-- Nota para meu desempenho (0 a 10):

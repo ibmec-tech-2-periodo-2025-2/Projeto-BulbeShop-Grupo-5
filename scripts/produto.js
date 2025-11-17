@@ -48,6 +48,27 @@ fetch("/data/produtos.json")
 });
 
 
+
+
+
+const sim = document.getElementById("sim");
+const nao = document.getElementById("nao");
+const fundo = document.getElementById("fundo");
+const fundoRedi = document.getElementsByClassName("fundoRedi")[0];
+const buttonPop = document.getElementById("buttonPop")
+
+
+nao.addEventListener("click", () => {
+  fundo.classList.toggle("blur");
+  fundoRedi.classList.toggle("off");
+})
+
+buttonPop.addEventListener("click", () => {
+  fundo.classList.toggle("blur");
+  fundoRedi.classList.toggle("off");
+})
+
+
 //Funcionamento do botão de favoritos
 document.addEventListener("DOMContentLoaded", () => {
 // Seleciona a imagem dentro da div .bookmark (ou a própria div se não houver img)

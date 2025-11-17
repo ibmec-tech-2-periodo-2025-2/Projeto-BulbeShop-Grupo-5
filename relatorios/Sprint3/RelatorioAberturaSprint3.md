@@ -6,7 +6,6 @@
 - [ ] Ajustar pequenos detalhes do HTML e CSS
 - [ ] Começar e Terminar o JS
 - [ ] Melhorias no Design
-- [ ] 
 
 ## 👥 Distribuição de Tarefas
 
@@ -24,10 +23,10 @@
 | Matheus | Melhorar a Responsividade | 5/11 |
 | Guilherme | Consetar pequenos erros no CSS | 5/11 |
 | Issac | Criar arquivo JSON para Teste JS | 5/11 |
+
 ## 🛠️ Ferramentas e Tecnologias Previstas
 - HTML
 - CSS
 - JS
 - Figma
 
-## 📌 Critérios de Entrega

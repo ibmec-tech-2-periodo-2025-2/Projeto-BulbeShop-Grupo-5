@@ -32,16 +32,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- começei a ajustar o CSS e HTML de acordo os novos ajustes no figma
 
 ## 🚧 O que estou fazendo agora?
-- 
+- finalizando os ajustes na pagina de favoritos
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- começar a implementar JavaScript na página de favoritos
 
 # Augusto
 

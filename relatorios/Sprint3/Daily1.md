@@ -33,16 +33,16 @@
 # Isabella
 
 ## 🙋 O que eu fiz desde o último relatório?
-- 
+- nada, começo da Sprint
 
 ## 🚧 O que estou fazendo agora?
-- 
+- Aguardando finalização do figma
 
 ## 🧱 Quais dificuldades encontrei?
-- 
+- nenhuma
 
 ## 🗓️ Próximo passo
-- 
+- ajustar a página de favoritos 
 
 # Augusto
 

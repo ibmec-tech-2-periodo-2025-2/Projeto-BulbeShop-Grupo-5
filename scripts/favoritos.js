@@ -210,3 +210,5 @@ function escapeHtml(text) {
 
 
 
+document.getElementById("preco").textContent = `R$ ${produto.preco.toFixed(2)}`;
+

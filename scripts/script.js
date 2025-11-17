@@ -76,40 +76,60 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.querySelector(".carrossel"); // onde os cards vão aparecer
+  // 1. Pegue os contêineres de destino
+  const containerPrincipal = document.getElementById("carrossel-principais");
+  const containerLancamentos = document.getElementById("carrossel-lançamentos");
+  const containerEco = document.getElementById("carrossel-eco");
 
+  // 2. Função REUTILIZÁVEL para criar o card
+  //    (Você já tem uma parecida no seu script de busca, pode adaptar)
+  function criarCardProduto(produto) {
+    const card = document.createElement("div");
+    card.classList.add("card-produto");
+    
+    // Usei a estrutura do seu outro script
+    card.innerHTML = `
+      <div class="imagem-card" style="background-image: url('/assets/img/${produto.imagem}')"></div>
+      <div class="info-card">
+        <div>
+          <div class="nome-produto-card">${produto.nome}</div>
+          <div class="avaliacao">
+             ${"<div></div>".repeat(5)} </div>
+        </div>
+        <div>
+          <div class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</div>
+          <a href="${produto.pagina || '#'}" class="botao-produto">Ver Produto</a>
+        </div>
+      </div>
+    `;
+    return card;
+  }
+
+  // 3. Carregue o JSON e DISTRIBUA os produtos
   fetch("./data/produtos.json")
     .then(response => response.json())
-    .then(produtos => {
-      produtos.forEach(produto => {
-        const card = document.createElement("div");
-        card.classList.add("smallItem");
-        card.innerHTML = `
-        
-            <a href="${produto.pagina}">
-            <div class="card-produto">
-              <div class="imagem-card">
-              <img src="/assets/img/${produto.imagem}" alt="${produto.nome}" class="imagem-card" /></div>
-              <div class="info-card">
-                <div class="info-one">
-                  <div class="nome-produto-card">${produto.nome}</div>
-                  
-                </div>
-                <div class="info-two">
-                  <div class="preco-produto-card">R$ ${produto.preco.toFixed(2)}</div>
-                  
-                    <div class="botao-produto">Ver Produto</div>
-                  
-                </div>
-              </div>
-            </div>
-          
-            </a>
-        `;
-        container.appendChild(card);
+    .then(todosOsProdutos => {
+      
+      // Filtra os produtos para cada seção
+      const principal = todosOsProdutos.filter(p => p.tags_home && p.tags_home.includes('Princpal'));
+      const lancamentos = todosOsProdutos.filter(p => p.tags_home && p.tags_home.includes('lançamentos'));
+      const eco = todosOsProdutos.filter(p => p.tags_home && p.tags_home.includes('eco'));
+
+      // 4. Popula cada contêiner
+      principal.forEach(produto => {
+        containerPrincipal.appendChild(criarCardProduto(produto));
       });
+      
+      lancamentos.forEach(produto => {
+        containerLancamentos.appendChild(criarCardProduto(produto));
+      });
+      
+      eco.forEach(produto => {
+        containerEco.appendChild(criarCardProduto(produto));
+      });
+
     })
-    .catch(err => console.error("Erro ao carregar produtos:", err));
+    .catch(err => console.error("Erro ao carregar e distribuir produtos:", err));
 });
 
 const carrossel = document.querySelector(".carrossel-categorias");
@@ -135,5 +155,6 @@ function atualizarCentro() {
 }
 
 carrossel.addEventListener("scroll", atualizarCentro);
+
 window.addEventListener("resize", atualizarCentro);
 atualizarCentro();

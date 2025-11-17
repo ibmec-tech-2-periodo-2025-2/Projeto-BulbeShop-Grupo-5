@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
 </head>
-<body>
+<body class="amazon">
 
   <header>
     <div class="parte-superior">
@@ -34,8 +34,8 @@
       </div>
     </div>
     <div class="arealogo">
-      <div class="logo"></div>
-    <div class="nome-empresa">Amazon</div>
+    <h1 class="nome-empresa">Amazon</h1>
+    <div class="logo"></div>
     </div>
     
   </header>
@@ -44,159 +44,31 @@
   </div>
 
   <main>
-    
-    
-
-    <div class="scroll">
-      <section>
-        <h1 class="nomeAfiliado">Produtos Amazon</h1>
-        <div class="areaItens">
-
-
-          <!-- Carrossel grande -->
-        <div class="carrossel">
-          <div class="bigItem">
-            <img src="/assets/img/imagem-card.png" alt="Produto 1">
-            <div class="bigDescri">
-              <div class="bigNomeNota">
-                <div class="bigNome"><h1>Echo Dot</h1></div>
-                <!-- <div class="bigNota">
-                  <img src="/assets/img/star-01.png" alt="estrela" >
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                </div> -->
-              </div>
-              <div class="bigPreco"><h1 class="bigP">R$ 56,06</h1></div>
-            </div>
+  <div class="scroll">
+    <section>
+      <h1 class="nomeAfiliado">Produtos <span class="nome-empresa-afiliado">Amazon</span></h1>
+      
+      <div class="areaItens">
+        
+        <div class="carrossel" id="carrossel-principal">
           </div>
-
-          <div class="bigItem">
-            <img src="/assets/img/imagem-card.png" alt="Produto 2">
-            <div class="bigDescri">
-              <div class="bigNomeNota">
-                <div class="bigNome"><h1>Echo Dot</h1></div>
-                <!-- <div class="bigNota">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                </div> -->
-              </div>
-              <div class="bigPreco"><h1 class="bigP">R$ 56,06</h1></div>
-            </div>
-          </div>
-
-          <div class="bigItem">
-            <img src="/assets/img/imagem-card.png" alt="Produto 3">
-            <div class="bigDescri">
-              <div class="bigNomeNota">
-                <div class="bigNome"><h1>Echo Dot</h1></div>
-                <!-- <div class="bigNota">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                </div> -->
-              </div>
-              <div class="bigPreco"><h1 class="bigP">R$ 56,06</h1></div>
-            </div>
-          </div>
-
-          <div class="bigItem">
-            <img src="/assets/img/imagem-card.png" alt="Produto 4">
-            <div class="bigDescri">
-              <div class="bigNomeNota">
-                <div class="bigNome"><h1>Echo Dot</h1></div>
-                <!-- <div class="bigNota">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                  <img src="/assets/img/star-01.png" alt="estrela">
-                </div> -->
-              </div>
-              <div class="bigPreco"><h1 class="bigP">R$ 56,06</h1></div>
-            </div>
-          </div>
-        </div>
-        <!-- Fim carrossel grande -->
 
         <div class="desconto">
-          <div class="img-desconto"><img src="/assets/img/img-banner-amazon.png" alt="desconto">
-          </div>
+          <img class="img-desconto"src="/assets/img/img-banner-amazon.png" alt="desconto">
         </div>
         
-         <!-- Carrossel pequeno -->
         <div class="areaPequena">
-          <h1 class="nomeCategoria">5% de Desconto da conta de Luz </h1>
-
-        <div class="carrossel">
-          <div class="smallItem">
-            <div class="sessao-card">
-              <div class="card-produto">
-                <div class="imagem-card"></div>
-                <div class="info-card">
-                  <div>
-                    <div class="nome-produto-card">Echo Dot</div>
-                    <!-- <div class="avaliacao">
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                    </div> -->
-                  </div>
-                  <div>
-                    <div class="preco-produto-card">R$ 56,05</div>
-                    <div class="botao-produto">Ver Produto</div>
-                  </div>
-                </div>
-              </div>
+          <h1 class="nomeCategoria">Mais produtos na Amazon</h1>
+          
+          <div class="carrossel" id="carrosselDois">
             </div>
-          </div>
-
-          <div class="smallItem">
-            <div class="sessao-card">
-              <div class="card-produto">
-                <div class="imagem-card"></div>
-                <div class="info-card">
-                  <div>
-                    <div class="nome-produto-card">Echo Dot</div>
-                    <!-- <div class="avaliacao">
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                      <div class="estrela"></div>
-                    </div> -->
-                  </div>
-                  <div>
-                    <div class="preco-produto-card">R$ 56,05</div>
-                    <div class="botao-produto">Ver Produto</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <!-- Fim carrossel pequeno -->
 
+      </div>
+    </section>
+  </div>
+</main>
 
-        </div> <!-- Fim da div areaPequena -->
-        
-
-
-
-        </div> <!-- fim da div areaItens-->
-
-        
-
-      </section>
-    </div>
-  </main>
+  <script src="/scripts/afiliadosrc.js"></script>
 </body>
 </html>
