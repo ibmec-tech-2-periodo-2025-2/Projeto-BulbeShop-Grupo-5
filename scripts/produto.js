@@ -31,6 +31,7 @@ fetch("/data/produtos.json")
       document.getElementById("foto-principal").src = `/assets/img/${produto.imagem}`;
       document.getElementById("link-afiliado").href = produto.linkAfiliado;
       document.getElementById("logo-marca").src = `/assets/img/${produto.lojalogo}`;
+      document.getElementById("avaliacao-produto").innerHTML = `<h1>${produto.totalstar}</h1> <img src="/assets/img/Icon.png" alt="⭐" /> <p>(${produto.totalavali})</p>`;
 
 
       // 5️⃣ Tratar imagem ausente
@@ -177,6 +178,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })();
 });
+
+  const botaoVoltar = document.getElementById("seta");
+  if (botaoVoltar) {
+    botaoVoltar.addEventListener('click', () => {
+      window.history.back();
+    });
+  }
+
+
+
+
+
+
+
+
 
 
 
