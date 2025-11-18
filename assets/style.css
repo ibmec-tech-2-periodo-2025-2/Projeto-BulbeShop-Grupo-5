@@ -551,6 +551,10 @@ a{
   display: -webkit-box;  /* número máximo de linhas */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  min-width: 145px;
+  max-width: 145px;
 }
 .info-card{
   display: flex;
@@ -630,7 +634,9 @@ a{
   font-size: 15px;
   font-weight: 500;
   color: var(--cor-titulos);
+  
 }
+
 
 #container-produtos-pesquisa .avaliacao {
   display: flex;
@@ -697,7 +703,7 @@ a{
   background-image: url(./img/imagem-card.png);
   min-width: 112px;
   height: 120px;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   border-radius: 8px;
 }

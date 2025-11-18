@@ -25,7 +25,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    height: 100px;
+    height: 90px;
     width: 100%;
     background-color: var(--cor-header-botao);
 } 
@@ -239,16 +239,17 @@ header{
 
 .redirecionamento{
     height: 269px;
-    max-width: 387px;
+    min-width: 387px;
     width: 88%;
     background-color: var(--cor-fundo-body);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 12px;
     align-items: center;
     border-radius: 20px;
     box-shadow: 2px 2px 10px var(--cor-das-bordas-e-sombra);
+    gap: 20px;
 }
 
 .textoRedi{
@@ -277,14 +278,19 @@ header{
 
 #nao{
     background-color: var(--cor-fundo-body);
-    border: var(--cor-header-botao) solid 3px;
+    border: var(--cor-header-botao) solid 2px;
     color: var(--cor-header-botao);
+    width: 180px;
+    height: 60px;
 }
 
 #sim{
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo-body);
     width: 100%;
+    border: none;
+    width: 180px;
+    height: 60px;
 }
 
 .logoRedi{
@@ -311,18 +317,8 @@ header{
     
 }
 
-.redirecionamento{
-    height: 187px;
-    width: 88%;
-    background-color: var(--cor-fundo-body);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 12px;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px var(--cor-das-bordas-e-sombra);
-}
+
+
 
 .textoRedi{
     font-size: 18px;

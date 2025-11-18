@@ -203,7 +203,7 @@ section{
 }
 
 .big .preco{
-  color: var(--cor-preco-big);
+  color: var(--cor-preco-small);
   font-size: 20px;
   height: 60%;
 }
