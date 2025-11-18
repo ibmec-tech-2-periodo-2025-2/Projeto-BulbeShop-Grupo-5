@@ -40,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     width: 23%;
+    align-items: center;
 }
 
 #bulbe{
@@ -129,6 +130,11 @@ main{
     color: var(--cor-nome-produto);
     font-size: 20px;
     font-weight: 600;
+    height: 90px;
+    overflow: hidden;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
 }
 
 .preco{
@@ -385,4 +391,9 @@ button{
     width: 90px;
     height: 120px;
 }
+}
+
+#sino{
+    width: 28px;
+    height: 28px;
 }
