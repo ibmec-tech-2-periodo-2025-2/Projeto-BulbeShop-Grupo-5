@@ -131,15 +131,17 @@ h3{
     margin-top: 15px;
 }
 .marca-e-avaliacao{
+    height: 15%;
     width: 90%;
     display: flex;
-    justify-content: end; /* mudar quando adicionar as estrelas */
+    justify-content: space-between; /* mudar quando adicionar as estrelas */
     align-items: center;
     margin-top: 12px;
 }
 .avaliacao{
     display: flex;
     align-items: center;
+    width: 30%;
     
 }
 
@@ -155,8 +157,9 @@ h1{
 .marca{
     display: flex;
     align-items: center;
-    position: relative;
-    left: 7px;
+    height: 100%;
+    width: auto;
+
 }
 
 .specs {
@@ -204,8 +207,8 @@ h4{
 }
 
 #logo-marca{
-    height: auto;
-    width: 50px;
+    height: 100%;
+    width: auto;
 }
 
 header{
@@ -368,6 +371,25 @@ header{
 body, html {
   overflow-x: hidden;
 }
+
+#avaliacao-produto{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#avaliacao-produto h1{
+    font-size: 25px;
+}
+
+#avaliacao-produto img{
+    height: 40%;
+    width: auto;
+}
+
+
+
 
 @media (min-width: 600px) and (max-width: 1024px){
 
