@@ -158,3 +158,10 @@ carrossel.addEventListener("scroll", atualizarCentro);
 
 window.addEventListener("resize", atualizarCentro);
 atualizarCentro();
+
+const botaoVoltar = document.getElementById("seta");
+if (botaoVoltar) {
+  botaoVoltar.addEventListener('click', () => {
+    window.history.back();
+  });
+}
