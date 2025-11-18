@@ -319,7 +319,6 @@ section{
   background-image: url(/assets/img/icon-positivo.png);
 }
 
-
 .desconto{
   display: flex;
   align-items: center;
@@ -342,6 +341,7 @@ section{
 
 .img-desconto{
   width: 90%;
+  max-width: 400px;
   height: auto;
   display: flex;
   justify-content: center;
