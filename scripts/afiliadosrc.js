@@ -110,3 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
       listaContainer.innerHTML = "<p>Erro ao carregar produtos.</p>";
     });
 });
+
+  const botaoVoltar = document.getElementById("seta");
+  if (botaoVoltar) {
+    botaoVoltar.addEventListener('click', () => {
+      window.history.back();
+    });
+  }

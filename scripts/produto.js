@@ -178,6 +178,13 @@ document.addEventListener("DOMContentLoaded", () => {
   })();
 });
 
+  const botaoVoltar = document.getElementById("seta");
+  if (botaoVoltar) {
+    botaoVoltar.addEventListener('click', () => {
+      window.history.back();
+    });
+  }
+
 
 
 // document.addEventListener("DOMContentLoaded", () => {
