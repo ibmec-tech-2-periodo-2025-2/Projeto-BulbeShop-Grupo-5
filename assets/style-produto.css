@@ -130,6 +130,10 @@ h3{
     border-radius: 20px;
     margin-top: 15px;
 }
+
+
+
+
 .marca-e-avaliacao{
     height: 15%;
     width: 90%;
@@ -149,9 +153,9 @@ h3{
     margin-left: 5px;
 }
 
-h1{
+#preco-produto{
     color: var(--cor-preco);
-    font-size: 44px;
+    font-size: 40px;
 }
 
 .marca{
@@ -380,7 +384,7 @@ body, html {
 }
 
 #avaliacao-produto h1{
-    font-size: 25px;
+    font-size: 40px;
 }
 
 #avaliacao-produto img{
@@ -389,6 +393,40 @@ body, html {
 }
 
 
+#top{
+    display: flex;
+}
+
+#top h1{
+    font-size: 20px;
+}
+
+.Comentario{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-div-de-baixo);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+
+}
+
+input{
+    height: 40px;
+    width: 90%;
+}
 
 
 @media (min-width: 600px) and (max-width: 1024px){
@@ -422,7 +460,7 @@ h3{
     height: 590px;
 }
 
-h1{
+.preco-produto{
     font-size: 60px;
 }
 
@@ -465,7 +503,7 @@ h3{
     height: 370px;
 }
 
-h1{
+.preco-produto{
     font-size: 45px;
 }
 
@@ -505,7 +543,7 @@ h3{
     height: 320px;
 }
 
-h1{
+.preco-produto{
     font-size: 39px;
 }
 
@@ -545,7 +583,7 @@ h3{
     height: 320px;
 }
 
-h1{
+.preco-produto{
     font-size: 39px;
 }
 
@@ -586,7 +624,7 @@ h3{
     height: 300px;
 }
 
-h1{
+.preco-produto{
     font-size: 33px;
 }
 

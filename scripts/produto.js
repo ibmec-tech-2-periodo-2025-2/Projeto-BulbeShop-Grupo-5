@@ -196,6 +196,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 // document.addEventListener("DOMContentLoaded", () => {
 //   // 1️⃣ Pegar o ID da URL (?id=1)
 //   const params = new URLSearchParams(window.location.search);

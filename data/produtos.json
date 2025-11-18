@@ -12,7 +12,10 @@
     "tags_home": ["eco"],
     "pagina":"/paginas/produto.html?id=1",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
 
   },
   {
@@ -28,7 +31,10 @@
     "tags_home": ["eco"],
     "pagina":"/paginas/produto.html?id=2",
     "totalavali": 15,
-    "totalstar": 4
+    "totalstar": 4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 3,
@@ -43,7 +49,10 @@
     "tags_home": ["eco"],
     "pagina":"/paginas/produto.html?id=3",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 4,
@@ -58,7 +67,10 @@
     "tags_home": ["eco"],
     "pagina":"/paginas/produto.html?id=4",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 5,
@@ -73,7 +85,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=5",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 6,
@@ -88,7 +103,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=6",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 7,
@@ -103,7 +121,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=7",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 8,
@@ -118,7 +139,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=8",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 9,
@@ -133,7 +157,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=9",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 10,
@@ -148,7 +175,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=10",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 11,
@@ -163,7 +193,10 @@
     "tags_home": ["Princpal"],
     "pagina":"/paginas/produto.html?id=11",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   },
   {
     "id": 12,
@@ -178,6 +211,9 @@
     "tags_home": ["lançamentos"],
     "pagina":"/paginas/produto.html?id=12",
     "totalavali": 13,
-    "totalstar": 4.4
+    "totalstar": 4.4,
+    "comentarios": [ 
+      
+    ]
   }
 ]
