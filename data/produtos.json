@@ -10,7 +10,10 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Painel solar inteligente altamente eficiente com 2 saídas de carregamento para dispositivos. ",
     "tags_home": ["eco"],
-    "pagina":"/paginas/produto.html?id=1"
+    "pagina":"/paginas/produto.html?id=1",
+    "totalavali": 13,
+    "totalstar": 4.4
+
   },
   {
     "id": 2,
@@ -23,7 +26,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Powerbank ecológico com painel solar integrado e duas saídas USB.",
     "tags_home": ["eco"],
-    "pagina":"/paginas/produto.html?id=2"
+    "pagina":"/paginas/produto.html?id=2",
+    "totalavali": 15,
+    "totalstar": 4
   },
   {
     "id": 3,
@@ -36,7 +41,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Luminária solar automática com sensor de presença e bateria de longa duração.",
     "tags_home": ["eco"],
-    "pagina":"/paginas/produto.html?id=3"
+    "pagina":"/paginas/produto.html?id=3",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 4,
@@ -49,7 +56,9 @@
     "lojalogo": "icon-leroy.png",
     "descricao": "Kit completo com inversor, controlador de carga e painéis solares.",
     "tags_home": ["eco"],
-    "pagina":"/paginas/produto.html?id=4"
+    "pagina":"/paginas/produto.html?id=4",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 5,
@@ -62,7 +71,9 @@
     "lojalogo": "icon-leroy.png",
     "descricao": "Lixeira automática com sensor de movimento e fechamento hermético.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=5"
+    "pagina":"/paginas/produto.html?id=5",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 6,
@@ -75,7 +86,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Exibe a temperatura da bebida e mantém líquidos frios ou quentes por até 12h.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=6"
+    "pagina":"/paginas/produto.html?id=6",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 7,
@@ -88,7 +101,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Fone de ouvido com 60h de autonomia e almofadas removíveis.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=7"
+    "pagina":"/paginas/produto.html?id=7",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 8,
@@ -101,7 +116,9 @@
     "lojalogo": "icon-leroy.png",
     "descricao": "Permite controle remoto de aparelhos e monitoramento de consumo elétrico.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=8"
+    "pagina":"/paginas/produto.html?id=8",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 9,
@@ -114,7 +131,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "Sistema de purificação eficiente que reduz o consumo de energia e desperdício.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=9"
+    "pagina":"/paginas/produto.html?id=9",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 10,
@@ -127,7 +146,9 @@
     "lojalogo": "icon-leroy.png",
     "descricao": "Lâmpada que economiza cerca de 90% da energia se comparada com lâmpadas tradicionais.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=10"
+    "pagina":"/paginas/produto.html?id=10",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 11,
@@ -140,7 +161,9 @@
     "lojalogo": "icon-amazon.png",
     "descricao": "O Echo Dot com o melhor som já lançado.",
     "tags_home": ["Princpal"],
-    "pagina":"/paginas/produto.html?id=11"
+    "pagina":"/paginas/produto.html?id=11",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 12,
@@ -153,7 +176,9 @@
     "lojalogo": "icon-leroy.png",
     "descricao": "9000BTUs com Wifi 220V Midea.",
     "tags_home": ["lançamentos"],
-    "pagina":"/paginas/produto.html?id=12"
+    "pagina":"/paginas/produto.html?id=12",
+    "totalavali": 13,
+    "totalstar": 4.4
   },
   {
     "id": 13,
