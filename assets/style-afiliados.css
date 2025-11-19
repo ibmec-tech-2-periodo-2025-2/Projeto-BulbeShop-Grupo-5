@@ -129,6 +129,7 @@ section{
     border-bottom: 2px var(--cor-tracado) solid;
     margin-left: 20px;
     padding-top: 10px;
+    font-size: 25px;
 }
 
 .nomeCategoria{
@@ -439,15 +440,115 @@ body, html {
 }
 
 .nomeAfiliado{
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.big .nomeNota {
-  width: 70%;
+.card-produto.big{      
+  width: 390px;
+  height: 380px;
 }
 
-.big .nome {
-  font-size: 22px;
+.bigNome h1 {
+  font-size: 23px;
+}
+
+.bigP {
+  font-size: 23px;
+}
+  
+.card-produto {
+  width: 430px;
+  height: 250px;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.botao-produto{
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.nome-produto-card{
+    font-size: 18px;
+}
+
+.preco-produto-card{
+  font-size: 18px;
+}
+
+
+.nomeCategoria{
+    font-size: 32px;
+}
+
+.nomeCategoria{
+    font-size: 25px;
+}
+
+.imagem-card{
+  width: 220px;
+  height: 220px;
+} 
+
+}
+
+
+@media (max-width: 390px){
+
+.nomeAfiliado{
+    font-size: 25px;
+}
+
+.card-produto.big{      
+  width: 290px;
+  height: 280px;
+}
+
+.bigNome h1 {
+  font-size: 18px;
+}
+
+.bigP {
+  font-size: 18px;
+}
+  
+.card-produto {
+  width: 257px;
+  height: 164px;
+  gap: 10px;
+}
+
+.botao-produto{
+    width: 90px;
+    height: 32px;
+    font-size: 12px;
+}
+
+.nome-produto-card{
+    font-size: 14px;
+}
+
+.preco-produto-card{
+  font-size: 16px;
+}
+
+.nome-empresa{
+  font-size: 30px;
+}
+
+}
+
+@media (max-width: 370px){
+
+.nomeAfiliado{
+    font-size: 20px;
+}
+
+.card-produto.big{      
+  width: 260px;
+  height: 260px;
 }
 
 .big .preco{
@@ -465,71 +566,6 @@ body, html {
   height: 284px;
   width: 420px;
 }
-.botao-produto{
-    width: 150px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.small .info-card{
-  width: 70%;
-}
-
-.small .preco{
-  font-size: 25px;
-}
-
-
-.nomeCategoria{
-    font-size: 32px;
-}
-}
-
-@media (max-width: 430px){
-
-.nomeAfiliado{
-    font-size: 28px;
-}
-}
-
-
-@media (max-width: 390px){
-
-.nomeAfiliado{
-    font-size: 25px;
-}
-}
-
-
-@media (max-width: 360px){
-
-.nomeAfiliado{ 
-    font-size: 21px; 
-}
-
-.big .nomeNota {
-  width: 70%;
-}
-
-.big .nome {
-  font-size: 14px;
-}
-
-.big .preco{
-  font-size: 15px;
-  height: 50%;
-  width: 40%;
-}
-
-.card-produto.big{
-  height: 260px;
-  width: 260px;
-}
-.card-produto.small{
-  width: 250px;
-  height: 160px;
-}
 .card-produto.small img{
   width:auto;
   height: 90%;
@@ -537,8 +573,7 @@ body, html {
 }
 
 .small .info-card{
-  width: 52%;
-
+  width: 70%;
 }
 
 .small .preco{
@@ -549,7 +584,3 @@ body, html {
   font-size: 15px;
 }
 
-.nomeCategoria{
-  font-size: 15px;
-}
-}

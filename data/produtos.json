@@ -53,7 +53,7 @@
     "imagem": "kit-energia.jpg",
     "linkAfiliado": "https://www.leroymerlin.com.br/kit-gerador-de-energia-solar-off-grid-450wp-127v_1569825652",
     "loja": "Leroy Merlin",
-    "lojalogo": "leroy.svg",
+    "lojalogo": "icon-leroy.png",
     "descricao": "Kit completo com inversor, controlador de carga e painéis solares.",
     "tags_home": ["eco"],
     "pagina":"/paginas/produto.html?id=4",
@@ -571,6 +571,3 @@
     "totalstar": 4.7
   }
 ]
-
-
-

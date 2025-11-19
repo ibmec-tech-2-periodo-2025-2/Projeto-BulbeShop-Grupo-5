@@ -20,22 +20,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- 3. FUNÇÕES PARA CRIAR OS CARDS ---
 
   // Cria o HTML para os itens grandes do carrossel do topo
-  function criarCardPrincipal(produto) {
-    return `
-      <a href="${produto.pagina}" target="_blank">
-      <div class="card-produto big">
-        <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
-        
-        <div class="info-card">
-          <div class="nomeNota">
-            <h1 class="nome">${produto.nome}</h1>
-          </div>
-          <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
+function criarCardPrincipal(produto) {
+  // Removi o target="_blank" da linha abaixo
+  return `
+    <a href="${produto.pagina}"> 
+    <div class="card-produto big">
+      <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
+      
+      <div class="info-card">
+        <div class="nomeNota">
+          <h1 class="nome">${produto.nome}</h1>
         </div>
+        <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
       </div>
-      </a>
-    `;
-  }
+    </div>
+    </a>
+  `;
+}
 
   // Cria o HTML para os itens pequenos da lista de baixo
   function criarCardOutros(produto) {
@@ -55,10 +56,15 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="botao-produto">Ver Produto</div>
           </div>
         </div>
+        <div class="info">
+          <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
+          <div class="botao-produto">Ver Produto</div>
+        </div>
+      </div>
     </div>
-      </a>
-    `;
-  }
+    </a>
+  `;
+}
 
   // --- 4. BUSCAR E DISTRIBUIR OS PRODUTOS ---
   fetch("/data/produtos.json")
