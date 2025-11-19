@@ -11,7 +11,7 @@ fetch('./data/produtos.json')
     produtosContainer.innerHTML = ''; // limpa conteúdo estático
 
     if (produtosFavoritos.length === 0) {
-      produtosContainer.innerHTML = '<div>Nenhum produto favorito</div>';
+      produtosContainer.innerHTML = '<div class="nenhumProd"><h1>Nenhum produto favorito</h1></div>';
       return;
     }
 
@@ -78,7 +78,7 @@ function carregarFavoritos() {
   produtosContainer.innerHTML = ''; // limpa conteúdo estático
 
   if (!favoritos || favoritos.length === 0) {
-    produtosContainer.innerHTML = '<div>Nenhum produto favorito</div>';
+    produtosContainer.innerHTML = '<div class="nenhumProd"><h1>Nenhum produto favorito</h1></div>';
     return;
   }
 
@@ -89,7 +89,10 @@ function carregarFavoritos() {
 
     produtoDiv.innerHTML = `
       <div class="x"></div>
-      <img src="/assets/img/${item.imagem || ''}" alt="${escapeHtml(item.nome || '')}" class="imgfavoritos">
+      <div class="imagem-card">
+        <img src="/assets/img/${item.imagem || ''}" alt="${escapeHtml(item.nome || '')}" class="imgfavoritos">
+        </div>
+      
       <div class="espe">
       <span class="nome-produto">${escapeHtml(item.nome || '')}</span>
       <span class="preco">R$${escapeHtml(item.preco || '')}</span>
@@ -117,7 +120,7 @@ function salvarFavoritosAPartirDoDOM() {
   });
   salvarFavoritosNoLocalStorage(favoritos);
   if (favoritos.length === 0) {
-    produtosContainer.innerHTML = '<div>Nenhum produto favorito</div>';
+    produtosContainer.innerHTML = '<div class="nenhumProd"><h1>Nenhum produto favorito</h1></div>';
   }
 }
 

@@ -169,13 +169,13 @@ aside {
 }
 
 .empresa-2 {
-  background-image: url(./img/icon-leroy.png);
+  background-image: url(./img/Leroy.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .empresa-3 {
-  background-image: url(./img/icon-amazon.png);
+  background-image: url(./img/Amazon.svg);
   background-size: cover;
 }
 
@@ -522,14 +522,6 @@ a{
   transition: transform 0.2s ease;
 } */
 
-.imagem-card {
-  width: 120px;
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 10px;
-}
 .estrela{
     width: 14px;
     height: 14px;
@@ -551,15 +543,19 @@ a{
   display: -webkit-box;  /* número máximo de linhas */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  width: 100%;
 }
 .info-card{
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
 .preco-produto-card {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--cor-preço);
 
@@ -610,27 +606,16 @@ a{
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
 
-#container-produtos-pesquisa .imagem-card {
-  width: 55px;
-  height: 55px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
 
-#container-produtos-pesquisa .info-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 4px;
-}
+
 
 #container-produtos-pesquisa .nome-produto-card {
   font-size: 15px;
   font-weight: 500;
   color: var(--cor-titulos);
+  
 }
+
 
 #container-produtos-pesquisa .avaliacao {
   display: flex;
@@ -693,13 +678,20 @@ a{
   padding: 10px;
 }
 
-.imagem-card{
-  background-image: url(./img/imagem-card.png);
-  min-width: 112px;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
+.imagem-card {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.imagem-card img{
+  
+  width: auto;
+  height: 90%;
+  border-radius: 10px;
 }
 
 .estrela{
@@ -721,9 +713,8 @@ a{
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 0px;
+  justify-content: space-between;
+  padding: 17px;
   border: 1px solid var(--cor-borda-sessao-card);
   background-color: var(--cor-fundo-branco);
   
@@ -859,10 +850,7 @@ body, html {
     height: 320px;
   }
 
-  .imagem-card {
-    min-width: 180px;
-    height: 180px;
-  }
+  
 
   .botao-produto {
     width: 130px;
@@ -872,102 +860,49 @@ body, html {
 
 }
 
-@media (max-width: 430px) {
 
-  #pesquisa {
-    width: 330px;
-  }
+@media (max-width: 400px){
 
 .imagem-banner {
     width: 100%;
     max-width: 92%;
     border-radius: 20px;
-    margin-bottom: 50px;
   }
 
 .imagem-banner img {
     width: 100%;
     height: auto;
     border-radius: 20px;
-  }
-
-.titulo {
-  margin-right: 140px;
-  margin-bottom: 30px;
-  }
-
-}  
-
-@media (max-width: 390px){
-
-#pesquisa {
-    width: 310px;
-  }
-
-.imagem-banner {
-    width: 100%;
-    max-width: 95%;
-    border-radius: 20px;
-  }
-
-.imagem-banner img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
-
-.titulo {
-  margin-right: 110px;
   }
 
 } 
 
 @media (max-width: 360px) {
 
-  #bulbe {
-    position: relative;
-    left: 15px;
-  }
-
   #pesquisa {
-    width: 260px;
+    width: 250px;
     height: 45px;
   }
 
   .empresa-1, .empresa-2, .empresa-3, .empresa-4, .empresa-5 {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
   } 
 
   .caixa-empresa {
   top: 17px;
 }
 
+.nome-empresa {
+    font-size: 9px;
+  }
+
   .titulo {
-  font-size: 24px;
+  font-size: 22px;
   margin-right: 50px;
   margin-top: 15px;
   margin-bottom: -5px;
   }
-
- .imagem-banner {
-    width: 100%;
-    max-width: 95%;
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .imagem-banner img {
-    width: 100%;
-    height: auto;
-    object-fit: contain; 
-    border-radius: 20px;
-  }
-
 
   .icone-texto-categoria.ativo .fundo-imagem-icone {
     width: 130px;
@@ -980,9 +915,7 @@ body, html {
     height: 184px;
   } 
 
-  .imagem-card {
-    min-width: 95px;
-    height: 100px;
-  }   
+  
 
+    
 }

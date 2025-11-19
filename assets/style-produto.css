@@ -15,6 +15,21 @@
     --cor-div-de-baixo: #f6f9f9;
     --cor-preco: #0B08C4;
     --cor-subtitulos: #536679;
+    /* Paleta Bulbe baseada no seu projeto */
+    --blue: #3483FA;
+    --blue-dark: #08068d;
+    --accent: #f1a240; /* Laranja */
+    --accent-dark: #d98e30;
+    --card-bg: #ffffff;
+    --muted: #f8f9fa;
+    --muted-dark: #e9ecef;
+    --text-light: #555;
+    --text-lighter: #888;
+    --shadow: 0 4px 12px rgba(0,0,0,0.05);
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-sm: 8px;
+    --transition: all 0.2s ease;
 }
 
 body{
@@ -25,7 +40,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    height: 100px;
+    height: 90px;
     width: 100%;
     background-color: var(--cor-header-botao);
 } 
@@ -255,16 +270,17 @@ header{
 
 .redirecionamento{
     height: 269px;
-    max-width: 387px;
+    min-width: 387px;
     width: 88%;
     background-color: var(--cor-fundo-body);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 12px;
     align-items: center;
     border-radius: 20px;
     box-shadow: 2px 2px 10px var(--cor-das-bordas-e-sombra);
+    gap: 20px;
 }
 
 .textoRedi{
@@ -293,14 +309,19 @@ header{
 
 #nao{
     background-color: var(--cor-fundo-body);
-    border: var(--cor-header-botao) solid 3px;
+    border: var(--cor-header-botao) solid 2px;
     color: var(--cor-header-botao);
+    width: 180px;
+    height: 60px;
 }
 
 #sim{
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo-body);
     width: 100%;
+    border: none;
+    width: 180px;
+    height: 60px;
 }
 
 .logoRedi{
@@ -327,18 +348,8 @@ header{
     
 }
 
-.redirecionamento{
-    height: 187px;
-    width: 88%;
-    background-color: var(--cor-fundo-body);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 12px;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px var(--cor-das-bordas-e-sombra);
-}
+
+
 
 .textoRedi{
     font-size: 18px;
@@ -383,6 +394,7 @@ header{
 .off{
     display: none
 }
+
 
 body, html {
   overflow-x: hidden;
@@ -608,18 +620,8 @@ input{
 
 @media (min-width: 600px) and (max-width: 1024px){
 
-.itens-header {
-  padding-left: 30px;
-  padding-right: 30px;
-
-}
 .sino-e-avatar {
   width: 13%;
-}
-
-#bulbe {
-  left: 30px;
-  bottom: -2px;
 }
 
 h3{
@@ -645,22 +647,23 @@ button{
     width: 400px;
     height: 60px;
     font-size: 25px;
+    width: 260px;
 }
 
 
 }
 
 
-@media (max-width: 430px){
+@media (max-width: 360px){
 
 h3{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .foto-maior{
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -673,60 +676,31 @@ h3{
 
 
 
-button{
-    width: 270px;
-    height: 50px;
-    font-size: 20px;
+#logo-marca{
+    width: 40px;
 }
 }
 
-@media (min-width: 390px) and (max-width: 414px){
-
-.nome{
-    margin: 15px;
+.reviews-section {
+  margin-top: 30px;
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  margin-bottom: 40px; /* Espaço extra no final da página */
 }
 
-h3{
-    font-weight: 500;
-    font-size: 22px;
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.foto-maior{
-    width: 240px;
-    height: 240px;
-}
-
-
-
-.preco-produto{
-    font-size: 39px;
-}
-
-
-
-
-
-button{
-    width: 230px;
-    height: 50px;
-    font-size: 18px;
-}
-}
-
-@media (max-width: 390px){
-
-.nome{
-    margin: 15px;
-}
-
-h3{
-    font-weight: 500;
-    font-size: 22px;
-}
-
-.foto-maior{
-    width: 240px;
-    height: 240px;
+.reviews-title {
+  font-size: 18px;
+  color: var(--blue-dark);
+  font-weight: 700;
 }
 
 
@@ -739,24 +713,58 @@ h3{
 
 
 
-button{
-    width: 230px;
-    height: 50px;
-    font-size: 18px;
-}
+.review-card:last-child {
+  border-bottom: none;
 }
 
-
-
-@media (max-width: 360px){
-
-.nome{
-    margin: 20px;
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-h3{
-    font-weight: 500;
-    font-size: 18px;
+.reviewer-name {
+  font-weight: 600;
+  color: var(--blue-dark);
+}
+
+.review-date {
+  font-size: 12px;
+  color: var(--text-lighter);
+}
+
+
+
+.preco-produto{
+    font-size: 39px;
+}
+
+
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--blue-dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--muted-dark);
+  border-radius: var(--radius-sm);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background: #fff;
 }
 
 .foto-maior{
@@ -773,10 +781,16 @@ h3{
 
 
 
-button{
-    width: 200px;
-    height: 50px;
-    font-size: 17px;
+.submit-review {
+  background: var(--blue-dark); /* Usando azul da marca */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  align-self: flex-end; /* Botão alinhado à direita */
 }
 
 }

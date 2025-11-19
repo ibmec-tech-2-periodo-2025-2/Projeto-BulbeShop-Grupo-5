@@ -89,7 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Usei a estrutura do seu outro script
     card.innerHTML = `
-      <div class="imagem-card" style="background-image: url('/assets/img/${produto.imagem}')"></div>
+      <div class="imagem-card">
+        <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
+      </div>
+      
       <div class="info-card">
         <div>
           <div class="nome-produto-card">${produto.nome}</div>

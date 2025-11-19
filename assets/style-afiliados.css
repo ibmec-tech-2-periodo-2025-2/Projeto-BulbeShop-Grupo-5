@@ -204,7 +204,7 @@ section{
 }
 
 .big .preco{
-  color: var(--cor-preco-big);
+  color: var(--cor-preco-small);
   font-size: 20px;
   height: 60%;
 }
@@ -228,6 +228,14 @@ section{
   
   
 }
+.card-produto.small .imagem-card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
  .card-produto.big{
   height: 325px;
@@ -270,8 +278,8 @@ section{
 }
 
 .card-produto.small img{
-  width:50%;
-  height: auto;
+  width:auto;
+  height: 90%;
   max-height: 90%;
   
 }
@@ -301,11 +309,11 @@ section{
 }
 
 .amazon .logo{
-  background-image: url(/assets/img/icon-amazon.png);
+  background-image: url(/assets/img/Amazon.svg);
 }
 
 .leroy .logo{
-  background-image: url(/assets/img/icon-leroy.png);
+  background-image: url(/assets/img/Leroy.svg);
 }
 
 .araujo .logo{
@@ -342,10 +350,11 @@ section{
 
 .img-desconto{
   width: 90%;
-  max-width: 400px;
+  max-width: 600px;
   height: auto;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .arealogo{
@@ -409,6 +418,7 @@ a{
   text-decoration-line: none;
 }
 
+
 body, html {
   overflow-x: hidden;
 }
@@ -468,14 +478,9 @@ body, html {
   font-size: 18px;
 }
 
-.nome-empresa{
-  font-size: 40px;
-}
 
-.img-desconto img{
-  width: 770px;
-  height: 400px;
-
+.nomeCategoria{
+    font-size: 32px;
 }
 
 .nomeCategoria{
@@ -546,37 +551,36 @@ body, html {
   height: 260px;
 }
 
-.bigNome h1 {
-  font-size: 17px;
+.big .preco{
+  font-size: 27px;
+  height: 60%;
+  width: 35%;
 }
 
-.bigP {
-  font-size: 17px;
+.card-produto.big{
+  height: 420px;
+  width: 500px;
+  padding: 10px;
 }
-  
-.card-produto {
-  width: 257px;
-  height: 164px;
-  gap: 10px;
+.card-produto.small{
+  height: 284px;
+  width: 420px;
 }
-
-.botao-produto{
-    width: 90px;
-    height: 32px;
-    font-size: 12px;
-}
-
-.nome-produto-card{
-    font-size: 14px;
+.card-produto.small img{
+  width:auto;
+  height: 90%;
+  max-height: 90%;
 }
 
-.preco-produto-card{
-  font-size: 16px;
+.small .info-card{
+  width: 70%;
 }
 
-.nome-empresa{
-  font-size: 30px;
+.small .preco{
+  font-size: 18px;
 }
 
+.small .nome{
+  font-size: 15px;
 }
 
