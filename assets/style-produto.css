@@ -646,10 +646,7 @@ button{
     height: 60px;
     font-size: 25px;
 }
-#logo-marca{
-    height: auto;
-    width: 70px;
-}
+
 
 }
 
@@ -782,8 +779,4 @@ button{
     font-size: 17px;
 }
 
-#logo-marca{
-    height: auto;
-    width: 40px;
-}
 }
