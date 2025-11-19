@@ -15,6 +15,21 @@
     --cor-div-de-baixo: #f6f9f9;
     --cor-preco: #0B08C4;
     --cor-subtitulos: #536679;
+    /* Paleta Bulbe baseada no seu projeto */
+    --blue: #3483FA;
+    --blue-dark: #08068d;
+    --accent: #f1a240; /* Laranja */
+    --accent-dark: #d98e30;
+    --card-bg: #ffffff;
+    --muted: #f8f9fa;
+    --muted-dark: #e9ecef;
+    --text-light: #555;
+    --text-lighter: #888;
+    --shadow: 0 4px 12px rgba(0,0,0,0.05);
+    --radius: 12px;
+    --radius-lg: 16px;
+    --radius-sm: 8px;
+    --transition: all 0.2s ease;
 }
 
 body{
@@ -466,4 +481,165 @@ h1{
 #logo-marca{
     width: 40px;
 }
+}
+
+.reviews-section {
+  margin-top: 30px;
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  margin-bottom: 40px; /* Espaço extra no final da página */
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.reviews-title {
+  font-size: 18px;
+  color: var(--blue-dark);
+  font-weight: 700;
+}
+
+.add-review-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.add-review-btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+}
+
+/* Container onde as avaliações serão inseridas */
+#reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-card {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--muted-dark);
+}
+
+.review-card:last-child {
+  border-bottom: none;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  color: var(--blue-dark);
+}
+
+.review-date {
+  font-size: 12px;
+  color: var(--text-lighter);
+}
+
+.review-text {
+  color: var(--text-light);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.review-rating {
+  color: #ffc107;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.review-form {
+  margin-top: 20px;
+  padding: 16px;
+  background: var(--muted);
+  border-radius: var(--radius);
+  /* Começa oculto e anima ao aparecer */
+  display: none; 
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-form.active {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--blue-dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--muted-dark);
+  border-radius: var(--radius-sm);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background: #fff;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-size: 24px;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+  /* Remove estilo padrão de botão se for tag button, ou mantém se for span */
+  user-select: none; 
+}
+
+.star.active {
+  color: #ffc107;
+}
+
+.submit-review {
+  background: var(--blue-dark); /* Usando azul da marca */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  align-self: flex-end; /* Botão alinhado à direita */
+}
+
+.submit-review:hover {
+  background: #060468;
 }
