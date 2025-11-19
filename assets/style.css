@@ -169,13 +169,13 @@ aside {
 }
 
 .empresa-2 {
-  background-image: url(./img/icon-leroy.png);
+  background-image: url(./img/Leroy.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .empresa-3 {
-  background-image: url(./img/icon-amazon.png);
+  background-image: url(./img/Amazon.svg);
   background-size: cover;
 }
 
@@ -551,6 +551,10 @@ a{
   display: -webkit-box;  /* número máximo de linhas */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  -webkit-line-clamp: 2;     /* número máximo de linhas */
+  -webkit-box-orient: vertical;
+  min-width: 145px;
+  max-width: 145px;
 }
 .info-card{
   display: flex;
@@ -630,7 +634,9 @@ a{
   font-size: 15px;
   font-weight: 500;
   color: var(--cor-titulos);
+  
 }
+
 
 #container-produtos-pesquisa .avaliacao {
   display: flex;
@@ -697,7 +703,7 @@ a{
   background-image: url(./img/imagem-card.png);
   min-width: 112px;
   height: 120px;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   border-radius: 8px;
 }
@@ -872,102 +878,49 @@ body, html {
 
 }
 
-@media (max-width: 430px) {
 
-  #pesquisa {
-    width: 330px;
-  }
+@media (max-width: 400px){
 
 .imagem-banner {
     width: 100%;
     max-width: 92%;
     border-radius: 20px;
-    margin-bottom: 50px;
   }
 
 .imagem-banner img {
     width: 100%;
     height: auto;
     border-radius: 20px;
-  }
-
-.titulo {
-  margin-right: 140px;
-  margin-bottom: 30px;
-  }
-
-}  
-
-@media (max-width: 390px){
-
-#pesquisa {
-    width: 310px;
-  }
-
-.imagem-banner {
-    width: 100%;
-    max-width: 95%;
-    border-radius: 20px;
-  }
-
-.imagem-banner img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-  }
-
-.titulo {
-  margin-right: 110px;
   }
 
 } 
 
 @media (max-width: 360px) {
 
-  #bulbe {
-    position: relative;
-    left: 15px;
-  }
-
   #pesquisa {
-    width: 260px;
+    width: 250px;
     height: 45px;
   }
 
   .empresa-1, .empresa-2, .empresa-3, .empresa-4, .empresa-5 {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
   } 
 
   .caixa-empresa {
   top: 17px;
 }
 
+.nome-empresa {
+    font-size: 9px;
+  }
+
   .titulo {
-  font-size: 24px;
+  font-size: 22px;
   margin-right: 50px;
   margin-top: 15px;
   margin-bottom: -5px;
   }
-
- .imagem-banner {
-    width: 100%;
-    max-width: 95%;
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .imagem-banner img {
-    width: 100%;
-    height: auto;
-    object-fit: contain; 
-    border-radius: 20px;
-  }
-
 
   .icone-texto-categoria.ativo .fundo-imagem-icone {
     width: 130px;
@@ -984,5 +937,4 @@ body, html {
     min-width: 95px;
     height: 100px;
   }   
-
 }

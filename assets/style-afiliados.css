@@ -204,7 +204,7 @@ section{
 }
 
 .big .preco{
-  color: var(--cor-preco-big);
+  color: var(--cor-preco-small);
   font-size: 20px;
   height: 60%;
 }
@@ -301,11 +301,11 @@ section{
 }
 
 .amazon .logo{
-  background-image: url(/assets/img/icon-amazon.png);
+  background-image: url(/assets/img/Amazon.svg);
 }
 
 .leroy .logo{
-  background-image: url(/assets/img/icon-leroy.png);
+  background-image: url(/assets/img/Leroy.svg);
 }
 
 .araujo .logo{
@@ -346,6 +346,7 @@ section{
   height: auto;
   display: flex;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .arealogo{
@@ -408,6 +409,7 @@ section{
 a{
   text-decoration-line: none;
 }
+
 
 body, html {
   overflow-x: hidden;
@@ -546,37 +548,33 @@ body, html {
   height: 260px;
 }
 
-.bigNome h1 {
-  font-size: 17px;
+.big .preco{
+  font-size: 27px;
+  height: 60%;
+  width: 35%;
 }
 
-.bigP {
-  font-size: 17px;
+.card-produto.big{
+  height: 420px;
+  width: 500px;
+  padding: 10px;
 }
-  
-.card-produto {
-  width: 257px;
-  height: 164px;
-  gap: 10px;
+.card-produto.small{
+  height: 284px;
+  width: 420px;
 }
-
 .botao-produto{
-    width: 90px;
-    height: 32px;
-    font-size: 12px;
+    width: 150px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.nome-produto-card{
-    font-size: 14px;
+.small .info-card{
+  width: 70%;
 }
 
-.preco-produto-card{
-  font-size: 16px;
-}
-
-.nome-empresa{
-  font-size: 30px;
-}
-
+.small .preco{
+  font-size: 25px;
 }
 
