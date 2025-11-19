@@ -101,11 +101,13 @@ h3{
 .foto-maior{
     width: 250px;
     height: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 #foto-principal{
     height: 100%;
-    width: 100%;
+    width: auto;
     border-radius: 20px;
 }
 
@@ -135,7 +137,8 @@ h3{
 }
 
 .descricao-geral{
-    width: 350px;
+    width: 90%;
+    max-width: 590px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -156,6 +159,7 @@ h3{
     justify-content: space-between; /* mudar quando adicionar as estrelas */
     align-items: center;
     margin-top: 12px;
+    
 }
 .avaliacao{
     display: flex;
@@ -182,11 +186,11 @@ h3{
 }
 
 .specs {
-    width: 330px;
-    font-size: small;
+    width: 90%;
+    font-size: 20px;
 }
 
-h4{
+.descricao-geral h4{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,14 +198,21 @@ h4{
     font-weight: 500;
 }
 
+.botao-final{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .botao-e-bookmark{
     display: flex;
-    width: 350px;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: -10px;
-    padding: 10px;
+    margin-bottom: 12px;
+
+    
+    
 }
 
 #buttonPop{
@@ -210,7 +221,8 @@ h4{
     font-size: larger;
     font-weight: 300;
     font-family: 'Poppins';
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
     height: 50px;
     border-radius: 8px;
     border: none;
@@ -407,14 +419,22 @@ body, html {
     width: auto;
 }
 
+#analises{
+    width: 90%;
+}
 
 .avalia {
-  background-color: #fff;
-  border-bottom: 1px solid #f0f0f0; /* Linha sutil de separação */
-  padding: 16px 0; /* Espaçamento vertical */
+    width: 100%;
+  background-color: var(--cor-div-de-baixo);
+
+  padding: 16px 16px; /* Espaçamento vertical */
+
+  border-radius: 15px;
+  margin: 16px 0;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  border: var(--cor-subtitulos) solid 1px;
 }
 
 /* Topo: Estrelas na esquerda, Data na direita */
@@ -478,7 +498,8 @@ body, html {
 
 
 .comentario{
-    width: 350px;
+    width: 90%;
+    max-width: 590px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -513,6 +534,7 @@ body, html {
 }
 
 #enviar{
+    margin-top: 10px;
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo);
     font-size: 15px;
@@ -529,9 +551,10 @@ body, html {
     
 }
 #form {
+    width: 90%;
   display: none; /* Só aparece quando clica no botão */
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -544,8 +567,22 @@ body, html {
 
 
 input{
-    height: 40px;
+    height: 50px;
     width: 90%;
+    border-radius: 19px;
+    background-color: var(--cor-fundo);
+    border: #9e9ea5 solid 1px;
+    padding: 15px;
+    
+
+
+}
+
+#comenta{
+    height: 150px;
+    vertical-align: top;
+    
+
 }
 
 #stars {
@@ -573,6 +610,14 @@ input{
     background-image: url(img/icons-star2.png);
 }
 
+
+.nome-tempo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
 @media (min-width: 600px) and (max-width: 1024px){
 
 .sino-e-avatar {
@@ -589,29 +634,23 @@ h3{
     height: 370px;
 }
 
-.descricao-geral{
-    width: 590px;
-    height: 590px;
-}
+
 
 .preco-produto{
     font-size: 60px;
 }
 
-.specs {
-    font-size: 27px;
-    width: 540px;
-}
 
-#buttonPop{
+
+
+button{
+    width: 400px;
+    height: 60px;
     font-size: 25px;
     width: 260px;
 }
 
-#logo-marca{
-    height: 70px;
-    width: 70px;
-}
+
 }
 
 
@@ -627,26 +666,15 @@ h3{
     height: 200px;
 }
 
-.descricao-geral{
-    width: 300px;
-    height: 300px;
-}
+
 
 .preco-produto{
     font-size: 45px;
 }
 
-.specs {
-    width: 280px;
-}
 
-.botao-e-bookmark{
-    width: 290px;
-} 
 
-#buttonPop{
-    width: 200px;
-}
+
 
 #logo-marca{
     width: 40px;
@@ -675,32 +703,15 @@ h3{
   font-weight: 700;
 }
 
-.add-review-btn {
-  background: var(--accent);
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: var(--radius-sm);
-  font-weight: 600;
-  cursor: pointer;
-  transition: var(--transition);
-}
+
 
 .preco-produto{
     font-size: 39px;
 }
 
-/* Container onde as avaliações serão inseridas */
-#reviews-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
-.review-card {
-  padding: 16px 0;
-  border-bottom: 1px solid var(--muted-dark);
-}
+
+
 
 .review-card:last-child {
   border-bottom: none;
@@ -723,31 +734,15 @@ h3{
   color: var(--text-lighter);
 }
 
-.review-text {
-  color: var(--text-light);
-  line-height: 1.5;
-  margin-bottom: 8px;
-}
+
 
 .preco-produto{
     font-size: 39px;
 }
 
-.review-form {
-  margin-top: 20px;
-  padding: 16px;
-  background: var(--muted);
-  border-radius: var(--radius);
-  /* Começa oculto e anima ao aparecer */
-  display: none; 
-  flex-direction: column;
-  gap: 15px;
-}
 
-.review-form.active {
-  display: flex;
-  animation: fadeIn 0.3s ease;
-}
+
+
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
@@ -772,27 +767,19 @@ h3{
   background: #fff;
 }
 
-.form-group textarea {
-  min-height: 100px;
-  resize: vertical;
+.foto-maior{
+    width: 200px;
+    height: 200px;
 }
+
 
 .preco-produto{
     font-size: 33px;
 }
 
-.star {
-  font-size: 24px;
-  color: #ddd;
-  cursor: pointer;
-  transition: color 0.2s;
-  /* Remove estilo padrão de botão se for tag button, ou mantém se for span */
-  user-select: none; 
-}
 
-.star.active {
-  color: #ffc107;
-}
+
+
 
 .submit-review {
   background: var(--blue-dark); /* Usando azul da marca */
@@ -806,6 +793,4 @@ h3{
   align-self: flex-end; /* Botão alinhado à direita */
 }
 
-.submit-review:hover {
-  background: #060468;
 }
