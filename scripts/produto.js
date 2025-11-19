@@ -34,6 +34,37 @@ fetch("/data/produtos.json")
       document.getElementById("avaliacao-produto").innerHTML = `<h1>${produto.totalstar}</h1> <img src="/assets/img/Icon.png" alt="⭐" /> <p>(${produto.totalavali})</p>`;
 
 
+
+
+
+const analises = document.getElementById("analises");
+
+enviar.addEventListener("click", ()=> {
+  if (nome.value !== null && comenta.value !== null ) 
+    {
+      produto.comentarios.push(`{"nome":"${nome.value}",
+      "nota": ${nota},
+      "comentario": ${comenta.value}
+      }`)
+        console.log(produto.comentarios)
+  }
+
+  const avalia = document.createElement("div")
+  avalia.innerHTML = `<div class="nome-tempo">
+              <h1>augusto</h1> 
+              <h2>tempo</h2>
+            </div>
+              <div class="nota"></div>
+              <h1>oi</h1>`;
+  analises.appendChild(avalia)
+
+
+})
+
+
+
+
+
       // 5️⃣ Tratar imagem ausente
       document.getElementById("foto-principal").addEventListener("error", () => {
         document.getElementById("foto-principal").src = "/assets/img/placeholder.jpg";
@@ -192,46 +223,97 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+  const abriravaliacao = document.getElementById("abrir");
+  const form = document.getElementById("form");
+  const nome = document.getElementById("name");
+  const comenta = document.getElementById("comenta");
+  const analises = document.getElementById("analises")
+  const stars = document.getElementById("stars");
+  const star = document.getElementsByClassName("star");
+  const enviar = document.getElementById("enviar");
+  
+  let nota = 0
 
 
 
+  abriravaliacao.addEventListener("click", ()=> {
+    if (abriravaliacao.innerText ==="Adicionar avalição") {
+      abriravaliacao.innerText = "cancelar"
+      form.style.display = "flex";
+      for (let i = 0; i < 5; i++) {
+        star[i].classList.remove("full")
+        
+        
+      }
+      nota = 0
+      nome.value = "";
+      comenta.value = "";
+    }else{
+      abriravaliacao.innerText = "Adicionar avalição"
+      form.style.display = "none";
+    }
 
+  })
 
+  stars.addEventListener("click", (event)=> {
+    if (event.target.tagName = "BUTTON") {
+      nota = event.target.value
+      for (let i = 0; i < 5; i++) {
+        star[i].classList.remove("full")
+        
+      }
+      for (let j = 0; j < nota; j++) {
+        star[j].classList.add("full")
+      
+      }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    
+  })
 
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

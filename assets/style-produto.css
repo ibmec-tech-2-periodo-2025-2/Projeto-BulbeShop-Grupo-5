@@ -376,6 +376,9 @@ body, html {
   overflow-x: hidden;
 }
 
+
+
+
 #avaliacao-produto{
     display: flex;
     height: 100%;
@@ -393,17 +396,14 @@ body, html {
 }
 
 
-#top{
-    display: flex;
-}
 
-#top h1{
-    font-size: 20px;
-}
 
-.Comentario{
+
+
+
+.comentario{
     width: 350px;
-    height: 350px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -413,13 +413,53 @@ body, html {
     margin-top: 15px;
 }
 
-#info{
+#top{
     display: flex;
+    width: 90%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: var(--cor-subtitulos) solid 1px;
+
+
+}
+
+#abrir{
+    background-color: var(--cor-header-botao);
+    color: var(--cor-fundo);
+    font-size: 15px;
+    font-weight: 300;
+    width: 30%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+#enviar{
+    background-color: var(--cor-header-botao);
+    color: var(--cor-fundo);
+    font-size: 15px;
+    font-weight: 300;
+    width: 30%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+#top h1{
+    font-size: 18px;
+    width:65%;
+    
+}
+#form{
+    display: none;
     flex-direction: column;
-    height: 400px;
+    height: 300px;
     width: 100%;
     gap: 10px;
     align-items: center;
+    
 
 }
 
@@ -428,6 +468,29 @@ input{
     width: 90%;
 }
 
+.stars{
+width: 150px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.star{
+
+    background-color: var(--cor-div-de-baixo);
+    background-image: url(img/icons-star1.png);
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;            /* tira bordas */
+
+}
+
+.star.full{
+    background-image: url(img/icons-star2.png);
+}
 
 @media (min-width: 600px) and (max-width: 1024px){
 
