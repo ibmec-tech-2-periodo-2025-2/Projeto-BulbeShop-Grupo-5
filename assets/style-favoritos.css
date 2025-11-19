@@ -75,6 +75,27 @@ main{
     align-items: center;
 } 
 
+.imagem-card img{
+  width: auto;
+  height: 50%;
+  border-radius: 10px;
+}
+.imagem-card {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .imagem-card img{
+  
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
+}
+
 .produto{
     position: relative;
     background-color: var(--cor-fundo-card);
@@ -84,8 +105,9 @@ main{
     border-radius: 20px;
     margin-top: 20px;
     display: flex;
+    max-width: 900px;
 
-    padding: 10px;
+    padding: 10px 15px;
     gap: 5px; 
 }
 
@@ -123,7 +145,7 @@ main{
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    width: 170px;
+    width: 50%;
 } 
 
 .nome-produto{
@@ -219,7 +241,29 @@ body, html {
   overflow-x: hidden;
 }
 
-@media (min-width: 600px) and (max-width: 1024px){
+.nenhumProd{
+    width: 100%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.nenhumProd h1{
+    color: var(--cor-das-bordas-e-sombra);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media (min-width: 600px){
+
+    .nenhumProd h1{
+    color: var(--cor-das-bordas-e-sombra);
+    font-size: 40px;
+    font-weight: 500;
+    }
 
 .itens-header {
   padding-left: 30px;
@@ -236,8 +280,12 @@ body, html {
 }
 
 .produto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 30px;
-    width: 760px;
+    width: 90%;
+    min-width: 380px;
     height: 330px;
     padding: 30px;
     gap: 40px;
@@ -288,11 +336,13 @@ button{
 
 @media (max-width: 430px){
   
-.produto{
-    width: 380px;
-    height: 220px;
-    padding: 20px;
+.nenhumProd h1{
+    color: var(--cor-das-bordas-e-sombra);
+    font-size: 20px;
+    font-weight: 500;
 }
+
+
 
 .botao-mais {
     width: 75px;

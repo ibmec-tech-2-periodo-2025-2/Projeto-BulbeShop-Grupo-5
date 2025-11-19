@@ -39,15 +39,22 @@ function criarCardPrincipal(produto) {
 }
 
   // Cria o HTML para os itens pequenos da lista de baixo
-function criarCardOutros(produto) {
-  // Removi o target="_blank" da linha abaixo também
-  return `
-    <a href="${produto.pagina}">
-    <div class="card-produto small">
-      <img src="/assets/img/${produto.imagem}" alt="imagem ${produto.id}">
-      <div class="info-card">
-        <div class="nomeNota">
-          <h1 class="nome">${produto.nome}</h1>
+  function criarCardOutros(produto) {
+    // Reutilizei a estrutura .card-produto que você já tem na home
+    return `
+      <a href="${produto.pagina}" target="_blank">
+      <div class="card-produto small">
+        <div class="imagem-card">
+        <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
+        </div>
+        <div class="info-card">
+          <div class="nomeNota">
+            <h1 class="nome">${produto.nome}</h1>
+          </div>
+          <div class="info">
+            <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>
+            <div class="botao-produto">Ver Produto</div>
+          </div>
         </div>
         <div class="info">
           <h1 class="preco">R$ ${produto.preco.toFixed(2)}</h1>

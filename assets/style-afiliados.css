@@ -228,6 +228,14 @@ section{
   
   
 }
+.card-produto.small .imagem-card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
  .card-produto.big{
   height: 325px;
@@ -270,8 +278,8 @@ section{
 }
 
 .card-produto.small img{
-  width:50%;
-  height: auto;
+  width:auto;
+  height: 90%;
   max-height: 90%;
   
 }
@@ -342,7 +350,7 @@ section{
 
 .img-desconto{
   width: 90%;
-  max-width: 400px;
+  max-width: 600px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -470,14 +478,9 @@ body, html {
   font-size: 18px;
 }
 
-.nome-empresa{
-  font-size: 40px;
-}
 
-.img-desconto img{
-  width: 770px;
-  height: 400px;
-
+.nomeCategoria{
+    font-size: 32px;
 }
 
 .nomeCategoria{
@@ -563,11 +566,10 @@ body, html {
   height: 284px;
   width: 420px;
 }
-.botao-produto{
-    width: 150px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 500;
+.card-produto.small img{
+  width:auto;
+  height: 90%;
+  max-height: 90%;
 }
 
 .small .info-card{
@@ -575,6 +577,10 @@ body, html {
 }
 
 .small .preco{
-  font-size: 25px;
+  font-size: 18px;
+}
+
+.small .nome{
+  font-size: 15px;
 }
 
