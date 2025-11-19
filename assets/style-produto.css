@@ -86,11 +86,13 @@ h3{
 .foto-maior{
     width: 250px;
     height: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 #foto-principal{
     height: 100%;
-    width: 100%;
+    width: auto;
     border-radius: 20px;
 }
 
@@ -120,7 +122,8 @@ h3{
 }
 
 .descricao-geral{
-    width: 350px;
+    width: 90%;
+    max-width: 590px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -141,6 +144,7 @@ h3{
     justify-content: space-between; /* mudar quando adicionar as estrelas */
     align-items: center;
     margin-top: 12px;
+    
 }
 .avaliacao{
     display: flex;
@@ -167,11 +171,11 @@ h3{
 }
 
 .specs {
-    width: 330px;
-    font-size: small;
+    width: 90%;
+    font-size: 20px;
 }
 
-h4{
+.descricao-geral h4{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,14 +183,21 @@ h4{
     font-weight: 500;
 }
 
+.botao-final{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .botao-e-bookmark{
     display: flex;
-    width: 350px;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: -10px;
-    padding: 10px;
+    margin-bottom: 12px;
+
+    
+    
 }
 
 #buttonPop{
@@ -195,7 +206,8 @@ h4{
     font-size: larger;
     font-weight: 300;
     font-family: 'Poppins';
-    width: 250px;
+    width: 100%;
+    max-width: 300px;
     height: 50px;
     border-radius: 8px;
     border: none;
@@ -395,14 +407,22 @@ body, html {
     width: auto;
 }
 
+#analises{
+    width: 90%;
+}
 
 .avalia {
-  background-color: #fff;
-  border-bottom: 1px solid #f0f0f0; /* Linha sutil de separação */
-  padding: 16px 0; /* Espaçamento vertical */
+    width: 100%;
+  background-color: var(--cor-div-de-baixo);
+
+  padding: 16px 16px; /* Espaçamento vertical */
+
+  border-radius: 15px;
+  margin: 16px 0;
   display: flex;
   flex-direction: column;
   gap: 6px;
+  border: var(--cor-subtitulos) solid 1px;
 }
 
 /* Topo: Estrelas na esquerda, Data na direita */
@@ -466,7 +486,8 @@ body, html {
 
 
 .comentario{
-    width: 350px;
+    width: 90%;
+    max-width: 590px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -501,6 +522,7 @@ body, html {
 }
 
 #enviar{
+    margin-top: 10px;
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo);
     font-size: 15px;
@@ -517,9 +539,10 @@ body, html {
     
 }
 #form {
+    width: 90%;
   display: none; /* Só aparece quando clica no botão */
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -532,8 +555,22 @@ body, html {
 
 
 input{
-    height: 40px;
+    height: 50px;
     width: 90%;
+    border-radius: 19px;
+    background-color: var(--cor-fundo);
+    border: #9e9ea5 solid 1px;
+    padding: 15px;
+    
+
+
+}
+
+#comenta{
+    height: 150px;
+    vertical-align: top;
+    
+
 }
 
 #stars {
@@ -559,6 +596,14 @@ input{
 
 .star.full{
     background-image: url(img/icons-star2.png);
+}
+
+
+.nome-tempo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
 }
 
 @media (min-width: 600px) and (max-width: 1024px){
@@ -587,23 +632,14 @@ h3{
     height: 370px;
 }
 
-.descricao-geral{
-    width: 590px;
-    height: 590px;
-}
+
 
 .preco-produto{
     font-size: 60px;
 }
 
-.specs {
-    font-size: 27px;
-    width: 540px;
-}
 
-.botao-e-bookmark{
-    width: 540px;
-}
+
 
 button{
     width: 400px;
@@ -630,22 +666,15 @@ h3{
     height: 270px;
 }
 
-.descricao-geral{
-    width: 370px;
-    height: 370px;
-}
+
 
 .preco-produto{
     font-size: 45px;
 }
 
-.specs {
-    width: 340px;
-}
 
-.botao-e-bookmark{
-    width: 360px;
-}
+
+
 
 button{
     width: 270px;
@@ -670,22 +699,15 @@ h3{
     height: 240px;
 }
 
-.descricao-geral{
-    width: 320px;
-    height: 320px;
-}
+
 
 .preco-produto{
     font-size: 39px;
 }
 
-.specs {
-    width: 300px;
-}
 
-.botao-e-bookmark{
-    width: 320px;
-}
+
+
 
 button{
     width: 230px;
@@ -710,22 +732,15 @@ h3{
     height: 240px;
 }
 
-.descricao-geral{
-    width: 320px;
-    height: 320px;
-}
+
 
 .preco-produto{
     font-size: 39px;
 }
 
-.specs {
-    width: 300px;
-}
 
-.botao-e-bookmark{
-    width: 320px;
-}
+
+
 
 button{
     width: 230px;
@@ -751,22 +766,15 @@ h3{
     width: 200px;
     height: 200px;
 }
-.descricao-geral{
-    width: 300px;
-    height: 300px;
-}
+
 
 .preco-produto{
     font-size: 33px;
 }
 
-.specs {
-    width: 280px;
-}
 
-.botao-e-bookmark{
-    width: 290px;
-}
+
+
 
 button{
     width: 200px;

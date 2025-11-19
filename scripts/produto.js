@@ -290,13 +290,15 @@ document.addEventListener("DOMContentLoaded", () => {
     div.classList.add("avalia");
 
     // Usamos textContent para evitar injeção de HTML malicioso
+    
     const nomeEl = document.createElement("h3");
     nomeEl.textContent = av.nome;
 
     const dataEl = document.createElement("h5");
     dataEl.textContent = av.data;
 
-    const comentarioEl = document.createElement("p");
+
+    const comentarioEl = document.createElement("h4");
     comentarioEl.textContent = av.texto;
 
     const headerDiv = document.createElement("div");
@@ -324,7 +326,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const todas = getAvaliacoes();
     const doProduto = todas.filter((a) => a.produtoId === PRODUTO_ID);
 
-    if (doProduto.length === 0) {
+    if (doProduto.length == 0) {
       ui.containerAnalises.innerHTML =
         "<p style='padding:20px; color:#666'>Seja o primeiro a avaliar este produto!</p>";
       return;
@@ -353,6 +355,8 @@ document.addEventListener("DOMContentLoaded", () => {
       nota: notaSelecionada,
       data: new Date().toLocaleDateString("pt-BR"),
     };
+
+    
 
     adicionarAvaliacaoNoBanco(novaAvaliacao);
     ui.containerAnalises.prepend(criarCardHTML(novaAvaliacao));
