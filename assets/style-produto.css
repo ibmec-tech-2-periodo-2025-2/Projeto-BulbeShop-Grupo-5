@@ -396,7 +396,71 @@ body, html {
 }
 
 
+.avalia {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0; /* Linha sutil de separação */
+  padding: 16px 0; /* Espaçamento vertical */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 
+/* Topo: Estrelas na esquerda, Data na direita */
+.avalia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estrelas (Menores e Douradas ou Azuis) */
+.avalia-stars {
+  color: #3483FA; /* Azul estilo a sua imagem (ou use #FFD700 para dourado) */
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* Data (Discreta e cinza) */
+.avalia-data {
+  font-size: 11px;
+  color: #8c8c8c;
+  font-weight: 400;
+}
+
+/* Badge de Compra Verificada (Opcional, igual da imagem) */
+.avalia-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.check-icon {
+  width: 12px;
+  height: 12px;
+  background-image: url('/assets/img/check-circle.svg'); /* Se tiver icone */
+  /* Se não tiver ícone, use um caractere unicode no HTML abaixo */
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(190deg) brightness(90%) contrast(90%);
+}
+
+/* O Texto do Comentário */
+.avalia-texto {
+  font-size: 13px;
+  line-height: 1.5; /* Melhor leitura */
+  color: #333;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* O Nome do Usuário (Pequeno e em negrito) */
+.avalia-nome {
+  font-size: 12px;
+  font-weight: 600;
+  color: #151A1E;
+  margin-top: 4px;
+}
 
 
 
@@ -452,40 +516,45 @@ body, html {
     width:65%;
     
 }
-#form{
-    display: none;
-    flex-direction: column;
-    height: 300px;
-    width: 100%;
-    gap: 10px;
-    align-items: center;
-    
-
+#form {
+  display: none; /* Só aparece quando clica no botão */
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
+
+#form.ativo {
+  display: flex; /* Classe para mostrar o formulário */
+}
+
 
 input{
     height: 40px;
     width: 90%;
 }
 
-.stars{
-width: 150px;
-height: 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+#stars {
+  display: flex;
+  gap: 5px;
 }
 
-.star{
+.star {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc; /* Cor cinza padrão */
+  border: none;
+  cursor: pointer;
+  mask-image: url('/assets/img/star-01.png'); /* Garanta que o caminho da imagem da estrela está certo */
+  mask-size: cover;
+  -webkit-mask-image: url('/assets/img/star-01.png');
+  -webkit-mask-size: cover;
+}
 
-    background-color: var(--cor-div-de-baixo);
-    background-image: url(img/icons-star1.png);
-    background-position: center;
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    border: none;            /* tira bordas */
-
+.star.gold {
+  background-color: #FFD700; /* Amarelo Ouro */
 }
 
 .star.full{
