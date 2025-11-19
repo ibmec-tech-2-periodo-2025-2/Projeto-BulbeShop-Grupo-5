@@ -169,13 +169,13 @@ aside {
 }
 
 .empresa-2 {
-  background-image: url(./img/icon-leroy.png);
+  background-image: url(./img/Leroy.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .empresa-3 {
-  background-image: url(./img/icon-amazon.png);
+  background-image: url(./img/Amazon.svg);
   background-size: cover;
 }
 
