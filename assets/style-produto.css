@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins";
 }
 
-:root{
+:root {
     --cor-fundo-body: #fff;
     --cor-fundo-imagem: #dddada;
     --cor-das-bordas-e-sombra: #000000;
@@ -17,10 +17,11 @@
     --cor-subtitulos: #536679;
 }
 
-body{
+body {
     background-color: var(--cor-fundo);
 }
-.parte-superior{
+
+.parte-superior {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -28,98 +29,98 @@ body{
     height: 90px;
     width: 100%;
     background-color: var(--cor-header-botao);
-} 
+}
 
-section{
+section {
     width: 100%;
     height: 50px;
     position: fixed;
     top: 0;
 }
 
-.itens-header{
+.itens-header {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     width: 100%;
-    height:100%;
+    height: 100%;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.sino-e-avatar{
+.sino-e-avatar {
     display: flex;
     justify-content: space-between;
     width: 23%;
     align-items: center;
 }
 
-#bulbe{
-    position:relative;
+#bulbe {
+    position: relative;
     left: 20px;
     bottom: -2px;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}   
+}
 
-.nome{
+.nome {
     margin: 15px;
 }
 
-h3{
+h3 {
     font-weight: 450;
-    font-size:x-large;
+    font-size: x-large;
     color: var(--cor-header-botao);
 }
 
-.img-maior-setas{
+.img-maior-setas {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.foto-maior{
+.foto-maior {
     width: 250px;
     height: 250px;
 }
 
-#foto-principal{
+#foto-principal {
     height: 100%;
     width: 100%;
     border-radius: 20px;
 }
 
-#seta-esq{
+#seta-esq {
     width: 40px;
     height: 40px;
     margin: 10px;
 }
 
 
-#seta-dir{
+#seta-dir {
     width: 40px;
     height: 40px;
     margin: 10px;
 }
 
-.imgs-menores{
+.imgs-menores {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.imagenzinhas{
+.imagenzinhas {
     width: 250px;
     display: flex;
     justify-content: space-between;
 }
 
-.descricao-geral{
+.descricao-geral {
     width: 350px;
     height: 350px;
     display: flex;
@@ -130,31 +131,34 @@ h3{
     border-radius: 20px;
     margin-top: 15px;
 }
-.marca-e-avaliacao{
+
+.marca-e-avaliacao {
     height: 15%;
     width: 90%;
     display: flex;
-    justify-content: space-between; /* mudar quando adicionar as estrelas */
+    justify-content: space-between;
+    /* mudar quando adicionar as estrelas */
     align-items: center;
     margin-top: 12px;
 }
-.avaliacao{
+
+.avaliacao {
     display: flex;
     align-items: center;
     width: 30%;
-    
+
 }
 
-.num-aval{
+.num-aval {
     margin-left: 5px;
 }
 
-h1{
+h1 {
     color: var(--cor-preco);
     font-size: 44px;
 }
 
-.marca{
+.marca {
     display: flex;
     align-items: center;
     height: 100%;
@@ -167,7 +171,7 @@ h1{
     font-size: small;
 }
 
-h4{
+h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +179,7 @@ h4{
     font-weight: 500;
 }
 
-.botao-e-bookmark{
+.botao-e-bookmark {
     display: flex;
     width: 350px;
     justify-content: space-between;
@@ -185,7 +189,7 @@ h4{
     padding: 10px;
 }
 
-#buttonPop{
+#buttonPop {
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo);
     font-size: larger;
@@ -197,21 +201,21 @@ h4{
     border: none;
 }
 
-.bookmark{
+.bookmark {
     display: flex;
     justify-content: center;
 }
 
-.preco{
+.preco {
     margin-bottom: 10px;
 }
 
-#logo-marca{
+#logo-marca {
     height: 100%;
     width: auto;
 }
 
-header{
+header {
     width: 100%;
     position: fixed;
 }
@@ -221,11 +225,11 @@ header{
     height: 100px;
 }
 
-.blur{
+.blur {
     filter: blur(8px);
 }
 
-.fundoRedi{
+.fundoRedi {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -233,11 +237,11 @@ header{
     justify-content: center;
     align-items: center;
     z-index: 10;
-    
-    
+
+
 }
 
-.redirecionamento{
+.redirecionamento {
     height: 269px;
     min-width: 387px;
     width: 88%;
@@ -252,7 +256,7 @@ header{
     gap: 20px;
 }
 
-.textoRedi{
+.textoRedi {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -260,14 +264,15 @@ header{
 
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.botoes button, .botoes a{
-    
+.botoes button,
+.botoes a {
+
     font-family: 'Poppins';
     height: 50px;
     border-radius: 8px;
@@ -276,7 +281,7 @@ header{
     font-size: 18px;
 }
 
-#nao{
+#nao {
     background-color: var(--cor-fundo-body);
     border: var(--cor-header-botao) solid 2px;
     color: var(--cor-header-botao);
@@ -284,7 +289,7 @@ header{
     height: 60px;
 }
 
-#sim{
+#sim {
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo-body);
     width: 100%;
@@ -293,19 +298,19 @@ header{
     height: 60px;
 }
 
-.logoRedi{
+.logoRedi {
     width: 25%;
 }
 
-.off{
+.off {
     display: none
 }
 
-.blur{
+.blur {
     filter: blur(8px);
 }
 
-.fundoRedi{
+.fundoRedi {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -313,14 +318,14 @@ header{
     justify-content: center;
     align-items: center;
     z-index: 10;
-    
-    
+
+
 }
 
 
 
 
-.textoRedi{
+.textoRedi {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -328,14 +333,15 @@ header{
 
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.botoes button, .botoes a{
-    
+.botoes button,
+.botoes a {
+
     font-family: 'Poppins';
     height: 50px;
     border-radius: 8px;
@@ -344,43 +350,44 @@ header{
     font-size: 18px;
 }
 
-#nao{
+#nao {
     background-color: var(--cor-fundo-body);
     border: var(--cor-header-botao) solid 3px;
     color: var(--cor-header-botao);
 }
 
-#sim{
+#sim {
     background-color: var(--cor-header-botao);
     color: var(--cor-fundo-body);
     width: 100%;
 }
 
-.logoRedi{
+.logoRedi {
     width: 25%;
 }
 
-.off{
+.off {
     display: none
 }
 
 
-body, html {
-  overflow-x: hidden;
+body,
+html {
+    overflow-x: hidden;
 }
 
-#avaliacao-produto{
+#avaliacao-produto {
     display: flex;
     height: 100%;
     width: 100%;
     align-items: center;
 }
 
-#avaliacao-produto h1{
+#avaliacao-produto h1 {
     font-size: 25px;
 }
 
-#avaliacao-produto img{
+#avaliacao-produto img {
     height: 40%;
     width: auto;
 }
@@ -388,82 +395,82 @@ body, html {
 
 
 
-@media (min-width: 600px) and (max-width: 1024px){
+@media (min-width: 600px) and (max-width: 1024px) {
 
-.sino-e-avatar {
-  width: 13%;
+    .sino-e-avatar {
+        width: 13%;
+    }
+
+    h3 {
+        font-weight: 450;
+        font-size: 40px;
+    }
+
+    .foto-maior {
+        width: 370px;
+        height: 370px;
+    }
+
+    .descricao-geral {
+        width: 590px;
+        height: 590px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .specs {
+        font-size: 27px;
+        width: 540px;
+    }
+
+    #buttonPop {
+        font-size: 25px;
+        width: 260px;
+    }
+
+    #logo-marca {
+        height: 70px;
+        width: 70px;
+    }
 }
 
-h3{
-    font-weight: 450;
-    font-size: 40px;
-}
 
-.foto-maior{
-    width: 370px;
-    height: 370px;
-}
+@media (max-width: 360px) {
 
-.descricao-geral{
-    width: 590px;
-    height: 590px;
-}
+    h3 {
+        font-weight: 500;
+        font-size: 18px;
+    }
 
-h1{
-    font-size: 60px;
-}
+    .foto-maior {
+        width: 200px;
+        height: 200px;
+    }
 
-.specs {
-    font-size: 27px;
-    width: 540px;
-}
+    .descricao-geral {
+        width: 300px;
+        height: 300px;
+    }
 
-#buttonPop{
-    font-size: 25px;
-    width: 260px;
-}
+    h1 {
+        font-size: 33px;
+    }
 
-#logo-marca{
-    height: 70px;
-    width: 70px;
-}
-}
+    .specs {
+        width: 280px;
+    }
 
+    .botao-e-bookmark {
+        width: 290px;
+    }
 
-@media (max-width: 360px){
+    #buttonPop {
+        width: 200px;
+    }
 
-h3{
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.foto-maior{
-    width: 200px;
-    height: 200px;
-}
-
-.descricao-geral{
-    width: 300px;
-    height: 300px;
-}
-
-h1{
-    font-size: 33px;
-}
-
-.specs {
-    width: 280px;
-}
-
-.botao-e-bookmark{
-    width: 290px;
-} 
-
-#buttonPop{
-    width: 200px;
-}
-
-#logo-marca{
-    width: 40px;
-}
+    #logo-marca {
+        width: 40px;
+    }
 }
