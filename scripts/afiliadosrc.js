@@ -43,7 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
     return `
       <a href="${produto.pagina}" target="_blank">
       <div class="card-produto small">
-        <img src="/assets/img/${produto.imagem}" alt="imagem ${produto.id}">
+        <div class="imagem-card">
+        <img src="/assets/img/${produto.imagem}" alt="imagem-${produto.id}">
+        </div>
         <div class="info-card">
           <div class="nomeNota">
             <h1 class="nome">${produto.nome}</h1>

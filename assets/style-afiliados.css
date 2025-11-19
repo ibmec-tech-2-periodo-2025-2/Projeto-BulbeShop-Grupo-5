@@ -227,6 +227,14 @@ section{
   
   
 }
+.card-produto.small .imagem-card{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
  .card-produto.big{
   height: 325px;
@@ -269,8 +277,8 @@ section{
 }
 
 .card-produto.small img{
-  width:50%;
-  height: auto;
+  width:auto;
+  height: 90%;
   max-height: 90%;
   
 }
@@ -341,7 +349,7 @@ section{
 
 .img-desconto{
   width: 90%;
-  max-width: 400px;
+  max-width: 600px;
   height: auto;
   display: flex;
   justify-content: center;
@@ -472,12 +480,7 @@ body, html {
   font-size: 25px;
 }
 
-.img-desconto{
-  width: 95%;
-  height: 390px;
-  display: flex;
-  justify-content: center;
-}
+
 .nomeCategoria{
     font-size: 32px;
 }
@@ -528,7 +531,9 @@ body, html {
   height: 160px;
 }
 .card-produto.small img{
-  width:40%;
+  width:auto;
+  height: 90%;
+  max-height: 90%;
 }
 
 .small .info-card{

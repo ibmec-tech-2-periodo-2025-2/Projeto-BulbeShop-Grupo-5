@@ -522,14 +522,6 @@ a{
   transition: transform 0.2s ease;
 } */
 
-.imagem-card {
-  width: 120px;
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 10px;
-}
 .estrela{
     width: 14px;
     height: 14px;
@@ -553,17 +545,17 @@ a{
   overflow: hidden;
   -webkit-line-clamp: 2;     /* número máximo de linhas */
   -webkit-box-orient: vertical;
-  min-width: 145px;
-  max-width: 145px;
+  width: 100%;
 }
 .info-card{
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
 .preco-produto-card {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--cor-preço);
 
@@ -614,21 +606,8 @@ a{
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 }
 
-#container-produtos-pesquisa .imagem-card {
-  width: 55px;
-  height: 55px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
 
-#container-produtos-pesquisa .info-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 4px;
-}
+
 
 #container-produtos-pesquisa .nome-produto-card {
   font-size: 15px;
@@ -699,13 +678,20 @@ a{
   padding: 10px;
 }
 
-.imagem-card{
-  background-image: url(./img/imagem-card.png);
-  min-width: 112px;
-  height: 120px;
-  background-size:cover;
-  background-position: center;
-  border-radius: 8px;
+.imagem-card {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.imagem-card img{
+  
+  width: auto;
+  height: 90%;
+  border-radius: 10px;
 }
 
 .estrela{
@@ -727,9 +713,8 @@ a{
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
-  padding: 0px;
+  justify-content: space-between;
+  padding: 17px;
   border: 1px solid var(--cor-borda-sessao-card);
   background-color: var(--cor-fundo-branco);
   
@@ -865,10 +850,7 @@ body, html {
     height: 320px;
   }
 
-  .imagem-card {
-    min-width: 180px;
-    height: 180px;
-  }
+  
 
   .botao-produto {
     width: 130px;
@@ -933,8 +915,7 @@ body, html {
     height: 184px;
   } 
 
-  .imagem-card {
-    min-width: 95px;
-    height: 100px;
-  }   
+  
+
+    
 }
